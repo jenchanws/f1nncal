@@ -41,12 +41,14 @@ const generateDays = (month, monthDiv) => {
     let dayCell = dayDiv.querySelector("li")
     dayCell.id = `day-${month}-${day}`
     dayCell.style = `grid-row: ${row}; grid-column: ${column};`
-    if (day == 1 || column == 1) dayCell.textContent = day
+    dayCell.textContent = day
     monthDiv.appendChild(dayDiv)
   }
 }
 
 const populateCalendar = () => {
+  let currentGoal = undefined
+
   goals.forEach(goal => {
     const [year, month, day] = goal.from
     const goalStart = new Date(year, month - 1, day)
@@ -59,6 +61,26 @@ const populateCalendar = () => {
       let [completeClassName, plannedClassName] = classNameForGoal(goal)
       dayDiv.className += " " +
         ((date < now) ? completeClassName : plannedClassName)
+
+      if (now.getFullYear() == year &&
+          now.getMonth() == month - 1 &&
+          now.getDate() == day + d) {
+        currentGoal = goal
+      }
     }
   })
+
+  if (!currentGoal) {
+    let currentDiv = document.querySelector(".current")
+    currentDiv.parentNode.removeChild(currentDiv)
+    return
+  }
+
+  let currentDiv = document.getElementById("current")
+  const [className, _] = classNameForGoal(currentGoal)
+  currentDiv.className = className
+  currentDiv.textContent =
+    (currentGoal.type == "girlMonth") ? "Girl Month" :
+    (currentGoal.type == "break") ? "YouTube Break" :
+    (currentGoal.type == "bobs") ? "Bobs Month" : ""
 }
