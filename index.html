@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" value="width=device-width; initial-scale=1">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdn.sammdot.ca/fonts/BasierSquare.css">
+</head>
+<body>
+<template id="month-template">
+  <div class="month">
+    <h3></h3>
+    <ol></ol>
+  </div>
+</template>
+<template id="day-template">
+  <li class="day"></li>
+</template>
+<main id="main">
+<header>
+  <div class="header">
+    <img id="icon" src="icon.png" alt="F1NN5TER">
+    <div id="header-text">
+      <h1>F1NN5TER</h1>
+      <h2>Goal Calendar</h2>
+    </div>
+  </div>
+  <div class="legend">
+    <div class="legend-day legend-girl-month"></div> Girl Months
+    <div class="legend-day legend-break"></div> Break
+    <div class="legend-day legend-bobs"></div> Bobs
+  </div>
+</header>
+</main>
+<script type="text/javascript" src="data.js"></script>
+<script type="text/javascript" src="calendar.js"></script>
+<script type="text/javascript">
+generateMonths()
+populateCalendar()
+</script>
+</body>
+</html>

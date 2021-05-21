@@ -1,0 +1,123 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  font-family: BasierSquare;
+  font-weight: bold;
+  background-color: #efefef;
+  padding: 50px;
+}
+
+main {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 31px 87px;
+  grid-auto-columns: fit-content(480px);
+  max-width: 1615px;
+  margin: auto;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 400px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+}
+
+.header #icon {
+  margin-right: 22px;
+}
+
+.header h1 {
+  font-size: 60px;
+  line-height: 60px;
+  margin: 0;
+}
+
+.header h2 {
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 40px;
+  letter-spacing: 2.9px;
+  margin: 0;
+}
+
+.month {
+  grid-row: span 1;
+  grid-column: span 1;
+  max-width: 480px;
+}
+
+.month h3 {
+  font-size: 32px;
+  margin: 0;
+  padding-bottom: 8px;
+}
+
+.month ol {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.day {
+  display: grid;
+  list-style-type: none;
+  width: 69px;  /* nice */
+  height: 60px;
+  padding: 1px 4px;
+  font-weight: 400;
+  border: 1px solid black;
+  background-color: white;
+}
+
+.legend {
+  margin-top: 24px;
+  display: flex;
+  justify-content: center;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 45px;
+}
+
+.legend-day {
+  display: inline-block;
+  margin-right: 12px;
+  margin-left: 24px;
+  width: 45px;
+  height: 45px;
+}
+
+.legend-day:first-child {
+  margin-left: 0;
+}
+
+.girl-month-complete { background-color: #76bfea; }
+.girl-month-planned { background-color: #bce1f7; }
+.break-complete { background-color: #ef8181; }
+.break-planned { background-color: #ffaaaa; }
+.bobs-complete { background-color: #87d059; }
+.bobs-planned { background-color: #b8dfa0; }
+
+.legend-girl-month {
+  background: linear-gradient(to right bottom, #76bfea 50%, #bce1f7 50%);
+}
+.legend-break {
+  background: linear-gradient(to right bottom, #ef8181 50%, #ffaaaa 50%);
+}
+.legend-bobs {
+  background: linear-gradient(to right bottom, #87d059 50%, #b8dfa0 50%);
+}
