@@ -40,8 +40,15 @@ const generateDays = (month, monthDiv) => {
     let dayDiv = dayTemplate.cloneNode(true)
     let dayCell = dayDiv.querySelector("li")
     dayCell.id = `day-${month}-${day}`
+    dayCell.className += ` day-${day} row-${row} col-${column}`
     dayCell.style = `grid-row: ${row}; grid-column: ${column};`
     dayCell.textContent = day
+
+    if (day == numberOfDays)
+      dayCell.className += ` day-last`
+    if (day + 7 > numberOfDays)  // last 7 days of the month
+      dayCell.className += ` row-last`
+
     monthDiv.appendChild(dayDiv)
   }
 }

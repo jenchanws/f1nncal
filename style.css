@@ -102,6 +102,24 @@ header {
   background-color: white;
 }
 
+.day:not(.col-1):not(.day-1) {
+  border-left: none;
+}
+
+.day:not(.row-last) {
+  border-bottom: none;
+}
+
+.day.day-1:not(.col-1) {
+  margin-left: -1px;
+  width: 70px;
+}
+
+.day.row-last {
+  margin-bottom: -1px;
+  height: 61px;
+}
+
 .legend {
   margin-top: 36px;
   display: flex;
