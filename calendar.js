@@ -41,7 +41,6 @@ const generateDays = (month, monthDiv) => {
     let dayCell = dayDiv.querySelector("li")
     dayCell.id = `day-${month}-${day}`
     dayCell.className += ` day-${day} row-${row} col-${column}`
-    dayCell.style = `grid-row: ${row}; grid-column: ${column};`
     dayCell.textContent = day
 
     if (day == numberOfDays)
