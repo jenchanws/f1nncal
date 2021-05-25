@@ -23,6 +23,7 @@ main {
   justify-content: center;
   grid-template-columns: repeat(auto-fill, 480px);
   gap: 31px 87px;
+  grid-gap: 31px 87px;  /* Firefox 52-60 (you're welcome Helen) */
   padding: 50px;
 }
 
