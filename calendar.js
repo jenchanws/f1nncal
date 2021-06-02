@@ -68,9 +68,9 @@ const populateCalendar = () => {
       dayDiv.className += " " +
         ((date < now) ? completeClassName : plannedClassName)
 
-      if (now.getFullYear() == year &&
-          now.getMonth() == month - 1 &&
-          now.getDate() == day + d) {
+      if (now.getFullYear() == date.getFullYear() &&
+          now.getMonth() == date.getMonth() &&
+          now.getDate() == date.getDate()) {
         currentGoal = goal
       }
     }
