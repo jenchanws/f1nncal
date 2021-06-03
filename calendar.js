@@ -66,7 +66,6 @@ const populateCalendar = () => {
       const date = new Date(year, month - 1, day + d)
 
       let [yr, mo, dy] = [date.getFullYear(), date.getMonth() + 1, date.getDate()]
-      console.log(`day-${yr}-${mo}-${dy}`)
       let dayDiv = document.getElementById(`day-${yr}-${mo}-${dy}`)
       let [completeClassName, plannedClassName] = classNameForGoal(goal)
       dayDiv.className += " " +
