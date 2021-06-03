@@ -15,26 +15,20 @@ const generateMonths = () => {
   const main = document.getElementById("main")
 
   let year = now.getFullYear()
-  let yearMonth = monthRange[0]
 
   for (let month = monthRange[0]; month <= monthRange[1]; month++) {
-    let monthStart = new Date(year, yearMonth - 1, 1)
+    let monthStart = new Date(year, month - 1, 1)
     let monthName = monthFormatter.format(monthStart)
 
     let monthDiv = monthTemplate.cloneNode(true)
     let monthNameHeader = monthDiv.querySelector("h3")
     monthNameHeader.textContent = monthName
-    generateDays(year, yearMonth, monthDiv.querySelector("ol"))
+    generateDays(monthStart.getFullYear(), monthStart.getMonth() + 1,
+      monthDiv.querySelector("ol"))
 
     if (monthStart.getDay() >= 2)
       monthNameHeader.style = "margin-top: 60px; margin-bottom: -60px"
     main.appendChild(monthDiv)
-    if (month % 12 == 0){
-      year++  
-      yearMonth = 1
-    }else{
-      yearMonth++
-    }
   }
 }
 
