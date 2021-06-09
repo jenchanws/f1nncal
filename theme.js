@@ -15,11 +15,11 @@ const isDarkTheme = window.matchMedia("(prefers-color-scheme: dark)")
 if (isDarkTheme.matches) {
         document.documentElement.setAttribute('data-theme', 'dark')
         document.getElementById("icon").src="icon_dark.png";
-        var isClicked = 1;
+        isClicked = 1;
     } else {
         document.documentElement.setAttribute('data-theme', 'light')
         document.getElementById("icon").src="icon.png";
-        var isClicked = 0;
+        isClicked = 0;
 }
 
 //Toggle theme and icon by clicking the icon
