@@ -1,3 +1,13 @@
+:root {
+    --text-color: #121218;
+    --bg-color: #F2F3F8;
+}
+
+[data-theme="dark"] {
+    --text-color: #FCFCFC;
+    --bg-color: #20212c;
+}
+
 * {
   box-sizing: border-box;
   user-select: none;
@@ -15,7 +25,7 @@ html, body {
 body {
   font-family: BasierSquare;
   font-weight: bold;
-  background-color: #efefef;
+  background-color: var(--bg-color);
 }
 
 main {
@@ -31,6 +41,7 @@ header {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  color: var(--text-color);
 }
 
 .header {
@@ -40,6 +51,7 @@ header {
 
 .header #icon {
   margin-right: 22px;
+  cursor: pointer;
 }
 
 .header h1 {
@@ -82,6 +94,7 @@ header {
   font-size: 32px;
   margin: 0;
   padding-bottom: 8px;
+  color: var(--text-color);
 }
 
 .month ol {
@@ -187,4 +200,9 @@ header {
 }
 .legend-bobs {
   background: linear-gradient(to right bottom, #87d059 50%, #b8dfa0 50%);
+}
+
+html.transiton, html.transition *, html.transition *:before, html.transition *:after{
+    transition: all 300ms !important;
+    transition-delay: 0 !important;
 }
