@@ -1,3 +1,30 @@
+body,
+body.theme-light {
+  --text: black;
+  --background: #efefef;
+  --brand: #8b6bff;
+  --day: white;
+  --blue: #76bfea;
+  --blue-light: #bce1f7;
+  --red: #ef8181;
+  --red-light: #ffaaaa;
+  --green: #87d059;
+  --green-light: #b8dfa0;
+}
+
+body.theme-dark {
+  --text: white;
+  --background: #2d2d2d;
+  --brand: #8d70f2;
+  --day: #626262;
+  --blue: #459cd0;
+  --blue-light: #78a7c3;
+  --red: #cb6464;
+  --red-light: #cb8181;
+  --green: #73ae4d;
+  --green-light: #99bd84;
+}
+
 * {
   box-sizing: border-box;
   user-select: none;
@@ -15,7 +42,8 @@ html, body {
 body {
   font-family: BasierSquare;
   font-weight: bold;
-  background-color: #efefef;
+  color: var(--text);
+  background-color: var(--background);
 }
 
 main {
@@ -23,7 +51,7 @@ main {
   justify-content: center;
   grid-template-columns: repeat(auto-fill, 480px);
   gap: 31px 87px;
-  grid-gap: 31px 87px;  /* Firefox 52-60 (you're welcome Helen) */
+  grid-gap: 31px 87px;
   padding: 50px;
 }
 
@@ -40,6 +68,7 @@ header {
 
 .header #icon {
   margin-right: 22px;
+  cursor: pointer;
 }
 
 .header h1 {
@@ -59,7 +88,7 @@ header {
 #header-text a {
   font-weight: 300;
   font-size: 24px;
-  color: #8b6bff;
+  color: var(--brand);
   display: block;
   text-align: right;
   text-decoration: none;
@@ -99,8 +128,8 @@ header {
   height: 60px;
   padding: 1px 4px;
   font-weight: 400;
-  border: 1px solid black;
-  background-color: white;
+  border: 1px solid var(--text);
+  background-color: var(--day);
 }
 
 .day.row-1 { grid-row: 1; }
@@ -172,19 +201,22 @@ header {
   font-weight: 500;
 }
 
-.girl-month-complete { background-color: #76bfea; }
-.girl-month-planned { background-color: #bce1f7; }
-.break-complete { background-color: #ef8181; }
-.break-planned { background-color: #ffaaaa; }
-.bobs-complete { background-color: #87d059; }
-.bobs-planned { background-color: #b8dfa0; }
+.girl-month-complete { background-color: var(--blue); }
+.girl-month-planned { background-color: var(--blue-light); }
+.break-complete { background-color: var(--red); }
+.break-planned { background-color: var(--red-light); }
+.bobs-complete { background-color: var(--green); }
+.bobs-planned { background-color: var(--green-light); }
 
 .legend-girl-month {
-  background: linear-gradient(to right bottom, #76bfea 50%, #bce1f7 50%);
+  background: linear-gradient(to right bottom,
+    var(--blue) 50%, var(--blue-light) 50%);
 }
 .legend-break {
-  background: linear-gradient(to right bottom, #ef8181 50%, #ffaaaa 50%);
+  background: linear-gradient(to right bottom,
+    var(--red) 50%, var(--red-light) 50%);
 }
 .legend-bobs {
-  background: linear-gradient(to right bottom, #87d059 50%, #b8dfa0 50%);
+  background: linear-gradient(to right bottom,
+    var(--green) 50%, var(--green-light) 50%);
 }
