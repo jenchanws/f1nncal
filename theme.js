@@ -20,6 +20,8 @@ window.matchMedia("(prefers-color-scheme: dark)").addListener(query => {
   updateColorScheme()
 })
 
+window.onload = updateColorScheme()
+
 document.getElementById("icon").addEventListener("click", () => {
   changeThemeOverride()
   updateColorScheme()
