@@ -80,3 +80,10 @@ const goals = [
     type: "bobs",
   },
 ]
+
+const notes = [
+  {
+    date: [2021, 7, 7],
+    text: "This break is extended to July 14th due to vendors being on holiday.",
+  }
+]

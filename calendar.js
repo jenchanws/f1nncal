@@ -79,6 +79,17 @@ const populateCalendar = () => {
     }
   })
 
+  notes.forEach(note => {
+    const [year, month, day] = note.date
+    let dayDiv = document.getElementById(`day-${year}-${month}-${day}`)
+    dayDiv.className += " note"
+
+    tippy(dayDiv, {
+      content: note.text,
+      theme: 'f1nn',
+    })
+  })
+
   if (!currentGoal) {
     let currentDiv = document.querySelector(".current")
     currentDiv.parentNode.removeChild(currentDiv)
