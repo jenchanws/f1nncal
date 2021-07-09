@@ -87,6 +87,6 @@ const notes = [
     text:
       "This break is extended to July 14th due to " +
       "F1NN's nail and eyelash people being on holiday.<br>" +
-      "See <a href='https://instagram.com/stories/rosetwitch/2613844840979661525'>Instagram story</a>.",
+      "See <a href='http://redd.it/ogrkfo'>Instagram story</a>.",
   }
 ]
