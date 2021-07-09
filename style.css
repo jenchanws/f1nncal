@@ -203,6 +203,7 @@ header {
 
 .note {
   position: relative;
+  cursor: pointer;
 }
 
 .note:after {
@@ -220,6 +221,16 @@ header {
 .tippy-box[data-theme~='f1nn'] {
   font-weight: 300;
   font-size: 1.25em;
+}
+
+.tippy-box[data-theme~='f1nn'] a {
+  color: #f5f542;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.tippy-box[data-theme~='f1nn'] a:hover {
+  text-decoration: underline;
 }
 
 .girl-month-complete { background-color: var(--blue); }

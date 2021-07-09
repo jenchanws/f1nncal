@@ -86,7 +86,9 @@ const populateCalendar = () => {
 
     tippy(dayDiv, {
       content: note.text,
-      theme: 'f1nn',
+      theme: "f1nn",
+      allowHTML: true,
+      interactive: true,
     })
   })
 

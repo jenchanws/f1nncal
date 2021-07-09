@@ -84,6 +84,9 @@ const goals = [
 const notes = [
   {
     date: [2021, 7, 7],
-    text: "This break is extended to July 14th due to vendors being on holiday.",
+    text:
+      "This break is extended to July 14th due to " +
+      "F1NN's nail and eyelash people being on holiday.<br>" +
+      "See <a href='https://instagram.com/stories/rosetwitch/2613844840979661525'>Instagram story</a>.",
   }
 ]
