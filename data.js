@@ -26,7 +26,7 @@ const goals = [
   },
   {
     from: [2021, 7, 1],
-    days: 28,
+    days: 13,
     type: "break",
   },
   {
