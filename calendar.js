@@ -1,4 +1,4 @@
-const monthRange = [5, 13]
+const monthRange = [5, 14]
 
 const classNameForGoal = goal =>
   (goal.type == "girlMonth") ? ["girl-month-complete", "girl-month-planned"] :
