@@ -1,4 +1,4 @@
-const monthRange = [5, 13]
+const monthRange = [5, 14]
 
 const classNameForGoal = goal =>
   (goal.type == "girlMonth") ? ["girl-month-complete", "girl-month-planned"] :
@@ -77,6 +77,19 @@ const populateCalendar = () => {
         currentGoal = goal
       }
     }
+  })
+
+  notes.forEach(note => {
+    const [year, month, day] = note.date
+    let dayDiv = document.getElementById(`day-${year}-${month}-${day}`)
+    dayDiv.className += " note"
+
+    tippy(dayDiv, {
+      content: note.text,
+      theme: "f1nn",
+      allowHTML: true,
+      interactive: true,
+    })
   })
 
   if (!currentGoal) {
