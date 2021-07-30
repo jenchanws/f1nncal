@@ -30,52 +30,52 @@ const goals = [
     type: "break",
   },
   {
-    from: [2021, 8, 5],
+    from: [2021, 8, 2],
     days: 14,
     type: "girlMonth",
   },
   {
-    from: [2021, 8, 19],
+    from: [2021, 8, 16],
     days: 6,
     type: "break",
   },
   {
-    from: [2021, 8, 25],
+    from: [2021, 8, 22],
     days: 21,
     type: "girlMonth",
   },
   {
-    from: [2021, 9, 15],
+    from: [2021, 9, 12],
     days: 6,
     type: "break",
   },
   {
-    from: [2021, 9, 21],
+    from: [2021, 9, 18],
     days: 14,
     type: "girlMonth",
   },  
   {
-    from: [2021, 10, 5],
+    from: [2021, 10, 2],
     days: 6,
     type: "break",
   },
   {
-    from: [2021, 10, 11],
+    from: [2021, 10, 8],
     days: 14,
     type: "girlMonth",
   },
   {
-    from: [2021, 10, 25],
+    from: [2021, 10, 22],
     days: 6,
     type: "break",
   },
   {
-    from: [2021, 10, 31],
+    from: [2021, 10, 28],
     days: 14,
     type: "girlMonth",
   },
   {
-    from: [2021, 11, 28],
+    from: [2021, 11, 25],
     days: 85,
     type: "bobs",
   },
@@ -85,7 +85,7 @@ const notes = [
   {
     date: [2021, 7, 7],
     text:
-      "This break is extended to July 14th due to " +
+      "This break is extended to <b>July 14th</b> due to " +
       "F1NN's nail and eyelash people being on holiday.<br>" +
       "See <a href='http://redd.it/ogrkfo'>Instagram story</a>.",
   },
@@ -97,4 +97,9 @@ const notes = [
       "This break is extended <b>indefinitely</b>.<br>" +
       "See <a href='https://www.twitch.tv/videos/1087703278'>Twitch stream</a>.",
   },
+  {
+    date: [2021, 7, 29],
+    text:
+      "The next Girl Month is tentatively starting on <b>August 2</b>.",
+  }
 ]
