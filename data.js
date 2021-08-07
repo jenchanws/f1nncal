@@ -30,52 +30,52 @@ const goals = [
     type: "break",
   },
   {
-    from: [2021, 8, 2],
+    from: [2021, 8, 6],
     days: 14,
     type: "girlMonth",
   },
   {
-    from: [2021, 8, 16],
+    from: [2021, 8, 20],
     days: 6,
     type: "break",
   },
   {
-    from: [2021, 8, 22],
+    from: [2021, 8, 26],
     days: 21,
     type: "girlMonth",
   },
   {
-    from: [2021, 9, 12],
+    from: [2021, 9, 16],
     days: 6,
     type: "break",
   },
   {
-    from: [2021, 9, 18],
+    from: [2021, 9, 22],
     days: 14,
     type: "girlMonth",
   },  
   {
-    from: [2021, 10, 2],
+    from: [2021, 10, 6],
     days: 6,
     type: "break",
   },
   {
-    from: [2021, 10, 8],
+    from: [2021, 10, 12],
     days: 14,
     type: "girlMonth",
   },
   {
-    from: [2021, 10, 22],
+    from: [2021, 10, 26],
     days: 6,
     type: "break",
   },
   {
-    from: [2021, 10, 28],
+    from: [2021, 11, 1],
     days: 14,
     type: "girlMonth",
   },
   {
-    from: [2021, 11, 25],
+    from: [2021, 11, 29],
     days: 85,
     type: "bobs",
   },
@@ -96,10 +96,5 @@ const notes = [
       "do a Girl Month goal while recovering.<br>" +
       "This break is extended <b>indefinitely</b>.<br>" +
       "See <a href='https://www.twitch.tv/videos/1087703278'>Twitch stream</a>.",
-  },
-  {
-    date: [2021, 7, 29],
-    text:
-      "The next Girl Month is tentatively starting on <b>August 2</b>.",
   }
 ]
