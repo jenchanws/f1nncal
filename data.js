@@ -30,52 +30,52 @@ const goals = [
     type: "break",
   },
   {
-    from: [2021, 7, 29],
+    from: [2021, 8, 9],
     days: 14,
     type: "girlMonth",
   },
   {
-    from: [2021, 8, 12],
+    from: [2021, 8, 23],
     days: 6,
     type: "break",
   },
   {
-    from: [2021, 8, 18],
-    days: 14,
+    from: [2021, 8, 29],
+    days: 21,
     type: "girlMonth",
   },
   {
-    from: [2021, 9, 1],
+    from: [2021, 9, 19],
     days: 6,
     type: "break",
   },
   {
-    from: [2021, 9, 7],
+    from: [2021, 9, 25],
     days: 14,
     type: "girlMonth",
   },  
   {
-    from: [2021, 9, 21],
+    from: [2021, 10, 9],
     days: 6,
     type: "break",
   },
   {
-    from: [2021, 9, 27],
+    from: [2021, 10, 15],
     days: 14,
     type: "girlMonth",
   },
   {
-    from: [2021, 10, 11],
+    from: [2021, 10, 29],
     days: 6,
     type: "break",
   },
   {
-    from: [2021, 10, 17],
+    from: [2021, 11, 4],
     days: 14,
     type: "girlMonth",
   },
   {
-    from: [2021, 11, 14],
+    from: [2021, 12, 3],
     days: 85,
     type: "bobs",
   },
@@ -85,7 +85,7 @@ const notes = [
   {
     date: [2021, 7, 7],
     text:
-      "This break is extended to July 14th due to " +
+      "This break is extended to <b>July 14th</b> due to " +
       "F1NN's nail and eyelash people being on holiday.<br>" +
       "See <a href='http://redd.it/ogrkfo'>Instagram story</a>.",
   },
@@ -96,5 +96,5 @@ const notes = [
       "do a Girl Month goal while recovering.<br>" +
       "This break is extended <b>indefinitely</b>.<br>" +
       "See <a href='https://www.twitch.tv/videos/1087703278'>Twitch stream</a>.",
-  },
+  }
 ]
