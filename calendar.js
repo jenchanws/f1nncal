@@ -82,10 +82,46 @@ const populateCalendar = () => {
   notes.forEach(note => {
     const [year, month, day] = note.date
     let dayDiv = document.getElementById(`day-${year}-${month}-${day}`)
+    if (!dayDiv) {
+      return
+    }
     dayDiv.className += " note"
 
     tippy(dayDiv, {
       content: note.text,
+      theme: "f1nn",
+      allowHTML: true,
+      interactive: true,
+    })
+  })
+
+  streams.forEach(stream => {
+    const [year, month, day] = stream.date
+    let dayDiv = document.getElementById(`day-${year}-${month}-${day}`)
+    if (!dayDiv) {
+      return
+    }
+    dayDiv.className += " stream"
+
+    let div = document.createElement("div")
+
+    let date = new Date(Date.UTC(year, month - 1, day))
+    let dateStr = date.toLocaleString("en-US", { timeZone: "UTC", month: "long", day: "numeric" })
+    let content
+    if (stream.vod) {
+      content = `
+        ${dateStr} stream:
+        <br><b>${stream.title}</b>
+        <br><a href="${stream.vod}">${!!stream.vod.match(/twitch/) ? "Twitch" : "YouTube"} VOD</a>`
+    } else {
+      content = `Stream scheduled:<br><i>${stream.title}</i>`
+    }
+
+    div.innerHTML = content
+    twemoji.parse(div)
+
+    tippy(dayDiv, {
+      content: div.innerHTML,
       theme: "f1nn",
       allowHTML: true,
       interactive: true,
