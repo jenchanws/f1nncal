@@ -10,6 +10,8 @@ body.theme-light {
   --red-light: #ffaaaa;
   --green: #87d059;
   --green-light: #b8dfa0;
+  --yellow: #f4f44e;
+  --purple: #a991ff;
 }
 
 body.theme-dark {
@@ -23,6 +25,8 @@ body.theme-dark {
   --red-light: #cb8181;
   --green: #73ae4d;
   --green-light: #99bd84;
+  --yellow: #efef28;
+  --purple: #9374ff;
 }
 
 * {
@@ -201,21 +205,28 @@ header {
   font-weight: 500;
 }
 
-.note {
+.note, .stream {
   position: relative;
   cursor: pointer;
 }
 
-.note:after {
+.note:after, .stream:after {
   content: '';
   width: 0;
   height: 0;
   border-style: solid;
   border-width: 0 20px 20px 0;
-  border-color: transparent #f5f542 transparent transparent;
   right: 0;
   top: 0;
   position: absolute;
+}
+
+.note:after {
+  border-color: transparent var(--yellow) transparent transparent;
+}
+
+.stream:after {
+  border-color: transparent var(--purple) transparent transparent;
 }
 
 .tippy-box[data-theme~='f1nn'] {
@@ -224,13 +235,20 @@ header {
 }
 
 .tippy-box[data-theme~='f1nn'] a {
-  color: #f5f542;
+  color: var(--yellow);
   cursor: pointer;
   text-decoration: none;
 }
 
 .tippy-box[data-theme~='f1nn'] a:hover {
   text-decoration: underline;
+}
+
+.emoji {
+  height: 1em;
+  vertical-align: middle;
+  margin-top: -2px;
+  margin-bottom: 2px;
 }
 
 .girl-month-complete { background-color: var(--blue); }
