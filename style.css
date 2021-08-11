@@ -214,7 +214,7 @@ header {
 
 #percentage {
     color: var(--blue);
-    font-weight: 700;
+    font-weight: 600;
 }
 
 .note, .stream {
