@@ -7,14 +7,16 @@ const classNameForGoal = goal =>
 
 const monthFormatter = new Intl.DateTimeFormat("en-US", { month: "long" })
 const now = new Date()
+let firstDay = undefined;
 
 const monthTemplate = document.getElementById("month-template").content
 const dayTemplate = document.getElementById("day-template").content
 
 const generateMonths = () => {
   const main = document.getElementById("main")
-
   let year = now.getFullYear()
+
+  firstDay = new Date(year, monthRange[0]-1, 1)
 
   for (let month = monthRange[0]; month <= monthRange[1]; month++) {
     let monthStart = new Date(year, month - 1, 1)
@@ -57,10 +59,14 @@ const generateDays = (year, month, monthDiv) => {
 
 const populateCalendar = () => {
   let currentGoal = undefined
+  let curPercentage = 0;
 
   goals.forEach(goal => {
     const [year, month, day] = goal.from
     const goalStart = new Date(year, month - 1, day)
+    const goalEnd = new Date(year, month - 1, day + goal.days)
+
+    let girlDays = 0
     
     for (let d = 0; d < goal.days; d++) {
       const date = new Date(year, month - 1, day + d)
@@ -71,11 +77,19 @@ const populateCalendar = () => {
       dayDiv.className += " " +
         ((date < now) ? completeClassName : plannedClassName)
 
+        girlDays++
+
       if (now.getFullYear() == date.getFullYear() &&
           now.getMonth() == date.getMonth() &&
           now.getDate() == date.getDate()) {
         currentGoal = goal
       }
+    }
+
+    //Add Percentage per goal
+    //Rounded days to only update every 24h
+    if(goalEnd <= now && goal.type != "break"){
+        curPercentage += ((girlDays+1)/Math.round((now.getTime() - firstDay.getTime())/86400000)*100)
     }
   })
 
@@ -141,4 +155,6 @@ const populateCalendar = () => {
     (currentGoal.type == "girlMonth") ? "Girl Month" :
     (currentGoal.type == "break") ? "YouTube Break" :
     (currentGoal.type == "bobs") ? "Bobs Month" : ""
+
+  document.getElementById("percentage").textContent=(curPercentage.toFixed(2)+"%")
 }
