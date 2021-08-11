@@ -62,6 +62,7 @@ const populateCalendar = () => {
   let currentGoal = undefined
   //total girl day counter to calculate percentage
   let totalGirlDays = 0;
+  let isGirlMonth = false
   
   goals.forEach(goal => {
     const [year, month, day] = goal.from
@@ -78,6 +79,7 @@ const populateCalendar = () => {
 
         if(date < now && goal.type != "break")
             totalGirlDays++
+            isGirlMonth = true
 
       if (now.getFullYear() == date.getFullYear() &&
           now.getMonth() == date.getMonth() &&
@@ -94,8 +96,8 @@ const populateCalendar = () => {
   const timeOfDay = ((now.getTime() - dayStart.getTime())/oneDay).toFixed(6)
   //Days since start of recording
   const daysSinceStart = ((now.getTime() - firstDay.getTime())/oneDay).toFixed(6)
-  //Calculate percentage
-  let girlPercentage = ((totalGirlDays + timeOfDay/daysSinceStart*100))
+  //Calculate percentage, add time of day when it is girlmonth to remove countdown issue
+  let girlPercentage = isGirlMonth ? ((totalGirlDays + timeOfDay/daysSinceStart*100)) : ((totalGirlDays/daysSinceStart*100))
   
   //Debugging purposes
   /*console.log("Today: " + dayStart 
