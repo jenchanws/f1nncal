@@ -7,7 +7,6 @@ const classNameForGoal = goal =>
 
 const monthFormatter = new Intl.DateTimeFormat("en-US", { month: "long" })
 const now = new Date()
-
 let firstDay = undefined;
 
 const monthTemplate = document.getElementById("month-template").content
@@ -88,22 +87,22 @@ const populateCalendar = () => {
     }
   })
   //Exact start of day
-  let dayStart = new Date(now.getFullYear(), now.getMonth(), now.getDate())
+  const dayStart = new Date(now.getFullYear(), now.getMonth(), now.getDate())
   //ms to days
-  let oneDay = 1000*60*60*24
+  const oneDay = 1000*60*60*24
   //progression of day in %
-  let timeOfDay = ((now.getTime() - dayStart.getTime())/oneDay).toFixed(6)
+  const timeOfDay = ((now.getTime() - dayStart.getTime())/oneDay).toFixed(6)
   //Days since start of recording
-  let daysSinceStart = ((now.getTime() - firstDay.getTime())/oneDay).toFixed(6)
-  //Caluclate percentage
+  const daysSinceStart = ((now.getTime() - firstDay.getTime())/oneDay).toFixed(6)
+  //Calculate percentage
   let girlPercentage = ((totalGirlDays + timeOfDay/daysSinceStart*100))
   
   //Debugging purposes
-  console.log("Today: " + dayStart 
+  /*console.log("Today: " + dayStart 
         + "\nCompletion-of-day: " + timeOfDay 
         + "\nDays-Since-Counting: " + daysSinceStart 
         + "\nGirldays: " + totalGirlDays
-        + "\nPercentage: " + girlPercentage.toFixed(2))
+        + "\nPercentage: " + girlPercentage.toFixed(2))*/
   
   notes.forEach(note => {
     const [year, month, day] = note.date
