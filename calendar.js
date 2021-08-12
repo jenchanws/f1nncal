@@ -138,8 +138,15 @@ const populateCalendar = () => {
     if (stream.vod) {
       content = `
         ${dateStr} stream:
-        <br><b>${stream.title}</b>
-        <br><a href="${stream.vod}">${!!stream.vod.match(/twitch/) ? "Twitch" : "YouTube"} VOD</a>`
+        <br><b>${stream.title}</b>`
+      if (typeof stream.vod === "string") {
+        content += `<br><a href="${stream.vod}">${!!stream.vod.match(/twitch/) ? "Twitch" : "YouTube"} VOD</a>`
+      } else {
+        const numVods = stream.vod.length
+        stream.vod.forEach((link, i) => {
+          content += `<br><a href="${link}">${!!link.match(/twitch/) ? "Twitch" : "YouTube"} VOD (${i + 1}/${numVods})</a>`
+        })
+      }
     } else {
       content = `Stream scheduled:<br><i>${stream.title}</i>`
     }

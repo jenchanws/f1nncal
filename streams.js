@@ -144,4 +144,13 @@ const streams = [
     title: "PO BOX TIME GAMERS!!!",
     vod: "https://www.twitch.tv/videos/1114271566",
   },
+  {
+    date: [2021, 8, 11],
+    title: "i look hot so im streaming",
+    vod: [
+      "https://www.twitch.tv/videos/1115365908",
+      "https://www.twitch.tv/videos/1115373847",
+      "https://www.twitch.tv/videos/1115375566",
+    ],
+  },
 ]
