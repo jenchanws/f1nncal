@@ -153,4 +153,9 @@ const streams = [
       "https://www.twitch.tv/videos/1115375566",
     ],
   },
+  {
+    date: [2021, 8, 17],
+    title: "PROM DRESS TRY ON! (if it fits - 12 hour stream)",
+    vod: "https://www.twitch.tv/videos/1121260814",
+  },
 ]
