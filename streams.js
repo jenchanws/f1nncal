@@ -77,12 +77,12 @@ const streams = [
   {
     date: [2021, 6, 18],
     title: "YOUR FEMBOY/TOMBOY GF IS HERE!",
-    vod: "https://www.twitch.tv/videos/1060266334",
+    vod: "https://www.youtube.com/watch?v=jhDh4oSuDHE",
   },
   {
     date: [2021, 6, 19],
     title: "Minecraft BUT HOT!!! | MCU",
-    vod: "https://www.twitch.tv/videos/1061389860",
+    vod: "https://www.youtube.com/watch?v=pPHuFVfgrkc",
   },
   {
     date: [2021, 6, 22],
