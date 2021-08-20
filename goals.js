@@ -75,7 +75,27 @@ const goals = [
     type: "girlMonth",
   },
   {
-    from: [2021, 12, 3],
+    from: [2021, 11, 18],
+    days: 6,
+    type: "break",
+  },
+  {
+    from: [2021, 11, 24],
+    days: 14,
+    type: "girlMonth",
+  },
+  {
+    from: [2021, 12, 8],
+    days: 6,
+    type: "break",
+  },
+  {
+    from: [2021, 12, 14],
+    days: 14,
+    type: "girlMonth",
+  },
+  {
+    from: [2022, 1, 11],
     days: 85,
     type: "bobs",
   },
