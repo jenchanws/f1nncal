@@ -87,12 +87,12 @@ const streams = [
   {
     date: [2021, 6, 22],
     title: "American FOOD/SNACKS TASTING!",
-    vod: "https://www.twitch.tv/videos/1064288823",
+    vod: "https://www.youtube.com/watch?v=PuZ1IHP9cmE",
   },
   {
     date: [2021, 6, 23],
     title: "WAY TOO EXPENSIVE UNBOXING!",
-    vod: "https://www.twitch.tv/videos/1065333737",
+    vod: "https://www.youtube.com/watch?v=XF4mwnvizw4",
   },
   {
     date: [2021, 6, 27],
