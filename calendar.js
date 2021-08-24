@@ -61,7 +61,7 @@ const generateDays = (year, month, monthDiv) => {
 const populateCalendar = () => {  
   let currentGoal = undefined
   //total girl day counter to calculate percentage
-  let totalGirlDays = 0;
+  let totalGirlDays = 0
   let isGirlMonth = undefined
   
   goals.forEach(goal => {
@@ -77,9 +77,8 @@ const populateCalendar = () => {
       dayDiv.className += " " +
         ((date < now) ? completeClassName : plannedClassName)
 
-        if(date < now && goal.type != "break"){
+        if(date < now && goal.type != "break")
             totalGirlDays++
-        }
 
       if (now.getFullYear() == date.getFullYear() &&
           now.getMonth() == date.getMonth() &&
@@ -101,12 +100,12 @@ const populateCalendar = () => {
   let girlPercentage = isGirlMonth ? ((totalGirlDays + timeOfDay)/daysSinceStart*100) : (totalGirlDays/daysSinceStart*100)
   
   //Debugging purposes
-  console.log("Today: " + dayStart
+  /*console.log("Today: " + dayStart
         + "\nCompletion-of-day: " + timeOfDay 
         + "\nDays-Since-Counting: " + daysSinceStart 
         + "\nGirldays: " + totalGirlDays
         + "\nPercentage: " + girlPercentage.toFixed(2)
-        + "\nGM: " + isGirlMonth)
+        + "\nGM: " + isGirlMonth)*/
   
   notes.forEach(note => {
     const [year, month, day] = note.date
