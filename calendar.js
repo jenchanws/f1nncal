@@ -58,7 +58,7 @@ const generateDays = (year, month, monthDiv) => {
   }
 }
 
-const populateCalendar = () => {  
+const populateCalendar = () => {
   let currentGoal = undefined
   //total girl day counter to calculate percentage
   let totalGirlDays = 0
@@ -77,8 +77,12 @@ const populateCalendar = () => {
       dayDiv.className += " " +
         ((date < now) ? completeClassName : plannedClassName)
 
-        if(date < now && goal.type != "break")
-            totalGirlDays++
+      if(date < now && goal.type != "break"){ 
+        isGirlMonth = true 
+        totalGirlDays++
+      }
+      else if (date < now) isGirlMonth = false
+            
 
       if (now.getFullYear() == date.getFullYear() &&
           now.getMonth() == date.getMonth() &&
@@ -86,7 +90,6 @@ const populateCalendar = () => {
         currentGoal = goal
       }
     }
-    (goal.type == "girlMonth") ? (isGirlMonth = true) : (isGirlMonth = false)
   })
   //Exact start of day
   const dayStart = new Date(now.getFullYear(), now.getMonth(), now.getDate())
@@ -97,14 +100,14 @@ const populateCalendar = () => {
   //Days since start of recording
   const daysSinceStart = ((now.getTime() - firstDay.getTime())/oneDay).toFixed(6)
   //Calculate percentage, add time of day when it is girlmonth to remove countdown issue
-  let girlPercentage = isGirlMonth ? ((totalGirlDays + timeOfDay)/daysSinceStart*100) : (totalGirlDays/daysSinceStart*100)
+  let girlPercentage = isGirlMonth ? ((+totalGirlDays + +timeOfDay)/daysSinceStart*100) : (totalGirlDays/daysSinceStart*100)
   
   //Debugging purposes
   /*console.log("Today: " + dayStart
         + "\nCompletion-of-day: " + timeOfDay 
-        + "\nDays-Since-Counting: " + daysSinceStart 
-        + "\nGirldays: " + totalGirlDays
-        + "\nPercentage: " + girlPercentage.toFixed(2)
+        + "\nDays-Since-Counting: " + daysSinceStart
+        + "\nGirldays: " + (+totalGirlDays + +timeOfDay)
+        + "\nPercentage: " + girlPercentage.toFixed(6)
         + "\nGM: " + isGirlMonth)*/
   
   notes.forEach(note => {
