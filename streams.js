@@ -97,17 +97,17 @@ const streams = [
   {
     date: [2021, 6, 27],
     title: "Tricking People Into Thinking I'm Good Looking Ep. #175",
-    vod: "https://www.twitch.tv/videos/1069543890",
+    vod: "https://www.youtube.com/watch?v=7B8jXGDoF4c",
   },
   {
     date: [2021, 6, 30],
     title: "Building A Gamer Desk",
-    vod: "https://www.twitch.tv/videos/1072437095",
+    vod: "https://www.youtube.com/watch?v=QflunKcECLA",
   },
   {
     date: [2021, 7, 1],
     title: "💄 MAKEUP 'N GAMER DESK BUILDING 🔨",
-    vod: "https://www.twitch.tv/videos/1073705189",
+    vod: "https://www.youtube.com/watch?v=TuajPgN9mvQ",
   },
   {
     date: [2021, 7, 15],
@@ -157,5 +157,20 @@ const streams = [
     date: [2021, 8, 17],
     title: "PROM DRESS TRY ON! (if it fits - 12 hour stream)",
     vod: "https://www.twitch.tv/videos/1121260814",
+  },
+  {
+    date: [2021, 8, 28],
+    title: "WORLDS BEST MCC PLAYER (me) with Dream/BBH/Seepeekay",
+    vod: "https://www.twitch.tv/videos/1132321558",
+  },
+  {
+    date: [2021, 8, 31],
+    title: "It's MAKEUP HOURS BOYS!!",
+    vod: "https://www.twitch.tv/videos/1135197900",
+  },
+  {
+    date: [2021, 9, 3],
+    title: "IM ALIVE (barely)",
+    vod: "https://www.twitch.tv/videos/1138025939",
   },
 ]
