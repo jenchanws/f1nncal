@@ -173,4 +173,9 @@ const streams = [
     title: "IM ALIVE (barely)",
     vod: "https://www.twitch.tv/videos/1138025939",
   },
+  {
+    date: [2021, 9, 9],
+    title: "NEW DRESS + Voice Lesson #1 COMPLETE",
+    vod: "https://www.twitch.tv/videos/1143797121",
+  },
 ]
