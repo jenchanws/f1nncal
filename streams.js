@@ -112,17 +112,17 @@ const streams = [
   {
     date: [2021, 7, 15],
     title: "Got some bad news",
-    vod: "https://www.twitch.tv/videos/1087703278",
+    vod: "https://www.youtube.com/watch?v=1bmDVXmxIck",
   },
   {
     date: [2021, 7, 18],
     title: "CANT KILL ME THAT EASY",
-    vod: "https://www.twitch.tv/videos/1090744933",
+    vod: "https://www.youtube.com/watch?v=oYoMCy--WH8",
   },
   {
     date: [2021, 7, 21],
     title: "PAINTING NAILS IN DA SUMMER",
-    vod: "https://www.twitch.tv/videos/1093774656",
+    vod: "https://www.youtube.com/watch?v=bwg2xqt_mY0",
   },
   {
     date: [2021, 7, 26],

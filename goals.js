@@ -45,67 +45,67 @@ const goals = [
     type: "girlMonth",
   },
   {
-    from: [2021, 9, 11],
+    from: [2021, 9, 17],
     days: 6,
     type: "break",
   },
   {
-    from: [2021, 9, 17],
+    from: [2021, 9, 23],
     days: 14,
     type: "girlMonth",
   },  
   {
-    from: [2021, 10, 1],
+    from: [2021, 10, 7],
     days: 6,
     type: "break",
   },
   {
-    from: [2021, 10, 7],
+    from: [2021, 10, 13],
     days: 14,
     type: "girlMonth",
-  },
-  {
-    from: [2021, 10, 21],
-    days: 6,
-    type: "break",
   },
   {
     from: [2021, 10, 27],
-    days: 14,
-    type: "girlMonth",
-  },
-  {
-    from: [2021, 11, 9],
     days: 6,
     type: "break",
+  },
+  {
+    from: [2021, 11, 2],
+    days: 14,
+    type: "girlMonth",
   },
   {
     from: [2021, 11, 15],
-    days: 14,
-    type: "girlMonth",
-  },
-  {
-    from: [2021, 11, 29],
     days: 6,
     type: "break",
+  },
+  {
+    from: [2021, 11, 21],
+    days: 14,
+    type: "girlMonth",
   },
   {
     from: [2021, 12, 5],
-    days: 14,
-    type: "girlMonth",
-  },
-  {
-    from: [2021, 12, 19],
     days: 6,
     type: "break",
   },
   {
+    from: [2021, 12, 11],
+    days: 14,
+    type: "girlMonth",
+  },
+  {
     from: [2021, 12, 25],
+    days: 6,
+    type: "break",
+  },
+  {
+    from: [2021, 12, 31],
     days: 7,
     type: "girlMonth",
   },
   {
-    from: [2022, 1, 11],
+    from: [2022, 1, 21],
     days: 85,
     type: "bobs",
   },
