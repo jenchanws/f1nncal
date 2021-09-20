@@ -46,51 +46,51 @@ const goals = [
   },
   {
     from: [2021, 9, 17],
-    days: 6,
+    days: 12,
     type: "break",
   },
   {
-    from: [2021, 9, 23],
+    from: [2021, 9, 29],
     days: 14,
     type: "girlMonth",
   },  
   {
-    from: [2021, 10, 7],
+    from: [2021, 10, 13],
     days: 6,
     type: "break",
   },
   {
-    from: [2021, 10, 13],
+    from: [2021, 10, 19],
     days: 14,
     type: "girlMonth",
-  },
-  {
-    from: [2021, 10, 27],
-    days: 6,
-    type: "break",
   },
   {
     from: [2021, 11, 2],
-    days: 14,
-    type: "girlMonth",
-  },
-  {
-    from: [2021, 11, 15],
     days: 6,
     type: "break",
   },
   {
-    from: [2021, 11, 21],
+    from: [2021, 11, 8],
     days: 14,
     type: "girlMonth",
   },
   {
-    from: [2021, 12, 5],
+    from: [2021, 11, 22],
     days: 6,
     type: "break",
   },
   {
-    from: [2021, 12, 11],
+    from: [2021, 11, 28],
+    days: 14,
+    type: "girlMonth",
+  },
+  {
+    from: [2021, 12, 12],
+    days: 6,
+    type: "break",
+  },
+  {
+    from: [2021, 12, 18],
     days: 14,
     type: "girlMonth",
   },
@@ -100,7 +100,7 @@ const goals = [
     type: "break",
   },
   {
-    from: [2021, 12, 31],
+    from: [2022, 1, 1],
     days: 7,
     type: "girlMonth",
   },
