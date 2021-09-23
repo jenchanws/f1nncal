@@ -95,17 +95,17 @@ const goals = [
     type: "girlMonth",
   },
   {
-    from: [2021, 12, 25],
+    from: [2022, 1, 1],
     days: 6,
     type: "break",
   },
   {
-    from: [2022, 1, 1],
+    from: [2022, 1, 7],
     days: 7,
     type: "girlMonth",
   },
   {
-    from: [2022, 1, 21],
+    from: [2022, 1, 28],
     days: 85,
     type: "bobs",
   },
