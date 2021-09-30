@@ -127,12 +127,12 @@ const streams = [
   {
     date: [2021, 7, 26],
     title: "Reading Fan Fics to Stay Awake",
-    vod: "https://www.twitch.tv/videos/1098858232",
+    vod: "https://www.youtube.com/watch?v=WZ6chFTlVJ0",
   },
   {
     date: [2021, 7, 30],
     title: "if i laugh the stream ends",
-    vod: "https://www.twitch.tv/videos/1103620522",
+    vod: "https://www.youtube.com/watch?v=RLYAE2zpTZk",
   },
   {
     date: [2021, 8, 9],
@@ -177,5 +177,10 @@ const streams = [
     date: [2021, 9, 9],
     title: "NEW DRESS + Voice Lesson #1 COMPLETE",
     vod: "https://www.twitch.tv/videos/1143797121",
+  },
+  {
+    date: [2021, 9, 29],
+    title: "BACK and Hotter than ever",
+    vod: "https://www.twitch.tv/videos/1162774078",
   },
 ]
