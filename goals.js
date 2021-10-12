@@ -51,58 +51,53 @@ const goals = [
   },
   {
     from: [2021, 9, 29],
-    days: 14,
+    days: 18,
     type: "girlMonth",
   },  
   {
-    from: [2021, 10, 13],
-    days: 6,
-    type: "break",
-  },
-  {
-    from: [2021, 10, 19],
-    days: 14,
-    type: "girlMonth",
-  },
-  {
-    from: [2021, 11, 2],
-    days: 6,
-    type: "break",
-  },
-  {
-    from: [2021, 11, 8],
-    days: 14,
-    type: "girlMonth",
-  },
-  {
-    from: [2021, 11, 22],
-    days: 6,
-    type: "break",
-  },
-  {
-    from: [2021, 11, 28],
-    days: 14,
-    type: "girlMonth",
-  },
-  {
-    from: [2021, 12, 12],
-    days: 6,
-    type: "break",
-  },
-  {
-    from: [2021, 12, 18],
-    days: 14,
-    type: "girlMonth",
-  },
-  {
-    from: [2022, 1, 1],
-    days: 6,
-    type: "break",
-  },
-  {
-    from: [2022, 1, 7],
+    from: [2021, 10, 17],
     days: 7,
+    type: "break",
+  },
+  {
+    from: [2021, 10, 24],
+    days: 17,
     type: "girlMonth",
+  },
+  {
+    from: [2021, 11, 9],
+    days: 6,
+    type: "break",
+  },
+  {
+    from: [2021, 11, 15],
+    days: 14,
+    type: "girlMonth",
+  },
+  {
+    from: [2021, 11, 29],
+    days: 6,
+    type: "break",
+  },
+  {
+    from: [2021, 12, 5],
+    days: 14,
+    type: "girlMonth",
+  },
+  {
+    from: [2021, 12, 19],
+    days: 6,
+    type: "break",
+  },
+  {
+    from: [2021, 12, 25],
+    days: 14,
+    type: "girlMonth",
+  },
+  {
+    from: [2022, 1, 8],
+    days: 6,
+    type: "break",
   },
   {
     from: [2022, 1, 28],

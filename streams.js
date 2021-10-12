@@ -137,21 +137,17 @@ const streams = [
   {
     date: [2021, 8, 9],
     title: "GIRL MONTH DAY UNO!!",
-    vod: "https://www.twitch.tv/videos/1113235812",
+    vod: "https://www.youtube.com/watch?v=FOzz1b2Um5M",
   },
   {
     date: [2021, 8, 10],
     title: "PO BOX TIME GAMERS!!!",
-    vod: "https://www.twitch.tv/videos/1114271566",
+    vod: "https://www.youtube.com/watch?v=GxDgtClUn-U",
   },
   {
     date: [2021, 8, 11],
     title: "i look hot so im streaming",
-    vod: [
-      "https://www.twitch.tv/videos/1115365908",
-      "https://www.twitch.tv/videos/1115373847",
-      "https://www.twitch.tv/videos/1115375566",
-    ],
+    vod: "https://www.youtube.com/watch?v=MrKr7I6YoU0",
   },
   {
     date: [2021, 8, 17],
@@ -187,5 +183,15 @@ const streams = [
     date: [2021, 10, 1],
     title: "SURPRISE! ITS ME AGAIN",
     vod: "https://www.twitch.tv/videos/1164672550",
-  }
+  },
+  {
+    date: [2021, 10, 7],
+    title: "I'M IN SPAIN!",
+    vod: "https://www.twitch.tv/videos/1170052127",
+  },
+  {
+    date: [2021, 10, 12],
+    title: "THIS IS PEAK MALE PERFORMANCE",
+    vod: "https://www.twitch.tv/videos/1174881796",
+  },
 ]
