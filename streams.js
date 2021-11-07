@@ -152,22 +152,22 @@ const streams = [
   {
     date: [2021, 8, 17],
     title: "PROM DRESS TRY ON! (if it fits - 12 hour stream)",
-    vod: "https://www.twitch.tv/videos/1121260814",
+    vod: "https://www.youtube.com/watch?v=KfLc_NPwI6c",
   },
   {
     date: [2021, 8, 28],
     title: "WORLDS BEST MCC PLAYER (me) with Dream/BBH/Seepeekay",
-    vod: "https://www.twitch.tv/videos/1132321558",
+    vod: "https://www.youtube.com/watch?v=tXrgxlQ-qpc",
   },
   {
     date: [2021, 8, 31],
     title: "It's MAKEUP HOURS BOYS!!",
-    vod: "https://www.twitch.tv/videos/1135197900",
+    vod: "https://www.youtube.com/watch?v=NLTXr7aAjYE",
   },
   {
     date: [2021, 9, 3],
     title: "IM ALIVE (barely)",
-    vod: "https://www.twitch.tv/videos/1138025939",
+    vod: "https://www.youtube.com/watch?v=SFGrWDtYa7c",
   },
   {
     date: [2021, 9, 9],
@@ -194,4 +194,48 @@ const streams = [
     title: "THIS IS PEAK MALE PERFORMANCE",
     vod: "https://www.twitch.tv/videos/1174881796",
   },
+  {
+    date: [2021, 10, 14],
+    title: "PAINTING NAILS & Not Being a Ho",
+    vod: "https://www.twitch.tv/videos/1176595477",
+  },
+  {
+    date: [2021, 10, 15],
+    title: "ITS DRESS UP HOURS",
+    vod: "https://www.twitch.tv/videos/1177663373",
+  },
+  {
+    date: [2021, 10, 16],
+    title: "HOLESO- WHOLESOME DAY!",
+    vod: "https://www.twitch.tv/videos/1178614524",
+  },
+  {
+    date: [2021, 10, 26],
+    title: "I AM THE PINICLE OF MASCULINITY",
+    vod: "https://www.twitch.tv/videos/1187807249",
+  },
+  {
+    date: [2021, 10, 27],
+    title: "man",
+    vod: "https://www.twitch.tv/videos/1188622017",
+  },
+  {
+    date: [2021, 10, 29],
+    title: "P.O BOX OPEN TIME!",
+    vod: "https://www.twitch.tv/videos/1190435175",
+  },
+  {
+    date: [2021, 11, 3],
+    title: "Tax Evasion Is My Passion",
+    vod: "https://www.twitch.tv/videos/1195114945",
+  },
+  {
+    date: [2021, 11, 6],
+    title: "GOOD MORNING (quick stream) +<br>Squid Game In Minecraft +<br>died in Squid Game",
+    vod: [
+      "https://www.twitch.tv/videos/1197785574",
+      "https://www.twitch.tv/videos/1198219170",
+      "https://www.twitch.tv/videos/1198335585",
+    ],
+  }
 ]
