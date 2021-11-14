@@ -237,5 +237,10 @@ const streams = [
       "https://www.twitch.tv/videos/1198219170",
       "https://www.twitch.tv/videos/1198335585",
     ],
-  }
+  },
+  {
+    date: [2021, 11, 13],
+    title: "WINNING MCC TWICE IN A ROW!",
+    vod: "https://www.twitch.tv/videos/1204622822",
+  },
 ]
