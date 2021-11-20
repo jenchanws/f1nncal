@@ -243,4 +243,9 @@ const streams = [
     title: "WINNING MCC TWICE IN A ROW!",
     vod: "https://www.twitch.tv/videos/1204622822",
   },
+  {
+    date: [2021, 11, 20],
+    title: "Professional Makeup Wearer",
+    vod: "https://www.twitch.tv/videos/1211088663",
+  },
 ]
