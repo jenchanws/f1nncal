@@ -172,17 +172,17 @@ const streams = [
   {
     date: [2021, 9, 9],
     title: "NEW DRESS + Voice Lesson #1 COMPLETE",
-    vod: "https://www.twitch.tv/videos/1143797121",
+    vod: "https://www.youtube.com/watch?v=V4uUdktlC3Y",
   },
   {
     date: [2021, 9, 29],
     title: "BACK and Hotter than ever",
-    vod: "https://www.twitch.tv/videos/1162774078",
+    vod: "https://www.youtube.com/watch?v=glJg5jsMYyQ",
   },
   {
     date: [2021, 10, 1],
     title: "SURPRISE! ITS ME AGAIN",
-    vod: "https://www.twitch.tv/videos/1164672550",
+    vod: "https://www.youtube.com/watch?v=UHYFWfTm-C0",
   },
   {
     date: [2021, 10, 7],
@@ -247,5 +247,25 @@ const streams = [
     date: [2021, 11, 20],
     title: "Professional Makeup Wearer",
     vod: "https://www.twitch.tv/videos/1211088663",
+  },
+  {
+    date: [2021, 11, 21],
+    title: "VR WITH MODS STREAMY",
+    vod: "https://www.twitch.tv/videos/1212195481",
+  },
+  {
+    date: [2021, 11, 25],
+    title: "CURSED CONTENT AHEAD",
+    vod: "https://www.twitch.tv/videos/1215768389",
+  },
+  {
+    date: [2021, 11, 27],
+    title: "I AM IN GERMANY!!!! (drinking)",
+    vod: "https://www.twitch.tv/videos/1217576553",
+  },
+  {
+    date: [2021, 11, 30],
+    title: "Pick My Outfit!! (be nice)",
+    vod: "https://www.twitch.tv/videos/1220338211",
   },
 ]

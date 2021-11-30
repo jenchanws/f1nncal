@@ -116,7 +116,7 @@ const goals = [
   },
   {
     from: [2022, 3, 10],
-    days: 85,
+    days: 91,
     type: "bobs",
   },
 ]
