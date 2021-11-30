@@ -16,5 +16,10 @@ const notes = [
     date: [2022, 2, 28],
     text:
       "The Box is projected to reopen on <b>February 28</b>.",
-  }
+  },
+  {
+    date: [2022, 6, 30],
+    text:
+      "Girl Month donation goals will resume at the end of the Bobs Months.",
+  },
 ]
