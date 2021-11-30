@@ -127,55 +127,125 @@ const streams = [
   {
     date: [2021, 7, 26],
     title: "Reading Fan Fics to Stay Awake",
-    vod: "https://www.twitch.tv/videos/1098858232",
+    vod: "https://www.youtube.com/watch?v=WZ6chFTlVJ0",
   },
   {
     date: [2021, 7, 30],
     title: "if i laugh the stream ends",
-    vod: "https://www.twitch.tv/videos/1103620522",
+    vod: "https://www.youtube.com/watch?v=RLYAE2zpTZk",
   },
   {
     date: [2021, 8, 9],
     title: "GIRL MONTH DAY UNO!!",
-    vod: "https://www.twitch.tv/videos/1113235812",
+    vod: "https://www.youtube.com/watch?v=FOzz1b2Um5M",
   },
   {
     date: [2021, 8, 10],
     title: "PO BOX TIME GAMERS!!!",
-    vod: "https://www.twitch.tv/videos/1114271566",
+    vod: "https://www.youtube.com/watch?v=GxDgtClUn-U",
   },
   {
     date: [2021, 8, 11],
     title: "i look hot so im streaming",
-    vod: [
-      "https://www.twitch.tv/videos/1115365908",
-      "https://www.twitch.tv/videos/1115373847",
-      "https://www.twitch.tv/videos/1115375566",
-    ],
+    vod: "https://www.youtube.com/watch?v=MrKr7I6YoU0",
   },
   {
     date: [2021, 8, 17],
     title: "PROM DRESS TRY ON! (if it fits - 12 hour stream)",
-    vod: "https://www.twitch.tv/videos/1121260814",
+    vod: "https://www.youtube.com/watch?v=KfLc_NPwI6c",
   },
   {
     date: [2021, 8, 28],
     title: "WORLDS BEST MCC PLAYER (me) with Dream/BBH/Seepeekay",
-    vod: "https://www.twitch.tv/videos/1132321558",
+    vod: "https://www.youtube.com/watch?v=tXrgxlQ-qpc",
   },
   {
     date: [2021, 8, 31],
     title: "It's MAKEUP HOURS BOYS!!",
-    vod: "https://www.twitch.tv/videos/1135197900",
+    vod: "https://www.youtube.com/watch?v=NLTXr7aAjYE",
   },
   {
     date: [2021, 9, 3],
     title: "IM ALIVE (barely)",
-    vod: "https://www.twitch.tv/videos/1138025939",
+    vod: "https://www.youtube.com/watch?v=SFGrWDtYa7c",
   },
   {
     date: [2021, 9, 9],
     title: "NEW DRESS + Voice Lesson #1 COMPLETE",
     vod: "https://www.twitch.tv/videos/1143797121",
+  },
+  {
+    date: [2021, 9, 29],
+    title: "BACK and Hotter than ever",
+    vod: "https://www.twitch.tv/videos/1162774078",
+  },
+  {
+    date: [2021, 10, 1],
+    title: "SURPRISE! ITS ME AGAIN",
+    vod: "https://www.twitch.tv/videos/1164672550",
+  },
+  {
+    date: [2021, 10, 7],
+    title: "I'M IN SPAIN!",
+    vod: "https://www.twitch.tv/videos/1170052127",
+  },
+  {
+    date: [2021, 10, 12],
+    title: "THIS IS PEAK MALE PERFORMANCE",
+    vod: "https://www.twitch.tv/videos/1174881796",
+  },
+  {
+    date: [2021, 10, 14],
+    title: "PAINTING NAILS & Not Being a Ho",
+    vod: "https://www.twitch.tv/videos/1176595477",
+  },
+  {
+    date: [2021, 10, 15],
+    title: "ITS DRESS UP HOURS",
+    vod: "https://www.twitch.tv/videos/1177663373",
+  },
+  {
+    date: [2021, 10, 16],
+    title: "HOLESO- WHOLESOME DAY!",
+    vod: "https://www.twitch.tv/videos/1178614524",
+  },
+  {
+    date: [2021, 10, 26],
+    title: "I AM THE PINICLE OF MASCULINITY",
+    vod: "https://www.twitch.tv/videos/1187807249",
+  },
+  {
+    date: [2021, 10, 27],
+    title: "man",
+    vod: "https://www.twitch.tv/videos/1188622017",
+  },
+  {
+    date: [2021, 10, 29],
+    title: "P.O BOX OPEN TIME!",
+    vod: "https://www.twitch.tv/videos/1190435175",
+  },
+  {
+    date: [2021, 11, 3],
+    title: "Tax Evasion Is My Passion",
+    vod: "https://www.twitch.tv/videos/1195114945",
+  },
+  {
+    date: [2021, 11, 6],
+    title: "GOOD MORNING (quick stream) +<br>Squid Game In Minecraft +<br>died in Squid Game",
+    vod: [
+      "https://www.twitch.tv/videos/1197785574",
+      "https://www.twitch.tv/videos/1198219170",
+      "https://www.twitch.tv/videos/1198335585",
+    ],
+  },
+  {
+    date: [2021, 11, 13],
+    title: "WINNING MCC TWICE IN A ROW!",
+    vod: "https://www.twitch.tv/videos/1204622822",
+  },
+  {
+    date: [2021, 11, 20],
+    title: "Professional Makeup Wearer",
+    vod: "https://www.twitch.tv/videos/1211088663",
   },
 ]
