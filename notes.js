@@ -28,8 +28,8 @@ const notes = [
       "Girl Month donation goals will resume on <b>June 30</b>, starting at $10,000 per month.",
   },
   {
-    date: [2022, 8, 31],
+    date: [2022, 7, 31],
     text:
-      "The Box will reopen after four months, on <b>August 31</b>.",
+      "The Box will reopen after four months, on <b>July 31</b>.",
   },
 ]
