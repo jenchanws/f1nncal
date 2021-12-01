@@ -1,7 +1,8 @@
-const monthRange = [1, 18]
+const monthRange = [1, 20]
 
 const classNameForGoal = goal =>
   (goal.type == "girlMonth") ? ["girl-month-complete", "girl-month-planned"] :
+  (goal.type == "guyMonth") ? ["guy-month-complete", "guy-month-planned"] :
   (goal.type == "break") ? ["break-complete", "break-planned"] :
   (goal.type == "bobs") ? ["bobs-complete", "bobs-planned"] : [null, null]
 
@@ -146,6 +147,7 @@ const populateCalendar = () => {
   currentDiv.className = className
   currentDiv.textContent =
     (currentGoal.type == "girlMonth") ? "Girl Month" :
+    (currentGoal.type == "guyMonth") ? "Guy Month" :
     (currentGoal.type == "break") ? "YouTube Break" :
     (currentGoal.type == "bobs") ? "Bobs Month" : ""
 }

@@ -8,6 +8,8 @@ body.theme-light {
   --blue-light: #bce1f7;
   --red: #ef8181;
   --red-light: #ffaaaa;
+  --pink: #ffc0cb;
+  --pink-light: #ffd6dd;
   --green: #87d059;
   --green-light: #b8dfa0;
   --yellow: #f4f44e;
@@ -23,6 +25,8 @@ body.theme-dark {
   --blue-light: #78a7c3;
   --red: #cb6464;
   --red-light: #cb8181;
+  --pink: #ffaebc;
+  --pink-light: #ffc7d1;
   --green: #73ae4d;
   --green-light: #99bd84;
   --yellow: #efef28;
@@ -253,6 +257,8 @@ header {
 
 .girl-month-complete { background-color: var(--blue); }
 .girl-month-planned { background-color: var(--blue-light); }
+.guy-month-complete { background-color: var(--pink); }
+.guy-month-planned { background-color: var(--pink-light); }
 .break-complete { background-color: var(--red); }
 .break-planned { background-color: var(--red-light); }
 .bobs-complete { background-color: var(--green); }
@@ -261,6 +267,10 @@ header {
 .legend-girl-month {
   background: linear-gradient(to right bottom,
     var(--blue) 50%, var(--blue-light) 50%);
+}
+.legend-guy-month {
+  background: linear-gradient(to right bottom,
+    var(--pink) 50%, var(--pink-light) 50%);
 }
 .legend-break {
   background: linear-gradient(to right bottom,
