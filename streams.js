@@ -1,5 +1,198 @@
 const streams = [
   {
+    date: [2021, 1, 8],
+    title: "Addressing the allegations...",
+    vod: "https://www.youtube.com/watch?v=SFPaDUEQuNU",
+  },
+  {
+    date: [2021, 1, 13],
+    title: "THIS GAME SHOULD BE AN ESPORT",
+    vod: "https://www.youtube.com/watch?v=dpk_6jpwgwk",
+  },
+  {
+    date: [2021, 1, 16],
+    title: "The Start of an Empire | EPIC SMP!",
+    vod: "https://www.youtube.com/watch?v=lnVhDcLjQP8&t=1s",
+  },
+  {
+    date: [2021, 1, 17],
+    title: "At Dawn We Farm. | EPIC SMP!",
+    vod: "https://www.youtube.com/watch?v=ac8Z-ceOvjk",
+  },
+  {
+    date: [2021, 1, 18],
+    title: "I'm Taking OVER | EPIC SMP!",
+    vod: "https://www.youtube.com/watch?v=vC4LxJXPRsE",
+  },
+  {
+    date: [2021, 1, 20],
+    title: "So i did some mining Off Camera... | EPIC SMP!",
+    vod: "https://www.youtube.com/watch?v=HBVSY-C9Vkc",
+  },
+  {
+    date: [2021, 1, 22],
+    title: "Morning Gamers | EPIC SMP!",
+    vod: "https://www.youtube.com/watch?v=KtysDmrWlQM",
+  },
+  {
+    date: [2021, 1, 26],
+    title: "BIG PO BOX OPENING TIME!!!",
+    vod: "https://www.youtube.com/watch?v=3kw9DQcFrGo",
+  },
+  {
+    date: [2021, 1, 27],
+    title: "Automation and Domination | EPIC SMP!",
+    vod: "https://www.youtube.com/watch?v=Y1zwARDuHjY",
+  },
+  {
+    date: [2021, 1, 29],
+    title: "Cosy Minecraf | EPIC SMP!",
+    vod: "https://www.youtube.com/watch?v=_F7Fk83jfNo",
+  },
+  {
+    date: [2021, 2, 12],
+    title: "GIRL MONTH DAY 1! | Eyelash Time fam",
+    vod: "https://www.youtube.com/watch?v=dJnxLPaacEM",
+  },
+  {
+    date: [2021, 2, 15],
+    title: "You Laugh You WOMAN + PO Boxes :)",
+    vod: "https://www.youtube.com/watch?v=1zH18MiaQ8g",
+  },
+  {
+    date: [2021, 2, 17],
+    title: "\"Woman\" Opens PO boxes :)",
+    vod: "https://www.youtube.com/watch?v=BPCKZxspTrE",
+  },
+  {
+    date: [2021, 2, 22],
+    title: "\"Woman\" reviews ur gamer boxes",
+    vod: "https://www.youtube.com/watch?v=cUk_LH_ccJc",
+  },
+  {
+    date: [2021, 3, 4],
+    title: "Im here to be wamen and play minecraft, and im all out of minecraft",
+    vod: "https://www.youtube.com/watch?v=EUTOmtjVsK4",
+  },
+  {
+    date: [2021, 3, 11],
+    title: "i own a crossbow",
+    vod: "https://www.youtube.com/watch?v=gpJfUH65jwk",
+  },
+  {
+    date: [2021, 3, 12],
+    title: "dress up the f1nn",
+    vod: "https://www.youtube.com/watch?v=OURMe782uFw",
+  },
+  {
+    date: [2021, 3, 13],
+    title: "Dream Girl opens PO packages",
+    vod: "https://www.youtube.com/watch?v=B22tWmtDWUI",
+  },
+  {
+    date: [2021, 3, 14],
+    title: "Doing Nails and INTERVIEWING",
+    vod: "https://www.youtube.com/watch?v=KF3OUahPKUM",
+  },
+  {
+    date: [2021, 3, 15],
+    title: "Internet brokey",
+    vod: [
+      "https://www.youtube.com/watch?v=hkuK6i1aJhI",
+      "https://www.youtube.com/watch?v=MinWopfdtCU",
+    ],
+  },
+  {
+    date: [2021, 3, 16],
+    title: "mom said its my turn with the AK47",
+    vod: "https://www.youtube.com/watch?v=kYEsKo1DFwg",
+  },
+  {
+    date: [2021, 3, 20],
+    title: "I am very manly now",
+    vod: "https://www.youtube.com/watch?v=Faqk_5StkyA",
+  },
+  {
+    date: [2021, 3, 21],
+    title: "my thighs have become a meme",
+    vod: "https://www.youtube.com/watch?v=GhTj9-LR9xo",
+  },
+  {
+    date: [2021, 3, 22],
+    title: "Dress Up Time",
+    vod: "https://www.youtube.com/watch?v=ohCRVT2pkTw",
+  },
+  {
+    date: [2021, 3, 26],
+    title: "New Dresses. Me Stream",
+    vod: "https://www.youtube.com/watch?v=EkQ1m4fnCI4",
+  },
+  {
+    date: [2021, 3, 27],
+    title: "Dress up time Mk2 AND P.O BOXES",
+    vod: "https://www.youtube.com/watch?v=u3vgYsofDjk",
+  },
+  {
+    date: [2021, 3, 30],
+    title: "Lets have a sleepover",
+    vod: "https://www.youtube.com/watch?v=xoMOF6ZACOw",
+  },
+  {
+    date: [2021, 4, 4],
+    title: "Bunny Girl Easter :)",
+    vod: "https://www.youtube.com/watch?v=DLzFnBiReVg",
+  },
+  {
+    date: [2021, 4, 5],
+    title: "My MOM does You Laugh You Lose!!",
+    vod: "https://www.youtube.com/watch?v=hA_QcG5a008",
+  },
+  {
+    date: [2021, 4, 7],
+    title: "My Last Day Of Being a Manly Man",
+    vod: "https://www.youtube.com/watch?v=xfm__L1tEBA",
+  },
+  {
+    date: [2021, 4, 8],
+    title: "Trying On The Wedding Dress",
+    vod: "https://www.youtube.com/watch?v=tNbUz94XjfQ",
+  },
+  {
+    date: [2021, 4, 11],
+    title: "INTERVIEWING THE Felix Meme Guy!!!!",
+    vod: "https://www.youtube.com/watch?v=OZ9RVPp6Vy8",
+  },
+  {
+    date: [2021, 4, 12],
+    title: "Finally Playing a \"Horror\" Game IN VR!",
+    vod: "https://www.youtube.com/watch?v=EIo0ZvqzX50",
+  },
+  {
+    date: [2021, 4, 14],
+    title: "Dress Up F1nn!! (I Got New Wigs)",
+    vod: "https://www.youtube.com/watch?v=Sq3bZrL-Re0",
+  },
+  {
+    date: [2021, 4, 20],
+    title: "Doing Nails, Shopping and Looking Hot",
+    vod: "https://www.youtube.com/watch?v=qKDpGgLd76w",
+  },
+  {
+    date: [2021, 4, 27],
+    title: "GIRL MONTH(s) Plans + ooga booga leg hair bad me delete it",
+    vod: "https://www.youtube.com/watch?v=RO54L8QQrv0",
+  },
+  {
+    date: [2021, 4, 28],
+    title: "WENT TO GET ACRYLIC NAILS!! tpying ths is hardd",
+    vod: "https://www.youtube.com/watch?v=dII4_TAZcGQ",
+  },
+  {
+    date: [2021, 4, 30],
+    title: "Rose Birthday!! PO BOXES AND COOL DRESS",
+    vod: "https://www.youtube.com/watch?v=NV07Pt0NmE0",
+  },
+  {
     date: [2021, 5, 5],
     title: "GIRL MONTH!!! Series 1:Episode 1",
     vod: "https://www.youtube.com/watch?v=SUVDuZ3IGtU",

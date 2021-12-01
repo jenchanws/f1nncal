@@ -1,5 +1,20 @@
 const goals = [
   {
+    from: [2021, 2, 12],
+    days: 14,
+    type: "girlMonth",
+  },
+  {
+    from: [2021, 2, 26],
+    days: 6,
+    type: "break",
+  },
+  {
+    from: [2021, 3, 4],
+    days: 14,
+    type: "girlMonth",
+  },
+  {
     from: [2021, 5, 5],
     days: 14,
     type: "girlMonth",
