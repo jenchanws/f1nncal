@@ -1,4 +1,5 @@
-const monthRange = [1, 19]
+const monthRange = [-14, 19]
+const firstMonth = 5
 
 const classNameForGoal = goal =>
   (goal.type == "girlMonth") ? ["girl-month-complete", "girl-month-planned"] :
@@ -27,8 +28,15 @@ const generateMonths = () => {
     generateDays(monthStart.getFullYear(), monthStart.getMonth() + 1,
       monthDiv.querySelector("ol"))
 
-    if (monthStart.getDay() >= 2)
-      monthNameHeader.style = "margin-top: 60px; margin-bottom: -60px"
+    if (monthStart.getMonth() == 0) {
+      monthNameHeader.textContent += " " + monthStart.getFullYear()
+    }
+
+    if (month < firstMonth) {
+      console.log(monthDiv)
+      monthDiv.querySelector(".month").className += " before"
+    }
+
     main.appendChild(monthDiv)
   }
 }
@@ -107,7 +115,7 @@ const populateCalendar = () => {
     let div = document.createElement("div")
 
     let date = new Date(Date.UTC(year, month - 1, day))
-    let dateStr = date.toLocaleString("en-US", { timeZone: "UTC", month: "long", day: "numeric" })
+    let dateStr = date.toLocaleString("en-US", { timeZone: "UTC", month: "long", day: "numeric", year: "numeric" })
     let content
     if (stream.vod) {
       content = `

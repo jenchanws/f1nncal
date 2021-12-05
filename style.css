@@ -67,6 +67,9 @@ header {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 50px;
 }
 
 .header {
@@ -87,9 +90,9 @@ header {
 
 .header h2 {
   font-weight: 500;
-  font-size: 40px;
-  line-height: 40px;
-  letter-spacing: 2.9px;
+  font-size: 35px;
+  line-height: 35px;
+  letter-spacing: 1.5px;
   margin: 0;
 }
 
@@ -109,6 +112,35 @@ header {
   text-decoration: underline;
 }
 
+.toggle-full {
+  font-size: 18px;
+  font-weight: 300;
+  text-align: center;
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+  max-width: 30em;
+  color: var(--brand);
+}
+
+#full {
+  display: none;
+}
+
+.toggle-full:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+#full:checked ~ .toggle-full .full-enabled,
+#full:not(:checked) ~ .toggle-full .full-disabled {
+  display: none;
+}
+
+#full:checked ~ main > .month.before {
+  display: none;
+}
+
 .month {
   grid-row: span 1;
   grid-column: span 1;
@@ -119,6 +151,7 @@ header {
   font-size: 32px;
   margin: 0;
   padding-bottom: 8px;
+  text-align: right;
 }
 
 .month ol {
