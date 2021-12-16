@@ -117,12 +117,14 @@ const populateCalendar = () => {
     let date = new Date(Date.UTC(year, month - 1, day))
     let dateStr = date.toLocaleString("en-US", { timeZone: "UTC", month: "long", day: "numeric", year: "numeric" })
     let content
-    if (stream.vod) {
+    if (stream.vod || stream.vod === null) {
       content = `
         ${dateStr} stream:
         <br><b>${stream.title}</b>`
       if (typeof stream.vod === "string") {
         content += `<br><a href="${stream.vod}">${!!stream.vod.match(/twitch/) ? "Twitch" : "YouTube"} VOD</a>`
+      } else if (stream.vod === null) {
+        content += `<br><i>No VOD available.</i>`
       } else {
         const numVods = stream.vod.length
         stream.vod.forEach((link, i) => {

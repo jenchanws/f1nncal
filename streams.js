@@ -2,10 +2,12 @@ const streams = [
   {
     date: [2019, 7, 25],
     title: "ruining other peoples days",
+    vod: null,
   },
   {
     date: [2019, 9, 10],
     title: "hypixel minecraft skyblock",
+    vod: null,
   },
   {
     date: [2019, 10, 6],
@@ -25,6 +27,7 @@ const streams = [
   {
     date: [2020, 1, 7],
     title: "minecraft smp to kill the trio",
+    vod: null,
   },
   {
     date: [2020, 2, 14],
@@ -39,26 +42,32 @@ const streams = [
   {
     date: [2020, 4, 29],
     title: "minecraft smp beat the dragun",
+    vod: null,
   },
   {
     date: [2020, 4, 30],
     title: "Csgo but this time im a girl",
+    vod: null,
   },
   {
     date: [2020, 5, 1],
     title: "csgo but im a Twitch th*t in training",
+    vod: null,
   },
   {
     date: [2020, 5, 2],
     title: "Far Crying on stream",
+    vod: null,
   },
   {
     date: [2020, 5, 3],
     title: "Counter Strike : Girl Offensive",
+    vod: null,
   },
   {
     date: [2020, 5, 4],
     title: "destroying my friends in Hypickle",
+    vod: null,
   },
   {
     date: [2020, 5, 6],
