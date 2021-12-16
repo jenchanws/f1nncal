@@ -1,5 +1,13 @@
 const streams = [
   {
+    date: [2019, 7, 25],
+    title: "ruining other peoples days",
+  },
+  {
+    date: [2019, 9, 10],
+    title: "hypixel minecraft skyblock",
+  },
+  {
     date: [2019, 10, 6],
     title: "🔴 i made a minecraft server pls look 🔴",
     vod: "https://youtu.be/D43L2Dd2LYE",
@@ -15,6 +23,10 @@ const streams = [
     vod: "https://youtu.be/C-cGOAPcunM",
   },
   {
+    date: [2020, 1, 7],
+    title: "minecraft smp to kill the trio",
+  },
+  {
     date: [2020, 2, 14],
     title: "Minecraft but it's Valentines day and i'm a lonely EGirl",
     vod: "https://youtu.be/V4tC6sNZOJo",
@@ -23,6 +35,30 @@ const streams = [
     date: [2020, 4, 12],
     title: "Minecraft Easter Egg hunt your favourite EGirl $$$",
     vod: "https://youtu.be/Un5B6jEcapA",
+  },
+  {
+    date: [2020, 4, 29],
+    title: "minecraft smp beat the dragun",
+  },
+  {
+    date: [2020, 4, 30],
+    title: "Csgo but this time im a girl",
+  },
+  {
+    date: [2020, 5, 1],
+    title: "csgo but im a Twitch th*t in training",
+  },
+  {
+    date: [2020, 5, 2],
+    title: "Far Crying on stream",
+  },
+  {
+    date: [2020, 5, 3],
+    title: "Counter Strike : Girl Offensive",
+  },
+  {
+    date: [2020, 5, 4],
+    title: "destroying my friends in Hypickle",
   },
   {
     date: [2020, 5, 6],
@@ -920,5 +956,20 @@ const streams = [
     date: [2021, 11, 30],
     title: "Pick My Outfit!! (be nice)",
     vod: "https://www.twitch.tv/videos/1220338211",
+  },
+  {
+    date: [2021, 12, 12],
+    title: "BOYS NIGHT IN (men only)",
+    vod: "https://www.twitch.tv/videos/1231806203",
+  },
+  {
+    date: [2021, 12, 13],
+    title: "TELLING THE TRUTH",
+    vod: "https://www.twitch.tv/videos/1232587980",
+  },
+  {
+    date: [2021, 12, 16],
+    title: "I GOT MY EARS PIERCED",
+    vod: "https://www.twitch.tv/videos/1235209294",
   },
 ]
