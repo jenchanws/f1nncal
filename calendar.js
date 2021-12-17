@@ -1,7 +1,9 @@
-const monthRange = [5, 18]
+const monthRange = [-14, 19]
+const firstMonth = 11
 
 const classNameForGoal = goal =>
   (goal.type == "girlMonth") ? ["girl-month-complete", "girl-month-planned"] :
+  (goal.type == "guyMonth") ? ["guy-month-complete", "guy-month-planned"] :
   (goal.type == "break") ? ["break-complete", "break-planned"] :
   (goal.type == "bobs") ? ["bobs-complete", "bobs-planned"] : [null, null]
 
@@ -29,8 +31,15 @@ const generateMonths = () => {
     generateDays(monthStart.getFullYear(), monthStart.getMonth() + 1,
       monthDiv.querySelector("ol"))
 
-    if (monthStart.getDay() >= 2)
-      monthNameHeader.style = "margin-top: 60px; margin-bottom: -60px"
+    if (monthStart.getMonth() == 0) {
+      monthNameHeader.textContent += " " + monthStart.getFullYear()
+    }
+
+    if (month < firstMonth) {
+      console.log(monthDiv)
+      monthDiv.querySelector(".month").className += " before"
+    }
+
     main.appendChild(monthDiv)
   }
 }
@@ -137,14 +146,16 @@ const populateCalendar = () => {
     let div = document.createElement("div")
 
     let date = new Date(Date.UTC(year, month - 1, day))
-    let dateStr = date.toLocaleString("en-US", { timeZone: "UTC", month: "long", day: "numeric" })
+    let dateStr = date.toLocaleString("en-US", { timeZone: "UTC", month: "long", day: "numeric", year: "numeric" })
     let content
-    if (stream.vod) {
+    if (stream.vod || stream.vod === null) {
       content = `
         ${dateStr} stream:
         <br><b>${stream.title}</b>`
       if (typeof stream.vod === "string") {
         content += `<br><a href="${stream.vod}">${!!stream.vod.match(/twitch/) ? "Twitch" : "YouTube"} VOD</a>`
+      } else if (stream.vod === null) {
+        content += `<br><i>No VOD available.</i>`
       } else {
         const numVods = stream.vod.length
         stream.vod.forEach((link, i) => {
@@ -177,6 +188,7 @@ const populateCalendar = () => {
   currentDiv.className = className
   currentDiv.textContent =
     (currentGoal.type == "girlMonth") ? "Girl Month" :
+    (currentGoal.type == "guyMonth") ? "Guy Month" :
     (currentGoal.type == "break") ? "YouTube Break" :
     (currentGoal.type == "bobs") ? "Bobs Month" : ""
 

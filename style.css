@@ -8,6 +8,8 @@ body.theme-light {
   --blue-light: #bce1f7;
   --red: #ef8181;
   --red-light: #ffaaaa;
+  --pink: #ffc0cb;
+  --pink-light: #ffd6dd;
   --green: #87d059;
   --green-light: #b8dfa0;
   --yellow: #f4f44e;
@@ -23,6 +25,8 @@ body.theme-dark {
   --blue-light: #78a7c3;
   --red: #cb6464;
   --red-light: #cb8181;
+  --pink: #ffaebc;
+  --pink-light: #ffc7d1;
   --green: #73ae4d;
   --green-light: #99bd84;
   --yellow: #efef28;
@@ -63,6 +67,9 @@ header {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 50px;
 }
 
 .header {
@@ -83,9 +90,9 @@ header {
 
 .header h2 {
   font-weight: 500;
-  font-size: 40px;
-  line-height: 40px;
-  letter-spacing: 2.9px;
+  font-size: 35px;
+  line-height: 35px;
+  letter-spacing: 1.5px;
   margin: 0;
 }
 
@@ -105,6 +112,35 @@ header {
   text-decoration: underline;
 }
 
+.toggle-full {
+  font-size: 18px;
+  font-weight: 300;
+  text-align: center;
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+  max-width: 30em;
+  color: var(--brand);
+}
+
+#full {
+  display: none;
+}
+
+.toggle-full:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+#full:checked ~ .toggle-full .full-enabled,
+#full:not(:checked) ~ .toggle-full .full-disabled {
+  display: none;
+}
+
+#full:checked ~ main > .month.before {
+  display: none;
+}
+
 .month {
   grid-row: span 1;
   grid-column: span 1;
@@ -115,6 +151,7 @@ header {
   font-size: 32px;
   margin: 0;
   padding-bottom: 8px;
+  text-align: right;
 }
 
 .month ol {
@@ -265,6 +302,8 @@ header {
 
 .girl-month-complete { background-color: var(--blue); }
 .girl-month-planned { background-color: var(--blue-light); }
+.guy-month-complete { background-color: var(--pink); }
+.guy-month-planned { background-color: var(--pink-light); }
 .break-complete { background-color: var(--red); }
 .break-planned { background-color: var(--red-light); }
 .bobs-complete { background-color: var(--green); }
@@ -273,6 +312,10 @@ header {
 .legend-girl-month {
   background: linear-gradient(to right bottom,
     var(--blue) 50%, var(--blue-light) 50%);
+}
+.legend-guy-month {
+  background: linear-gradient(to right bottom,
+    var(--pink) 50%, var(--pink-light) 50%);
 }
 .legend-break {
   background: linear-gradient(to right bottom,

@@ -16,5 +16,20 @@ const notes = [
     date: [2022, 2, 28],
     text:
       "The Box is projected to reopen on <b>February 28</b>.",
-  }
+  },
+  {
+    date: [2022, 4, 1],
+    text:
+      "The Box will be closed again at the end of the Guy Month, on <b>April 1</b>.",
+  },
+  {
+    date: [2022, 6, 30],
+    text:
+      "Girl Month donation goals will resume on <b>June 30</b>, starting at $10,000 per month.",
+  },
+  {
+    date: [2022, 7, 31],
+    text:
+      "The Box will reopen after four months, on <b>July 31</b>.",
+  },
 ]

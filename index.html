@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" value="width=device-width; initial-scale=1">
-<link rel="stylesheet" href="style.css?v=4">
+<link rel="stylesheet" href="style.css?v=6">
 <link rel="stylesheet" href="https://cdn.sammdot.ca/fonts/BasierSquare.css">
 <link rel="icon" href="icon.png" type="image/png">
 <link rel="apple-touch-icon" href="icon.png" type="image/png">
@@ -22,19 +22,19 @@
 <template id="day-template">
   <li class="day"></li>
 </template>
-<main id="main">
 <header>
   <div class="header">
     <img id="icon" src="icon.png" alt="F1NN5TER">
     <div id="header-text">
       <h1>F1NN5TER</h1>
-      <h2>Goal Calendar</h2>
+      <h2>Stream Calendar</h2>
       <a href="https://github.com/jenchanws/f1nncal">by LittleChaSiu</a>
     </div>
   </div>
   <div class="legend">
     <div class="legend-day legend-girl-month"></div> Girl Months
     <div class="legend-day legend-break"></div> Break
+    <div class="legend-day legend-guy-month"></div> Guy Months
     <div class="legend-day legend-bobs"></div> Bobs
   </div>
   <div class="current">
@@ -45,11 +45,18 @@
   </div>
   
 </header>
+<input type="checkbox" id="full" checked>
+<label for="full" class="toggle-full">
+  <span class="full-disabled">&darr;</span>
+  <span class="full-enabled">&uarr;</span>
+  Full Calendar (from 2019)
+</label>
+<main id="main">
 </main>
-<script type="text/javascript" src="goals.js?v=12"></script>
-<script type="text/javascript" src="notes.js?v=5"></script>
-<script type="text/javascript" src="streams.js?v=12"></script>
-<script type="text/javascript" src="calendar.js?v=10"></script>
+<script type="text/javascript" src="goals.js?v=17"></script>
+<script type="text/javascript" src="notes.js?v=9"></script>
+<script type="text/javascript" src="streams.js?v=17"></script>
+<script type="text/javascript" src="calendar.js?v=16"></script>
 <script type="text/javascript" src="theme.js?v=1"></script>
 <script type="text/javascript">
 generateMonths()

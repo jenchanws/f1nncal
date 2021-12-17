@@ -1,5 +1,40 @@
 const goals = [
   {
+    from: [2020, 8, 17],
+    days: 14,
+    type: "girlMonth",
+  },
+  {
+    from: [2020, 11, 15],
+    days: 10,
+    type: "girlMonth",
+  },
+  {
+    from: [2020, 11, 25],
+    days: 4,
+    type: "break",
+  },
+  {
+    from: [2020, 11, 29],
+    days: 20,
+    type: "girlMonth",
+  },
+  {
+    from: [2021, 2, 12],
+    days: 14,
+    type: "girlMonth",
+  },
+  {
+    from: [2021, 2, 26],
+    days: 6,
+    type: "break",
+  },
+  {
+    from: [2021, 3, 4],
+    days: 14,
+    type: "girlMonth",
+  },
+  {
     from: [2021, 5, 5],
     days: 14,
     type: "girlMonth",
@@ -53,7 +88,7 @@ const goals = [
     from: [2021, 9, 29],
     days: 18,
     type: "girlMonth",
-  },  
+  },
   {
     from: [2021, 10, 17],
     days: 7,
@@ -76,22 +111,22 @@ const goals = [
   },
   {
     from: [2021, 12, 4],
-    days: 6,
+    days: 8,
     type: "break",
   },
   {
-    from: [2021, 12, 10],
+    from: [2021, 12, 12],
     days: 14,
     type: "girlMonth",
   },
   {
-    from: [2021, 12, 24],
+    from: [2021, 12, 26],
     days: 6,
     type: "break",
   },
   {
-    from: [2021, 12, 30],
-    days: 16,
+    from: [2022, 1, 1],
+    days: 14,
     type: "girlMonth",
   },
   {
@@ -111,11 +146,16 @@ const goals = [
   },
   {
     from: [2022, 2, 10],
-    days: 14,
+    days: 19,
     type: "girlMonth",
   },
   {
-    from: [2022, 3, 10],
+    from: [2022, 3, 1],
+    days: 31,
+    type: "guyMonth",
+  },
+  {
+    from: [2022, 4, 1],
     days: 91,
     type: "bobs",
   },
