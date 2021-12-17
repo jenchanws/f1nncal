@@ -884,27 +884,27 @@ const streams = [
   {
     date: [2021, 10, 7],
     title: "I'M IN SPAIN!",
-    vod: "https://www.twitch.tv/videos/1170052127",
+    vod: "https://www.youtube.com/watch?v=UaB2RNsv8Tw",
   },
   {
     date: [2021, 10, 12],
     title: "THIS IS PEAK MALE PERFORMANCE",
-    vod: "https://www.twitch.tv/videos/1174881796",
+    vod: "https://www.youtube.com/watch?v=bin7gHd4uTM",
   },
   {
     date: [2021, 10, 14],
     title: "PAINTING NAILS & Not Being a Ho",
-    vod: "https://www.twitch.tv/videos/1176595477",
+    vod: "https://www.youtube.com/watch?v=Fe35_XP8DB8",
   },
   {
     date: [2021, 10, 15],
     title: "ITS DRESS UP HOURS",
-    vod: "https://www.twitch.tv/videos/1177663373",
+    vod: "https://www.youtube.com/watch?v=-GKINZro7DQ",
   },
   {
     date: [2021, 10, 16],
     title: "HOLESO- WHOLESOME DAY!",
-    vod: "https://www.twitch.tv/videos/1178614524",
+    vod: "https://www.youtube.com/watch?v=eKR296hrHT4",
   },
   {
     date: [2021, 10, 26],
