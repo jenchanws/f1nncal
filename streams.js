@@ -909,12 +909,12 @@ const streams = [
   {
     date: [2021, 10, 26],
     title: "I AM THE PINICLE OF MASCULINITY",
-    vod: "https://www.twitch.tv/videos/1187807249",
+    vod: "https://www.youtube.com/watch?v=TE1qy1eQC1U",
   },
   {
     date: [2021, 10, 27],
     title: "man",
-    vod: "https://www.twitch.tv/videos/1188622017",
+    vod: "https://www.youtube.com/watch?v=s9U96RVt_Ac",
   },
   {
     date: [2021, 10, 29],
@@ -980,5 +980,20 @@ const streams = [
     date: [2021, 12, 16],
     title: "I GOT MY EARS PIERCED",
     vod: "https://www.twitch.tv/videos/1235209294",
+  },
+  {
+    date: [2021, 12, 17],
+    title: "Letting you guys shop for me...",
+    vod: "https://www.twitch.tv/videos/1236199525",
+  },
+  {
+    date: [2021, 12, 22],
+    title: "CHRISTMAS BAKING STREAM!",
+    vod: "https://www.twitch.tv/videos/1240575271",
+  },
+  {
+    date: [2021, 12, 27],
+    title: "CHRISTMAS PRESENTS OPENING!! (*P.O. Boxes*)",
+    vod: "https://www.twitch.tv/videos/1245062393",
   },
 ]
