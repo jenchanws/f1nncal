@@ -9,14 +9,17 @@ const classNameForGoal = goal =>
 
 const monthFormatter = new Intl.DateTimeFormat("en-US", { month: "long" })
 const now = new Date()
+let firstDay = undefined;
 
 const monthTemplate = document.getElementById("month-template").content
 const dayTemplate = document.getElementById("day-template").content
 
 const generateMonths = () => {
   const main = document.getElementById("main")
-
   let year = now.getFullYear()
+
+  //Set first day of counting
+  firstDay = new Date(year, monthRange[0]-1, 1)
 
   for (let month = monthRange[0]; month <= monthRange[1]; month++) {
     let monthStart = new Date(year, month - 1, 1)
@@ -66,7 +69,10 @@ const generateDays = (year, month, monthDiv) => {
 
 const populateCalendar = () => {
   let currentGoal = undefined
-
+  //total girl day counter to calculate percentage
+  let totalGirlDays = 0
+  let isGirlMonth = undefined
+  
   goals.forEach(goal => {
     const [year, month, day] = goal.from
     const goalStart = new Date(year, month - 1, day)
@@ -80,6 +86,13 @@ const populateCalendar = () => {
       dayDiv.className += " " +
         ((date < now) ? completeClassName : plannedClassName)
 
+      if(date < now && goal.type != "break"){ 
+        isGirlMonth = true 
+        totalGirlDays++
+      }
+      else if (date < now) isGirlMonth = false
+            
+
       if (now.getFullYear() == date.getFullYear() &&
           now.getMonth() == date.getMonth() &&
           now.getDate() == date.getDate()) {
@@ -87,7 +100,25 @@ const populateCalendar = () => {
       }
     }
   })
-
+  //Exact start of day
+  const dayStart = new Date(now.getFullYear(), now.getMonth(), now.getDate())
+  //ms to days
+  const oneDay = 1000*60*60*24
+  //progression of day in %
+  const timeOfDay = ((now.getTime() - dayStart.getTime())/oneDay).toFixed(6)
+  //Days since start of recording
+  const daysSinceStart = ((now.getTime() - firstDay.getTime())/oneDay).toFixed(6)
+  //Calculate percentage, add time of day when it is girlmonth to remove countdown issue
+  let girlPercentage = isGirlMonth ? ((+totalGirlDays + +timeOfDay)/daysSinceStart*100) : (totalGirlDays/daysSinceStart*100)
+  
+  //Debugging purposes
+  /*console.log("Today: " + dayStart
+        + "\nCompletion-of-day: " + timeOfDay 
+        + "\nDays-Since-Counting: " + daysSinceStart
+        + "\nGirldays: " + (+totalGirlDays + +timeOfDay)
+        + "\nPercentage: " + girlPercentage.toFixed(6)
+        + "\nGM: " + isGirlMonth)*/
+  
   notes.forEach(note => {
     const [year, month, day] = note.date
     let dayDiv = document.getElementById(`day-${year}-${month}-${day}`)
@@ -160,4 +191,6 @@ const populateCalendar = () => {
     (currentGoal.type == "guyMonth") ? "Guy Month" :
     (currentGoal.type == "break") ? "YouTube Break" :
     (currentGoal.type == "bobs") ? "Bobs Month" : ""
+
+  document.getElementById("percentage").textContent=(girlPercentage.toFixed(2)+"%")
 }

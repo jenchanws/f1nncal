@@ -242,6 +242,18 @@ header {
   font-weight: 500;
 }
 
+.percentage {
+    margin-top: 28px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 300;
+}
+
+#percentage {
+    color: var(--blue);
+    font-weight: 600;
+}
+
 .note, .stream {
   position: relative;
   cursor: pointer;
