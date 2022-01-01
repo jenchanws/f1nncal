@@ -1,3 +1,4 @@
+const startYear = 2021
 const monthRange = [-14, 19]
 const firstMonth = 11
 
@@ -16,7 +17,7 @@ const dayTemplate = document.getElementById("day-template").content
 const generateMonths = () => {
   const main = document.getElementById("main")
 
-  let year = now.getFullYear()
+  let year = startYear
 
   for (let month = monthRange[0]; month <= monthRange[1]; month++) {
     let monthStart = new Date(year, month - 1, 1)
