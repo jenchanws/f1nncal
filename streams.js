@@ -1001,5 +1001,4 @@ const streams = [
     title: "OPENING UP WHAT YOU MADE ME BUY!",
     vod: "https://www.twitch.tv/videos/1260446275",
   },
-  }
 ]
