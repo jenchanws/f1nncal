@@ -32,4 +32,11 @@ const notes = [
     text:
       "The Box will reopen after four months, on <b>July 31</b>.",
   },
+  {
+    date: [2022, 7, 1],
+    text:
+      "This stretch of Girl Months is due to the original schedule " +
+      "being delayed by a few weeks. This part of the schedule is " +
+      "<b>TENTATIVE</b> and very likely to change without notice.",
+  },
 ]

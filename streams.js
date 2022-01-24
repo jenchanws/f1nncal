@@ -1001,4 +1001,9 @@ const streams = [
     title: "OPENING UP WHAT YOU MADE ME BUY!",
     vod: "https://www.twitch.tv/videos/1260446275",
   },
+  {
+    date: [2022, 1, 23],
+    title: "EPIC SMP BEGINNING! SURPRISE STREAM",
+    vod: "https://www.twitch.tv/videos/1273845875",
+  },
 ]
