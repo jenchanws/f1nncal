@@ -950,33 +950,32 @@ const streams = [
     vod: [
       "https://www.youtube.com/watch?v=6YRlsZ4L6lw",
       "https://www.youtube.com/watch?v=echVA3C9JUs",
-      // "https://www.twitch.tv/videos/1198335585",
     ],
   },
   {
     date: [2021, 11, 13],
     title: "WINNING MCC TWICE IN A ROW!",
-    vod: "https://www.twitch.tv/videos/1204622822",
+    vod: "https://www.youtube.com/watch?v=zs7fmUBxmFs",
   },
   {
     date: [2021, 11, 20],
     title: "Professional Makeup Wearer",
-    vod: "https://www.twitch.tv/videos/1211088663",
+    vod: "https://www.youtube.com/watch?v=--ZjCY7Qm8M",
   },
   {
     date: [2021, 11, 21],
     title: "VR WITH MODS STREAMY",
-    vod: "https://www.twitch.tv/videos/1212195481",
+    vod: "https://www.youtube.com/watch?v=9vUQYz8pS1Y",
   },
   {
     date: [2021, 11, 25],
     title: "CURSED CONTENT AHEAD",
-    vod: "https://www.twitch.tv/videos/1215768389",
+    vod: "https://www.youtube.com/watch?v=pXod3mhKwg4",
   },
   {
     date: [2021, 11, 27],
     title: "I AM IN GERMANY!!!! (drinking)",
-    vod: "https://www.twitch.tv/videos/1217576553",
+    vod: "https://www.youtube.com/watch?v=FG-XFVxPIgU",
   },
   {
     date: [2021, 11, 30],
