@@ -1022,4 +1022,9 @@ const streams = [
     title: "EPIC SMP BEGINNING! SURPRISE STREAM",
     vod: "https://www.twitch.tv/videos/1273845875",
   },
+  {
+    date: [2022, 1, 25],
+    title: "TESTOSTERONE FILLED STREAM! - EPIC SMP",
+    vod: "https://www.twitch.tv/videos/1275718942",
+  },
 ];
