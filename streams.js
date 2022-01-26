@@ -752,6 +752,11 @@ const streams = [
     vod: "https://www.youtube.com/watch?v=9z_0mqoLJcg",
   },
   {
+    date: [2021, 5, 30],
+    title: "GOOD MORNING i have Bad Life Advice for you",
+    vod: "https://www.youtube.com/watch?v=-CakZSg50U0",
+  },
+  {
     date: [2021, 5, 31],
     title: '💦 "HOT" "TUB" 💦 STREAM!!!',
     vod: "https://www.youtube.com/watch?v=w31wvdo8Ko8",
