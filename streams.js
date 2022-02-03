@@ -980,7 +980,7 @@ const streams = [
   {
     date: [2021, 11, 30],
     title: "Pick My Outfit!! (be nice)",
-    vod: "https://www.twitch.tv/videos/1220338211",
+    vod: "https://www.youtube.com/watch?v=WzPnR8L0JjE",
   },
   {
     date: [2021, 12, 12],
