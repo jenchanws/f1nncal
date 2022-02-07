@@ -1027,4 +1027,9 @@ const streams = [
     title: "TESTOSTERONE FILLED STREAM! - EPIC SMP",
     vod: "https://www.twitch.tv/videos/1275718942",
   },
+  {
+    date: [2022, 2, 7],
+    title: "2022 YEAR OF THE MANLY MAN",
+    vod: "https://www.twitch.tv/videos/1290485714",
+  },
 ];
