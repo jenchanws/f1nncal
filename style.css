@@ -322,3 +322,8 @@ header {
   background: linear-gradient(to right bottom,
     var(--green) 50%, var(--green-light) 50%);
 }
+
+.legend-note, .legend-stream {
+  background: var(--day);
+  border: 1px solid var(--text);
+}
