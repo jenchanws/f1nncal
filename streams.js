@@ -985,12 +985,12 @@ const streams = [
   {
     date: [2021, 12, 12],
     title: "BOYS NIGHT IN (men only)",
-    vod: "https://www.twitch.tv/videos/1231806203",
+    vod: "https://www.youtube.com/watch?v=FbxBFgQHqwA",
   },
   {
     date: [2021, 12, 13],
     title: "TELLING THE TRUTH",
-    vod: "https://www.twitch.tv/videos/1232587980",
+    vod: "https://www.youtube.com/watch?v=Qxyn3NHO9_Q",
   },
   {
     date: [2021, 12, 16],
@@ -1036,5 +1036,10 @@ const streams = [
     date: [2022, 2, 8],
     title: "SECRETARY HOURS",
     vod: "https://www.twitch.tv/videos/1291650566",
+  },
+  {
+    date: [2022, 2, 11],
+    title: "INCREDIBLY CLASSY LADY",
+    vod: "https://www.twitch.tv/videos/1294839038",
   },
 ];
