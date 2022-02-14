@@ -1042,4 +1042,9 @@ const streams = [
     title: "INCREDIBLY CLASSY LADY",
     vod: "https://www.twitch.tv/videos/1294839038",
   },
+  {
+    date: [2022, 2, 14],
+    title: "Be My Valentine for the Low Low Price of Just $4.99!!",
+    vod: "https://www.twitch.tv/videos/1298180484",
+  },
 ];
