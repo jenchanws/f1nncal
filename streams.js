@@ -995,12 +995,12 @@ const streams = [
   {
     date: [2021, 12, 16],
     title: "I GOT MY EARS PIERCED",
-    vod: "https://www.twitch.tv/videos/1235209294",
+    vod: "https://www.youtube.com/watch?v=WC8aezsTtII",
   },
   {
     date: [2021, 12, 17],
     title: "Letting you guys shop for me...",
-    vod: "https://www.twitch.tv/videos/1236199525",
+    vod: "https://www.youtube.com/watch?v=tZs79bkkFyU",
   },
   {
     date: [2021, 12, 22],
