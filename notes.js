@@ -13,11 +13,6 @@ const notes = [
       "F1NN's eyelash person being unavailable.",
   },
   {
-    date: [2022, 2, 28],
-    text:
-      "The Box is projected to reopen on <b>February 28</b>.",
-  },
-  {
     date: [2022, 4, 1],
     text:
       "The Box will be closed again at the end of the Guy Month, on <b>April 1</b>.",
