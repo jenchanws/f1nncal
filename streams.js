@@ -1057,4 +1057,9 @@ const streams = [
     title: "PIKACHU BUT WITH BOOBA",
     vod: "https://www.twitch.tv/videos/1302385735",
   },
+  {
+    date: [2022, 2, 28],
+    title: "OPENING THE BOX",
+    vod: "https://www.twitch.tv/videos/1411103091",
+  },
 ];
