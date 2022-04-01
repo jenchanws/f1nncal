@@ -13,9 +13,9 @@ const notes = [
       "F1NN's eyelash person being unavailable.",
   },
   {
-    date: [2022, 4, 1],
+    date: [2022, 4, 10],
     text:
-      "The Box will be closed again at the end of the Guy Month, on <b>April 1</b>.",
+      "The Box will be closed again at the end of the Guy Month, on <b>April 10</b>.",
   },
   {
     date: [2022, 6, 30],
@@ -23,15 +23,8 @@ const notes = [
       "Girl Month donation goals will resume on <b>June 30</b>, starting at $10,000 per month.",
   },
   {
-    date: [2022, 7, 31],
+    date: [2022, 8, 10],
     text:
-      "The Box will reopen after four months, on <b>July 31</b>.",
-  },
-  {
-    date: [2022, 7, 1],
-    text:
-      "This stretch of Girl Months is due to the original schedule " +
-      "being delayed by a few weeks. This part of the schedule is " +
-      "<b>TENTATIVE</b> and very likely to change without notice.",
+      "The Box will reopen after four months, on <b>August 10</b>.",
   },
 ]
