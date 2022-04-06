@@ -1,75 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" value="width=device-width; initial-scale=1">
-<meta property="og:title" content="F1NN5TER Stream Calendar">
-<meta property="og:type" content="website">
-<meta property="og:description" content="Calendar of F1NN5TER's past Twitch streams, and upcoming Girl Month goals.">
-<meta property="og:image" content="https://repository-images.githubusercontent.com/369418830/0f887480-b9cc-11eb-90f4-85cd55967b31">
-<meta property="og:image:type" content="image/png">
-<meta property="og:image:width" content="1280">
-<meta property="og:image:height" content="640">
-<meta property="og:site_name" content="Is It Girl Month?">
-<link rel="stylesheet" href="style.css?v=8">
-<link rel="stylesheet" href="https://cdn.sammdot.ca/fonts/BasierSquare.css">
-<link rel="icon" href="icon.png" type="image/png">
-<link rel="apple-touch-icon" href="icon.png" type="image/png">
-<script src="https://unpkg.com/@popperjs/core@2/dist/umd/popper.min.js"></script>
-<script src="https://unpkg.com/tippy.js@6/dist/tippy-bundle.umd.js"></script>
-<script src="https://twemoji.maxcdn.com/v/latest/twemoji.min.js" crossorigin="anonymous"></script>
-<title>Is It Girl Month?</title>
-</head>
-<body>
-<template id="month-template">
-  <div class="month">
-    <h3></h3>
-    <ol></ol>
-  </div>
-</template>
-<template id="day-template">
-  <li class="day"></li>
-</template>
-<header>
-  <div class="header">
-    <img id="icon" src="icon.png" alt="F1NN5TER">
-    <div id="header-text">
-      <h1>F1NN5TER</h1>
-      <h2>Stream Calendar</h2>
-      <a href="https://github.com/jenchanws/f1nncal">by LittleChaSiu</a>
-    </div>
-  </div>
-  <div class="legend">
-    <div class="legend-day legend-girl-month"></div> Girl Months
-    <div class="legend-day legend-break"></div> Break
-    <div class="legend-day legend-guy-month"></div> Guy Months
-    <div class="legend-day legend-bobs"></div> Bobs
-    <div class="legend-day legend-note note"></div> Note
-    <div class="legend-day legend-stream stream"></div> Stream
-  </div>
-  <div class="current">
-    It is currently a <span id="current">&nbsp;</span>
-  </div>
-  <div class="notice">
-    Schedules are <b>TENTATIVE</b> and<br>likely to change without notice.
-  </div>
-</header>
-<input type="checkbox" id="full" checked>
-<label for="full" class="toggle-full">
-  <span class="full-disabled">&darr;</span>
-  <span class="full-enabled">&uarr;</span>
-  Full Calendar (from 2019)
-</label>
-<main id="main">
-</main>
-<script type="text/javascript" src="goals.js?v=23"></script>
-<script type="text/javascript" src="notes.js?v=12"></script>
-<script type="text/javascript" src="streams.js?v=34"></script>
-<script type="text/javascript" src="calendar.js?v=20"></script>
-<script type="text/javascript" src="theme.js?v=1"></script>
-<script type="text/javascript">
-generateMonths()
-populateCalendar()
-</script>
-</body>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" value="width=device-width; initial-scale=1" />
+    <meta property="og:title" content="F1NN5TER Stream Calendar" />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:description"
+      content="Calendar of F1NN5TER's past Twitch streams, and upcoming Girl Month goals."
+    />
+    <meta
+      property="og:image"
+      content="https://repository-images.githubusercontent.com/369418830/0f887480-b9cc-11eb-90f4-85cd55967b31"
+    />
+    <meta property="og:image:type" content="image/png" />
+    <meta property="og:image:width" content="1280" />
+    <meta property="og:image:height" content="640" />
+    <meta property="og:site_name" content="Is It Girl Month?" />
+    <link rel="stylesheet" href="style.css?v=8" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.sammdot.ca/fonts/BasierSquare.css"
+    />
+    <link rel="icon" href="icon.png" type="image/png" />
+    <link rel="apple-touch-icon" href="icon.png" type="image/png" />
+    <script src="https://unpkg.com/@popperjs/core@2/dist/umd/popper.min.js"></script>
+    <script src="https://unpkg.com/tippy.js@6/dist/tippy-bundle.umd.js"></script>
+    <script
+      src="https://twemoji.maxcdn.com/v/latest/twemoji.min.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Is It Girl Month?</title>
+  </head>
+  <body>
+    <template id="month-template">
+      <div class="month">
+        <h3></h3>
+        <ol></ol>
+      </div>
+    </template>
+    <template id="day-template">
+      <li class="day"></li>
+    </template>
+    <header>
+      <div class="header">
+        <img id="icon" src="icon.png" alt="F1NN5TER" />
+        <div id="header-text">
+          <h1>F1NN5TER</h1>
+          <h2>Stream Calendar</h2>
+          <a href="https://github.com/jenchanws/f1nncal">by LittleChaSiu</a>
+        </div>
+      </div>
+      <div class="legend">
+        <div class="legend-day legend-girl-month"></div>
+        Girl Months
+        <div class="legend-day legend-break"></div>
+        Break
+        <div class="legend-day legend-guy-month"></div>
+        Guy Months
+        <div class="legend-day legend-bobs"></div>
+        Bobs
+        <div class="legend-day legend-note note"></div>
+        Note
+        <div class="legend-day legend-stream stream"></div>
+        Stream
+      </div>
+      <div class="current">
+        It is currently a <span id="current">&nbsp;</span>
+      </div>
+      <div class="notice">
+        Schedules are <b>TENTATIVE</b> and<br />likely to change without notice.
+      </div>
+    </header>
+    <input type="checkbox" id="full" checked />
+    <label for="full" class="toggle-full">
+      <span class="full-disabled">&darr;</span>
+      <span class="full-enabled">&uarr;</span>
+      Full Calendar (from 2019)
+    </label>
+    <main id="main"></main>
+    <script type="text/javascript" src="goals.js?v=23"></script>
+    <script type="text/javascript" src="notes.js?v=12"></script>
+    <script type="text/javascript" src="streams.js?v=35"></script>
+    <script type="text/javascript" src="calendar.js?v=20"></script>
+    <script type="text/javascript" src="theme.js?v=1"></script>
+    <script type="text/javascript">
+      generateMonths();
+      populateCalendar();
+    </script>
+  </body>
 </html>

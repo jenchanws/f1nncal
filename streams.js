@@ -1062,4 +1062,9 @@ const streams = [
     title: "OPENING THE BOX",
     vod: "https://www.twitch.tv/videos/1411103091",
   },
+  {
+    date: [2022, 4, 6],
+    title: "GIGA CHAD WOOD CHOPPER 💦 Shameless 💦",
+    vod: "https://www.twitch.tv/videos/1448283980",
+  },
 ];
