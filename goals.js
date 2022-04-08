@@ -156,11 +156,31 @@ const goals = [
   },
   {
     from: [2022, 5, 17],
-    days: 12,
+    days: 14,
     type: "girlMonth",
   },
   {
-    from: [2022, 6, 12],
+    from: [2022, 5, 30],
+    days: 6,
+    type: "break",
+  },
+  {
+    from: [2022, 6, 5],
+    days: 14,
+    type: "girlMonth",
+  },
+  {
+    from: [2022, 6, 19],
+    days: 6,
+    type: "break",
+  },
+  {
+    from: [2022, 6, 25],
+    days: 14,
+    type: "girlMonth",
+  },
+  {
+    from: [2022, 7, 24],
     days: 91,
     type: "bobs",
   },
