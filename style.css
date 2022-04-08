@@ -6,6 +6,8 @@ body.theme-light {
   --day: white;
   --blue: #76bfea;
   --blue-light: #bce1f7;
+  --blue-stripe: #8ccaed;
+  --blue-light-stripe: #d2ebf9;
   --red: #ef8181;
   --red-light: #ffaaaa;
   --pink: #ffc0cb;
@@ -14,6 +16,8 @@ body.theme-light {
   --green-light: #b8dfa0;
   --yellow: #f4f44e;
   --purple: #a991ff;
+
+  --stripe-angle: 30deg;
 }
 
 body.theme-dark {
@@ -23,6 +27,8 @@ body.theme-dark {
   --day: #626262;
   --blue: #459cd0;
   --blue-light: #78a7c3;
+  --blue-stripe: #58a7d5;
+  --blue-light-stripe: #8bb3cb;
   --red: #cb6464;
   --red-light: #cb8181;
   --pink: #ffaebc;
@@ -297,6 +303,16 @@ header {
   margin-bottom: 2px;
 }
 
+.girly-girl-month-complete {
+  background: repeating-linear-gradient(var(--stripe-angle),
+    var(--blue), var(--blue) 10px,
+    var(--blue-stripe) 10px, var(--blue-stripe) 20px);
+}
+.girly-girl-month-planned {
+  background: repeating-linear-gradient(var(--stripe-angle),
+    var(--blue-light), var(--blue-light) 10px,
+    var(--blue-light-stripe) 10px, var(--blue-light-stripe) 20px);
+}
 .girl-month-complete { background-color: var(--blue); }
 .girl-month-planned { background-color: var(--blue-light); }
 .guy-month-complete { background-color: var(--pink); }
