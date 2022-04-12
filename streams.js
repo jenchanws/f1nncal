@@ -1067,4 +1067,9 @@ const streams = [
     title: "GIGA CHAD WOOD CHOPPER 💦 Shameless 💦",
     vod: "https://www.twitch.tv/videos/1448283980",
   },
+  {
+    date: [2022, 4, 11],
+    title: "GIGA CHAD RETURNS",
+    vod: "https://www.twitch.tv/videos/1453141356",
+  },
 ];
