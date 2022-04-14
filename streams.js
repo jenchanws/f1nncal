@@ -1005,42 +1005,42 @@ const streams = [
   {
     date: [2021, 12, 22],
     title: "CHRISTMAS BAKING STREAM!",
-    vod: "https://www.twitch.tv/videos/1240575271",
+    vod: "https://www.youtube.com/watch?v=ukzCVvkVkpw",
   },
   {
     date: [2021, 12, 27],
     title: "CHRISTMAS PRESENTS OPENING!! (*P.O. Boxes*)",
-    vod: "https://www.twitch.tv/videos/1245062393",
+    vod: "https://www.youtube.com/watch?v=atki3kIAp30",
   },
   {
     date: [2022, 1, 11],
     title: "OPENING UP WHAT YOU MADE ME BUY!",
-    vod: "https://www.twitch.tv/videos/1260446275",
+    vod: "https://www.youtube.com/watch?v=pMi1U9o9xBs",
   },
   {
     date: [2022, 1, 23],
     title: "EPIC SMP BEGINNING! SURPRISE STREAM",
-    vod: "https://www.twitch.tv/videos/1273845875",
+    vod: "https://www.youtube.com/watch?v=n_48n_EDbgs",
   },
   {
     date: [2022, 1, 25],
     title: "TESTOSTERONE FILLED STREAM! - EPIC SMP",
-    vod: "https://www.twitch.tv/videos/1275718942",
+    vod: "https://www.youtube.com/watch?v=CIKv8TDLMg8",
   },
   {
     date: [2022, 2, 7],
     title: "2022 YEAR OF THE MANLY MAN",
-    vod: "https://www.twitch.tv/videos/1290485714",
+    vod: "https://www.youtube.com/watch?v=-PbLi6TfTus",
   },
   {
     date: [2022, 2, 8],
     title: "SECRETARY HOURS",
-    vod: "https://www.twitch.tv/videos/1291650566",
+    vod: "https://www.youtube.com/watch?v=8wT7tefEu8o",
   },
   {
     date: [2022, 2, 11],
     title: "INCREDIBLY CLASSY LADY",
-    vod: "https://www.twitch.tv/videos/1294839038",
+    vod: "https://www.youtube.com/watch?v=uzK4UhjyHRY",
   },
   {
     date: [2022, 2, 14],
