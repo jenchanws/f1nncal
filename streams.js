@@ -1072,4 +1072,14 @@ const streams = [
     title: "GIGA CHAD RETURNS",
     vod: "https://www.twitch.tv/videos/1453141356",
   },
+  {
+    date: [2022, 4, 14],
+    title: "IT BEGINS AGAIN 💅 GIRLY GIRL MONTH 💄",
+    vod: [
+      "https://www.twitch.tv/videos/1455990588",
+      "https://www.twitch.tv/videos/1456079408",
+      "https://www.twitch.tv/videos/1456082221",
+      "https://www.twitch.tv/videos/1456088368",
+    ],
+  },
 ];
