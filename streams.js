@@ -1045,12 +1045,12 @@ const streams = [
   {
     date: [2022, 2, 14],
     title: "Be My Valentine for the Low Low Price of Just $4.99!!",
-    vod: "https://www.twitch.tv/videos/1298180484",
+    vod: "https://www.youtube.com/watch?v=3pnOiQe2zS4",
   },
   {
     date: [2022, 2, 16],
     title: "CONFESS YOUR DEEPEST DARKEST SECRETS",
-    vod: "https://www.twitch.tv/videos/1300215237",
+    vod: "https://www.youtube.com/watch?v=fwp19ecqABY",
   },
   {
     date: [2022, 2, 18],
@@ -1081,5 +1081,10 @@ const streams = [
       "https://www.twitch.tv/videos/1456082221",
       "https://www.twitch.tv/videos/1456088368",
     ],
+  },
+  {
+    date: [2022, 4, 17],
+    title: "HAPPY EGG DAY! 🐰 🥚",
+    vod: "https://www.twitch.tv/videos/1458985567",
   },
 ];
