@@ -827,6 +827,9 @@ const streams = [
     date: [2021, 7, 15],
     title: "Got some bad news",
     vod: "https://www.youtube.com/watch?v=1bmDVXmxIck",
+    note:
+      "F1NN announced that he tested positive for COVID on this stream. " +
+      "For this reason, the break was extended indefinitely until he recovered.",
   },
   {
     date: [2021, 7, 18],
@@ -1087,4 +1090,10 @@ const streams = [
     title: "HAPPY EGG DAY! 🐰 🥚",
     vod: "https://www.twitch.tv/videos/1458985567",
   },
+  {
+    date: [2022, 4, 18],
+    title: "THE GRINDSET NEVER STOPS! | GGM Day 624",
+    vod: "https://www.twitch.tv/videos/1460058041",
+    note: "<a href=\"http://amoyamoyamoya.com/wp/wp-content/uploads/2022/04/20220418-Council_v_Evergreen-Redacted.pdf\">Official Transcript of the on-stream court trial</a>"
+  }
 ];

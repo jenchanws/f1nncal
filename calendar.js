@@ -137,6 +137,10 @@ const populateCalendar = () => {
       content = `Stream scheduled:<br><i>${stream.title}</i>`
     }
 
+    if (stream.note) {
+      content += `<hr>${stream.note}`
+    }
+
     div.innerHTML = content
     twemoji.parse(div)
 
