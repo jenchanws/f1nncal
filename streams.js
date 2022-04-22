@@ -1058,7 +1058,7 @@ const streams = [
   {
     date: [2022, 2, 18],
     title: "PIKACHU BUT WITH BOOBA",
-    vod: "https://www.twitch.tv/videos/1302385735",
+    vod: "https://www.youtube.com/watch?v=qyQjrnZedOk",
   },
   {
     date: [2022, 2, 28],
@@ -1095,5 +1095,10 @@ const streams = [
     title: "THE GRINDSET NEVER STOPS! | GGM Day 624",
     vod: "https://www.twitch.tv/videos/1460058041",
     note: "<a href=\"http://amoyamoyamoya.com/wp/wp-content/uploads/2022/04/20220418-Council_v_Evergreen-Redacted.pdf\">Official Transcript of the on-stream court trial</a>"
-  }
+  },
+  {
+    date: [2022, 4, 21],
+    title: "IM FEELIN 22 (🎉its my birthday🥳)",
+    vod: "https://www.twitch.tv/videos/1462971106",
+  },
 ];
