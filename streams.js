@@ -1101,4 +1101,14 @@ const streams = [
     title: "IM FEELIN 22 (🎉its my birthday🥳)",
     vod: "https://www.twitch.tv/videos/1462971106",
   },
+  {
+    date: [2022, 4, 25],
+    title: "MY WORST IDEA YET",
+    vod: "https://www.twitch.tv/videos/1466771964",
+  },
+  {
+    date: [2022, 4, 27],
+    title: "MY BEST IDEA YET !loot",
+    vod: "https://www.twitch.tv/videos/1468687933",
+  },
 ];
