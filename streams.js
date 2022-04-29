@@ -1063,7 +1063,7 @@ const streams = [
   {
     date: [2022, 2, 28],
     title: "OPENING THE BOX",
-    vod: "https://www.twitch.tv/videos/1411103091",
+    vod: "https://www.youtube.com/watch?v=EfBnKDeLqbY",
   },
   {
     date: [2022, 4, 6],
