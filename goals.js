@@ -9,7 +9,7 @@ const goals = [
     from: [2020, 11, 15],
     days: 10,
     type: "girlMonth",
-    number: "1a",
+    number: "1-1a",
   },
   {
     from: [2020, 11, 25],
