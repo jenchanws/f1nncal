@@ -177,6 +177,7 @@ header {
   font-weight: 400;
   border: 1px solid var(--text);
   background-color: var(--day);
+  position: relative;
 }
 
 .day.row-1 { grid-row: 1; }
@@ -210,6 +211,18 @@ header {
 .day.row-last {
   margin-bottom: -1px;
   height: 61px;
+}
+
+.girl-month-number {
+  display: inline-block;
+  position: absolute;
+  color: var(--day);
+  font-weight: bold;
+  font-size: 1.3em;
+  padding: 2px 8px;
+  width: 100%;
+  text-align: center;
+  bottom: 12px;
 }
 
 .legend {

@@ -3,11 +3,13 @@ const goals = [
     from: [2020, 8, 17],
     days: 14,
     type: "girlMonth",
+    number: "GWk",
   },
   {
     from: [2020, 11, 15],
     days: 10,
     type: "girlMonth",
+    number: "1a",
   },
   {
     from: [2020, 11, 25],
@@ -18,11 +20,13 @@ const goals = [
     from: [2020, 11, 29],
     days: 20,
     type: "girlMonth",
+    number: "1-1b",
   },
   {
     from: [2021, 2, 12],
     days: 14,
     type: "girlMonth",
+    number: "1-2a",
   },
   {
     from: [2021, 2, 26],
@@ -33,11 +37,13 @@ const goals = [
     from: [2021, 3, 4],
     days: 14,
     type: "girlMonth",
+    number: "1-2b",
   },
   {
     from: [2021, 5, 5],
     days: 14,
     type: "girlMonth",
+    number: "2-1a",
   },
   {
     from: [2021, 5, 19],
@@ -48,6 +54,7 @@ const goals = [
     from: [2021, 5, 25],
     days: 15,
     type: "girlMonth",
+    number: "2-1b",
   },
   {
     from: [2021, 6, 9],
@@ -58,6 +65,7 @@ const goals = [
     from: [2021, 6, 18],
     days: 13,
     type: "girlMonth",
+    number: "2-2a",
   },
   {
     from: [2021, 7, 1],
@@ -68,6 +76,7 @@ const goals = [
     from: [2021, 8, 9],
     days: 14,
     type: "girlMonth",
+    number: "2-2b",
   },
   {
     from: [2021, 8, 23],
@@ -78,6 +87,7 @@ const goals = [
     from: [2021, 8, 28],
     days: 14,
     type: "girlMonth",
+    number: "2-3a",
   },
   {
     from: [2021, 9, 17],
@@ -88,6 +98,7 @@ const goals = [
     from: [2021, 9, 29],
     days: 18,
     type: "girlMonth",
+    number: "2-3b",
   },
   {
     from: [2021, 10, 17],
@@ -98,6 +109,7 @@ const goals = [
     from: [2021, 10, 24],
     days: 17,
     type: "girlMonth",
+    number: "2-4a",
   },
   {
     from: [2021, 11, 7],
@@ -108,6 +120,7 @@ const goals = [
     from: [2021, 11, 20],
     days: 14,
     type: "girlMonth",
+    number: "2-4b",
   },
   {
     from: [2021, 12, 4],
@@ -118,6 +131,7 @@ const goals = [
     from: [2021, 12, 12],
     days: 18,
     type: "girlMonth",
+    number: "2-5a",
   },
   {
     from: [2021, 12, 30],
@@ -128,6 +142,7 @@ const goals = [
     from: [2022, 2, 6],
     days: 13,
     type: "girlMonth",
+    number: "2-5b",
   },
   {
     from: [2022, 3, 1],
@@ -138,6 +153,7 @@ const goals = [
     from: [2022, 4, 14],
     days: 14,
     type: "girlyGirlMonth",
+    number: "GGa",
   },
   {
     from: [2022, 4, 28],
@@ -148,6 +164,7 @@ const goals = [
     from: [2022, 5, 8],
     days: 14,
     type: "girlyGirlMonth",
+    number: "GGb",
   },
   {
     from: [2022, 5, 22],
@@ -158,6 +175,7 @@ const goals = [
     from: [2022, 5, 28],
     days: 14,
     type: "girlMonth",
+    number: "2-6a",
   },
   {
     from: [2022, 6, 10],
@@ -168,6 +186,7 @@ const goals = [
     from: [2022, 6, 16],
     days: 14,
     type: "girlMonth",
+    number: "2-6b",
   },
   {
     from: [2022, 6, 30],
@@ -178,6 +197,7 @@ const goals = [
     from: [2022, 7, 6],
     days: 14,
     type: "girlMonth",
+    number: "2-7a",
   },
   {
     from: [2022, 7, 31],

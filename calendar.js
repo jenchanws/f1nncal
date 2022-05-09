@@ -35,7 +35,6 @@ const generateMonths = () => {
     }
 
     if (month < firstMonth) {
-      console.log(monthDiv)
       monthDiv.querySelector(".month").className += " before"
     }
 
@@ -86,6 +85,14 @@ const populateCalendar = () => {
           now.getMonth() == date.getMonth() &&
           now.getDate() == date.getDate()) {
         currentGoal = goal
+      }
+
+      if (!!goal.number && d === 0) {
+        console.log(goal, goal.number)
+        let numberDiv = document.createElement("div")
+        numberDiv.className = "girl-month-number"
+        numberDiv.textContent = goal.number
+        dayDiv.appendChild(numberDiv)
       }
     }
   })
