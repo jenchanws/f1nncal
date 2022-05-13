@@ -1111,4 +1111,14 @@ const streams = [
     title: "MY BEST IDEA YET !loot",
     vod: "https://www.twitch.tv/videos/1468687933",
   },
-];
+  {
+    date: [2022, 5, 10],
+    title: "GIGA GAMER GIRL MONTH UPDATES! *new nails too*",
+    vod: "https://www.twitch.tv/videos/1480337833",
+  },
+  {
+    date: [2022, 5, 12],
+    title: "Large Bobs ✔️ Brains ❌",
+    vod: "https://www.twitch.tv/videos/1482128486",
+  }
+]
