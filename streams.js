@@ -1126,4 +1126,9 @@ const streams = [
     title: "ITS TOO DARN 🔥HOT🔥",
     vod: "https://www.twitch.tv/videos/1483986891",
   },
+  {
+    date: [2022, 5, 19],
+    title: "EGirl In Training - Part #5872",
+    vod: "https://www.twitch.tv/videos/1488344367",
+  },
 ]
