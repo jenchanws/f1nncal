@@ -2,12 +2,18 @@ const startYear = 2021
 const monthRange = [-14, 22]
 const firstMonth = 13
 
-const classNameForGoal = goal =>
-  (goal.type == "girlyGirlMonth") ? ["girly-girl-month-complete", "girly-girl-month-planned"] :
-  (goal.type == "girlMonth") ? ["girl-month-complete", "girl-month-planned"] :
-  (goal.type == "guyMonth") ? ["guy-month-complete", "guy-month-planned"] :
-  (goal.type == "break") ? ["break-complete", "break-planned"] :
-  (goal.type == "bobs") ? ["bobs-complete", "bobs-planned"] : [null, null]
+const classNameForGoal = (goal) =>
+  goal.type == "girlyGirlMonth"
+    ? ["girly-girl-month-complete", "girly-girl-month-planned"]
+    : goal.type == "girlMonth"
+    ? ["girl-month-complete", "girl-month-planned"]
+    : goal.type == "guyMonth"
+    ? ["guy-month-complete", "guy-month-planned"]
+    : goal.type == "break"
+    ? ["break-complete", "break-planned"]
+    : goal.type == "bobs"
+    ? ["bobs-complete", "bobs-planned"]
+    : [null, null]
 
 const monthFormatter = new Intl.DateTimeFormat("en-US", { month: "long" })
 const now = new Date()
@@ -27,8 +33,11 @@ const generateMonths = () => {
     let monthDiv = monthTemplate.cloneNode(true)
     let monthNameHeader = monthDiv.querySelector("h3")
     monthNameHeader.textContent = monthName
-    generateDays(monthStart.getFullYear(), monthStart.getMonth() + 1,
-      monthDiv.querySelector("ol"))
+    generateDays(
+      monthStart.getFullYear(),
+      monthStart.getMonth() + 1,
+      monthDiv.querySelector("ol")
+    )
 
     if (monthStart.getMonth() == 0) {
       monthNameHeader.textContent += " " + monthStart.getFullYear()
@@ -44,21 +53,21 @@ const generateMonths = () => {
 
 const generateDays = (year, month, monthDiv) => {
   const numberOfDays = new Date(year, month, 0).getDate()
-  
+
   let row = 1
   for (let day = 1; day <= numberOfDays; day++) {
     const column = new Date(year, month - 1, day).getDay() + 1
     if (column == 1 && day != 1) row++
-    
+
     let dayDiv = dayTemplate.cloneNode(true)
     let dayCell = dayDiv.querySelector("li")
     dayCell.id = `day-${year}-${month}-${day}`
     dayCell.className += ` day-${day} row-${row} col-${column}`
     dayCell.textContent = day
 
-    if (day == numberOfDays)
-      dayCell.className += ` day-last`
-    if (day + 7 > numberOfDays)  // last 7 days of the month
+    if (day == numberOfDays) dayCell.className += ` day-last`
+    if (day + 7 > numberOfDays)
+      // last 7 days of the month
       dayCell.className += ` row-last`
 
     monthDiv.appendChild(dayDiv)
@@ -68,22 +77,28 @@ const generateDays = (year, month, monthDiv) => {
 const populateCalendar = () => {
   let currentGoal = undefined
 
-  goals.forEach(goal => {
+  goals.forEach((goal) => {
     const [year, month, day] = goal.from
     const goalStart = new Date(year, month - 1, day)
-    
+
     for (let d = 0; d < goal.days; d++) {
       const date = new Date(year, month - 1, day + d)
 
-      let [yr, mo, dy] = [date.getFullYear(), date.getMonth() + 1, date.getDate()]
+      let [yr, mo, dy] = [
+        date.getFullYear(),
+        date.getMonth() + 1,
+        date.getDate(),
+      ]
       let dayDiv = document.getElementById(`day-${yr}-${mo}-${dy}`)
       let [completeClassName, plannedClassName] = classNameForGoal(goal)
-      dayDiv.className += " " +
-        ((date < now) ? completeClassName : plannedClassName)
+      dayDiv.className +=
+        " " + (date < now ? completeClassName : plannedClassName)
 
-      if (now.getFullYear() == date.getFullYear() &&
-          now.getMonth() == date.getMonth() &&
-          now.getDate() == date.getDate()) {
+      if (
+        now.getFullYear() == date.getFullYear() &&
+        now.getMonth() == date.getMonth() &&
+        now.getDate() == date.getDate()
+      ) {
         currentGoal = goal
       }
 
@@ -97,7 +112,7 @@ const populateCalendar = () => {
     }
   })
 
-  notes.forEach(note => {
+  notes.forEach((note) => {
     const [year, month, day] = note.date
     let dayDiv = document.getElementById(`day-${year}-${month}-${day}`)
     if (!dayDiv) {
@@ -113,7 +128,7 @@ const populateCalendar = () => {
     })
   })
 
-  streams.forEach(stream => {
+  streams.forEach((stream) => {
     const [year, month, day] = stream.date
     let dayDiv = document.getElementById(`day-${year}-${month}-${day}`)
     if (!dayDiv) {
@@ -124,20 +139,29 @@ const populateCalendar = () => {
     let div = document.createElement("div")
 
     let date = new Date(Date.UTC(year, month - 1, day))
-    let dateStr = date.toLocaleString("en-US", { timeZone: "UTC", month: "long", day: "numeric", year: "numeric" })
+    let dateStr = date.toLocaleString("en-US", {
+      timeZone: "UTC",
+      month: "long",
+      day: "numeric",
+      year: "numeric",
+    })
     let content
     if (stream.vod || stream.vod === null) {
       content = `
         ${dateStr} stream:
         <br><b>${stream.title}</b>`
       if (typeof stream.vod === "string") {
-        content += `<br><a href="${stream.vod}">${!!stream.vod.match(/twitch/) ? "Twitch" : "YouTube"} VOD</a>`
+        content += `<br><a href="${stream.vod}">${
+          !!stream.vod.match(/twitch/) ? "Twitch" : "YouTube"
+        } VOD</a>`
       } else if (stream.vod === null) {
         content += `<br><i>No VOD available.</i>`
       } else {
         const numVods = stream.vod.length
         stream.vod.forEach((link, i) => {
-          content += `<br><a href="${link}">${!!link.match(/twitch/) ? "Twitch" : "YouTube"} VOD (${i + 1}/${numVods})</a>`
+          content += `<br><a href="${link}">${
+            !!link.match(/twitch/) ? "Twitch" : "YouTube"
+          } VOD (${i + 1}/${numVods})</a>`
         })
       }
     } else {
@@ -169,9 +193,15 @@ const populateCalendar = () => {
   const [className, _] = classNameForGoal(currentGoal)
   currentDiv.className = className
   currentDiv.textContent =
-    (currentGoal.type == "girlyGirlMonth") ? "Girly Girl Month" :
-    (currentGoal.type == "girlMonth") ? "Girl Month" :
-    (currentGoal.type == "guyMonth") ? "Guy Month" :
-    (currentGoal.type == "break") ? "YouTube Break" :
-    (currentGoal.type == "bobs") ? "Bobs Month" : ""
+    currentGoal.type == "girlyGirlMonth"
+      ? "Girly Girl Month"
+      : currentGoal.type == "girlMonth"
+      ? "Girl Month"
+      : currentGoal.type == "guyMonth"
+      ? "Guy Month"
+      : currentGoal.type == "break"
+      ? "YouTube Break"
+      : currentGoal.type == "bobs"
+      ? "Bobs Month"
+      : ""
 }
