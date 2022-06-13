@@ -1094,7 +1094,7 @@ const streams = [
     date: [2022, 4, 18],
     title: "THE GRINDSET NEVER STOPS! | GGM Day 624",
     vod: "https://www.twitch.tv/videos/1460058041",
-    note: "<a href=\"http://amoyamoyamoya.com/wp/wp-content/uploads/2022/04/20220418-Council_v_Evergreen-Redacted.pdf\">Official Transcript of the on-stream court trial</a>"
+    note: '<a href="http://amoyamoyamoya.com/wp/wp-content/uploads/2022/04/20220418-Council_v_Evergreen-Redacted.pdf">Official Transcript of the on-stream court trial</a>',
   },
   {
     date: [2022, 4, 21],
@@ -1130,5 +1130,19 @@ const streams = [
     date: [2022, 5, 19],
     title: "EGirl In Training - Part #5872",
     vod: "https://www.twitch.tv/videos/1488344367",
+  },
+  {
+    date: [2022, 6, 8],
+    title:
+      "The Rumours Are True...<br>" +
+      "+ Bunny Walkies <br>" +
+      "+ Too Much Exercise for a Gamer",
+    vod: [
+      "https://www.twitch.tv/videos/1498327570",
+      "https://www.twitch.tv/videos/1498390680",
+      "https://www.twitch.tv/videos/1498394999",
+      "https://www.twitch.tv/videos/1498395832",
+      "https://www.twitch.tv/videos/1498424707",
+    ],
   },
 ]
