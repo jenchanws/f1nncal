@@ -1083,23 +1083,23 @@ const streams = [
   {
     date: [2022, 4, 17],
     title: "HAPPY EGG DAY! 🐰 🥚",
-    vod: "https://www.twitch.tv/videos/1458985567",
+    vod: "https://www.youtube.com/watch?v=Q_jDfzHWeA4",
   },
   {
     date: [2022, 4, 18],
     title: "THE GRINDSET NEVER STOPS! | GGM Day 624",
-    vod: "https://www.twitch.tv/videos/1460058041",
+    vod: "https://www.youtube.com/watch?v=mhzSLG687tE",
     note: '<a href="http://amoyamoyamoya.com/wp/wp-content/uploads/2022/04/20220418-Council_v_Evergreen-Redacted.pdf">Official Transcript of the on-stream court trial</a>',
   },
   {
     date: [2022, 4, 21],
     title: "IM FEELIN 22 (🎉its my birthday🥳)",
-    vod: "https://www.twitch.tv/videos/1462971106",
+    vod: "https://www.youtube.com/watch?v=i71cc4tENc4",
   },
   {
     date: [2022, 4, 25],
     title: "MY WORST IDEA YET",
-    vod: "https://www.twitch.tv/videos/1466771964",
+    vod: "https://www.youtube.com/watch?v=Ker9gax1goQ",
   },
   {
     date: [2022, 4, 27],
@@ -1139,5 +1139,8 @@ const streams = [
       "https://www.twitch.tv/videos/1498395832",
       "https://www.twitch.tv/videos/1498424707",
     ],
+    note:
+      "Girl Month 2-6 originally started on this date, but reset due to " +
+      "F1NN not streaming.",
   },
 ]
