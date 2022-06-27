@@ -172,13 +172,13 @@ const goals = [
     type: "break",
   },
   {
-    from: [2022, 6, 25],
+    from: [2022, 6, 27],
     days: 28,
     type: "girlMonth",
     number: "2-6",
   },
   {
-    from: [2022, 7, 23],
+    from: [2022, 7, 25],
     days: 14,
     type: "girlMonth",
     number: "2-7",

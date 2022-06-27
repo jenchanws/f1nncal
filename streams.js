@@ -1068,12 +1068,12 @@ const streams = [
   {
     date: [2022, 4, 6],
     title: "GIGA CHAD WOOD CHOPPER 💦 Shameless 💦",
-    vod: "https://www.twitch.tv/videos/1448283980",
+    vod: "https://www.youtube.com/watch?v=YyLGSwZpcXc",
   },
   {
     date: [2022, 4, 11],
     title: "GIGA CHAD RETURNS",
-    vod: "https://www.twitch.tv/videos/1453141356",
+    vod: "https://www.youtube.com/watch?v=AcF9z1XvtE0",
   },
   {
     date: [2022, 4, 14],
@@ -1104,7 +1104,7 @@ const streams = [
   {
     date: [2022, 4, 27],
     title: "MY BEST IDEA YET !loot",
-    vod: "https://www.twitch.tv/videos/1468687933",
+    vod: "https://www.youtube.com/watch?v=KOIPF36IldQ",
   },
   {
     date: [2022, 5, 10],
@@ -1142,5 +1142,10 @@ const streams = [
     note:
       "Girl Month 2-6 originally started on this date, but reset due to " +
       "F1NN not streaming.",
+  },
+  {
+    date: [2022, 6, 27],
+    title: "I HATE WIGS SO MUCH - Egirl Lets Play #72",
+    vod: "https://www.twitch.tv/videos/1515852174",
   },
 ]
