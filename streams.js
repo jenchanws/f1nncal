@@ -1148,4 +1148,9 @@ const streams = [
     title: "I HATE WIGS SO MUCH - Egirl Lets Play #72",
     vod: "https://www.twitch.tv/videos/1515852174",
   },
+  {
+    date: [2022, 7, 1],
+    title: "ONLY MASCULINE ACTIVITIES IN JULY!",
+    vod: "https://www.twitch.tv/videos/1519665798",
+  },
 ]

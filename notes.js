@@ -13,10 +13,6 @@ const notes = [
       "F1NN's eyelash person being unavailable.",
   },
   {
-    date: [2022, 6, 30],
-    text: "Girl Month donation goals will resume on <b>June 30</b>, starting at $10,000 per month.",
-  },
-  {
     date: [2022, 8, 10],
     text: "The Box will reopen on <b>August 10</b>.",
   },
