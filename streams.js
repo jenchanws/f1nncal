@@ -1153,4 +1153,19 @@ const streams = [
     title: "ONLY MASCULINE ACTIVITIES IN JULY!",
     vod: "https://www.twitch.tv/videos/1519665798",
   },
+  {
+    date: [2022, 7, 5],
+    title: "NEW NAILS + NEW OUTFIT + NEW KEYBOARD = epic egirl",
+    vod: "https://www.twitch.tv/videos/1523326282",
+  },
+  {
+    date: [2022, 7, 8],
+    title:
+      "FALLING MEN + CHAT CHOSES OUTFIT LATER<br>" +
+      "+ Average British Man Behaviour (Gaming Tanked My Internet)",
+    vod: [
+      "https://www.twitch.tv/videos/1526165638",
+      "https://www.twitch.tv/videos/1526207518",
+    ],
+  },
 ]
