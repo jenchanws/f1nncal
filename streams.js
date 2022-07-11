@@ -1109,12 +1109,12 @@ const streams = [
   {
     date: [2022, 5, 10],
     title: "GIGA GAMER GIRL MONTH UPDATES! *new nails too*",
-    vod: "https://www.twitch.tv/videos/1480337833",
+    vod: "https://www.youtube.com/watch?v=ODtzh6zCp2k",
   },
   {
     date: [2022, 5, 12],
     title: "Large Bobs ✔️ Brains ❌",
-    vod: "https://www.twitch.tv/videos/1482128486",
+    vod: "https://www.youtube.com/watch?v=MHIQvrueafo",
   },
   {
     date: [2022, 5, 14],
