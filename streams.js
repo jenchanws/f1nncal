@@ -1188,4 +1188,9 @@ const streams = [
     title: "Mondays with the boys (you are the boys)",
     vod: "https://www.twitch.tv/videos/1556136241",
   },
+  {
+    date: [2022, 8, 13],
+    title: "Checking Out Your Package... 👀",
+    vod: "https://www.twitch.tv/videos/1560995951",
+  },
 ]
