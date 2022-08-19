@@ -1119,12 +1119,12 @@ const streams = [
   {
     date: [2022, 5, 14],
     title: "ITS TOO DARN 🔥HOT🔥",
-    vod: "https://www.twitch.tv/videos/1483986891",
+    vod: "https://www.youtube.com/watch?v=arZADRLlk_M",
   },
   {
     date: [2022, 5, 19],
     title: "EGirl In Training - Part #5872",
-    vod: "https://www.twitch.tv/videos/1488344367",
+    vod: "https://www.youtube.com/watch?v=VxPhC15NHfM",
   },
   {
     date: [2022, 6, 8],
@@ -1132,13 +1132,7 @@ const streams = [
       "The Rumours Are True...<br>" +
       "+ Bunny Walkies <br>" +
       "+ Too Much Exercise for a Gamer",
-    vod: [
-      "https://www.twitch.tv/videos/1498327570",
-      "https://www.twitch.tv/videos/1498390680",
-      "https://www.twitch.tv/videos/1498394999",
-      "https://www.twitch.tv/videos/1498395832",
-      "https://www.twitch.tv/videos/1498424707",
-    ],
+    vod: ["https://www.youtube.com/watch?v=A-srW4rQQEE"],
     note:
       "Girl Month 2-6 originally started on this date, but reset due to " +
       "F1NN not streaming.",
@@ -1192,5 +1186,10 @@ const streams = [
     date: [2022, 8, 13],
     title: "Checking Out Your Package... 👀",
     vod: "https://www.twitch.tv/videos/1560995951",
+  },
+  {
+    date: [2022, 8, 19],
+    title: "Guess My Favourite Color 🎀",
+    vod: "https://www.twitch.tv/videos/1566722851",
   },
 ]
