@@ -1132,7 +1132,7 @@ const streams = [
       "The Rumours Are True...<br>" +
       "+ Bunny Walkies <br>" +
       "+ Too Much Exercise for a Gamer",
-    vod: ["https://www.youtube.com/watch?v=A-srW4rQQEE"],
+    vod: "https://www.youtube.com/watch?v=A-srW4rQQEE",
     note:
       "Girl Month 2-6 originally started on this date, but reset due to " +
       "F1NN not streaming.",
