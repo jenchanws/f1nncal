@@ -1192,4 +1192,12 @@ const streams = [
     title: "Guess My Favourite Color 🎀",
     vod: "https://www.twitch.tv/videos/1566722851",
   },
+  {
+    date: [2022, 8, 21],
+    title: "My Eyes Are Up Here ^ 👀❤️",
+    vod: [
+      "https://www.twitch.tv/videos/1568715636",
+      "https://www.twitch.tv/videos/1568870513",
+    ],
+  },
 ]
