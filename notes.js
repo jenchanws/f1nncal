@@ -12,8 +12,4 @@ const notes = [
       "This break is extended to <b>September 29</b> due to " +
       "F1NN's eyelash person being unavailable.",
   },
-  {
-    date: [2022, 8, 10],
-    text: "The Box will reopen on <b>August 10</b>.",
-  },
 ]

@@ -1200,4 +1200,14 @@ const streams = [
       "https://www.twitch.tv/videos/1568870513",
     ],
   },
+  {
+    date: [2022, 8, 25],
+    title: "FRIENDSHIP ENDED WITH PINK, NEW BESTIE IS RED!!❤️",
+    vod: "https://www.twitch.tv/videos/1572429132",
+  },
+  {
+    date: [2022, 9, 1],
+    title: "Ranking Your ✨Awful✨ Reddit Posts",
+    vod: "https://www.twitch.tv/videos/1579047861",
+  },
 ]
