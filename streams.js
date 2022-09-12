@@ -1140,27 +1140,24 @@ const streams = [
   {
     date: [2022, 6, 27],
     title: "I HATE WIGS SO MUCH - Egirl Lets Play #72",
-    vod: "https://www.twitch.tv/videos/1515852174",
+    vod: "https://www.youtube.com/watch?v=j0mU4N7X8V0",
   },
   {
     date: [2022, 7, 1],
     title: "ONLY MASCULINE ACTIVITIES IN JULY!",
-    vod: "https://www.twitch.tv/videos/1519665798",
+    vod: "https://www.youtube.com/watch?v=_gqKj9sQCWs",
   },
   {
     date: [2022, 7, 5],
     title: "NEW NAILS + NEW OUTFIT + NEW KEYBOARD = epic egirl",
-    vod: "https://www.twitch.tv/videos/1523326282",
+    vod: "https://www.youtube.com/watch?v=Y6EpTMN2dME",
   },
   {
     date: [2022, 7, 8],
     title:
       "FALLING MEN + CHAT CHOSES OUTFIT LATER<br>" +
       "+ Average British Man Behaviour (Gaming Tanked My Internet)",
-    vod: [
-      "https://www.twitch.tv/videos/1526165638",
-      "https://www.twitch.tv/videos/1526207518",
-    ],
+    vod: "https://www.youtube.com/watch?v=H0U0Oy9X00A",
   },
   {
     date: [2022, 7, 21],
@@ -1209,5 +1206,15 @@ const streams = [
     date: [2022, 9, 1],
     title: "Ranking Your ✨Awful✨ Reddit Posts",
     vod: "https://www.twitch.tv/videos/1579047861",
+  },
+  {
+    date: [2022, 9, 4],
+    title: "GoGo Gadget Dommy Mommy ❤️",
+    vod: "https://www.twitch.tv/videos/1581953261,",
+  },
+  {
+    date: [2022, 9, 10],
+    title: "✨24 WHOLE GREMLIN HOURS✨",
+    vod: "https://www.twitch.tv/videos/1587445368",
   },
 ]
