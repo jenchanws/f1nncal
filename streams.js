@@ -1165,7 +1165,7 @@ const streams = [
     vod: "https://www.twitch.tv/videos/1538671311",
   },
   {
-    date: [2022, 7, 25],
+    date: [2022, 7, 23],
     title: "MCC! - CARRYING MY ENTIRE TEAM ON MY BACK",
     vod: "https://www.twitch.tv/videos/1540613014",
   },
