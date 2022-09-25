@@ -1162,12 +1162,12 @@ const streams = [
   {
     date: [2022, 7, 21],
     title: "OMEGA CHAD (epic) to WOMAN (ew)",
-    vod: "https://www.twitch.tv/videos/1538671311",
+    vod: "https://www.youtube.com/watch?v=yPtb49GENzI",
   },
   {
     date: [2022, 7, 23],
     title: "MCC! - CARRYING MY ENTIRE TEAM ON MY BACK",
-    vod: "https://www.twitch.tv/videos/1540613014",
+    vod: "https://www.youtube.com/watch?v=VEyIHoOMANw",
   },
   {
     date: [2022, 7, 27],
@@ -1216,5 +1216,15 @@ const streams = [
     date: [2022, 9, 10],
     title: "✨24 WHOLE GREMLIN HOURS✨",
     vod: "https://www.twitch.tv/videos/1587445368",
+  },
+  {
+    date: [2022, 9, 13],
+    title: "💖 SNEAKY INTERVIEW 💖",
+    vod: "https://www.twitch.tv/videos/1590198958",
+  },
+  {
+    date: [2022, 9, 24],
+    title: "funny story.. organ stopped working",
+    vod: "https://www.twitch.tv/videos/1600282674",
   },
 ]
