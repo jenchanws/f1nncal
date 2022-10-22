@@ -1238,4 +1238,21 @@ const streams = [
       "💄BECOMING HOTTER THAN I EVER HAVE BEFORE! 💅(world record attempt)",
     vod: "https://www.twitch.tv/videos/1607628899",
   },
+  {
+    date: [2022, 10, 11],
+    title: "💄 PINK BUNNY OUTFIT ERA!! 🐰",
+    vod: "https://www.twitch.tv/videos/1621560367",
+  },
+  {
+    date: [2022, 10, 15],
+    title: "👗 DEMOCRATICALLY ELECTED GENDER 💄",
+    vod: "https://www.twitch.tv/videos/1625172824",
+  },
+  {
+    date: [2022, 10, 22],
+    title:
+      "🚨 100% MCC WINRATE ✨ CAPTAINESS SPARKLEZ ✨<br>" +
+      "+ I AM THE HIGHEST TESTOSTERONE MALE",
+    vod: "https://www.twitch.tv/videos/1631523149",
+  },
 ]
