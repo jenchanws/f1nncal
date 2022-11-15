@@ -214,7 +214,13 @@ const goals = [
     number: "3-4",
   },
   {
-    from: [2022, 12, 25],
+    from: [2022, 12, 10],
+    days: 28,
+    type: "girlMonth",
+    number: "3-5",
+  },
+  {
+    from: [2023, 1, 22],
     days: 91,
     type: "bobs",
   },

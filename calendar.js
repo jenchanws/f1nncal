@@ -1,6 +1,6 @@
 const startYear = 2021
-const monthRange = [-14, 28]
-const firstMonth = 17
+const monthRange = [-14, 30]
+const firstMonth = 23
 
 const classNameForGoal = (goal) =>
   goal.type == "girlyGirlMonth"
