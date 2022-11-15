@@ -1177,50 +1177,51 @@ const streams = [
   {
     date: [2022, 8, 8],
     title: "Mondays with the boys (you are the boys)",
-    vod: "https://www.twitch.tv/videos/1556136241",
+    vod: "https://www.youtube.com/watch?v=BEqDMBRPcMg",
   },
   {
     date: [2022, 8, 13],
     title: "Checking Out Your Package... 👀",
-    vod: "https://www.twitch.tv/videos/1560995951",
+    vod: "https://www.youtube.com/watch?v=lkRrjqxKc0o",
   },
   {
     date: [2022, 8, 19],
     title: "Guess My Favourite Color 🎀",
-    vod: "https://www.twitch.tv/videos/1566722851",
+    vod: "https://www.youtube.com/watch?v=2QV_EnXz-LE",
   },
   {
     date: [2022, 8, 21],
     title: "My Eyes Are Up Here ^ 👀❤️",
-    vod: [
-      "https://www.twitch.tv/videos/1568715636",
-      "https://www.twitch.tv/videos/1568870513",
-    ],
+    vod: "https://www.youtube.com/watch?v=PQX4yS4rhtc",
   },
   {
     date: [2022, 8, 25],
     title: "FRIENDSHIP ENDED WITH PINK, NEW BESTIE IS RED!!❤️",
-    vod: "https://www.twitch.tv/videos/1572429132",
+    vod: "https://www.youtube.com/watch?v=2q9Wgz7npWc",
   },
   {
     date: [2022, 9, 1],
     title: "Ranking Your ✨Awful✨ Reddit Posts",
-    vod: "https://www.twitch.tv/videos/1579047861",
+    vod: "https://www.youtube.com/watch?v=cO6ycyhmfME",
   },
   {
     date: [2022, 9, 4],
     title: "GoGo Gadget Dommy Mommy ❤️",
-    vod: "https://www.twitch.tv/videos/1581953261,",
+    vod: "https://www.youtube.com/watch?v=Cl6GgQ7P5YQ",
   },
   {
     date: [2022, 9, 10],
     title: "✨24 WHOLE GREMLIN HOURS✨",
-    vod: "https://www.twitch.tv/videos/1587445368",
+    vod: [
+      "https://www.youtube.com/watch?v=WOoMtVYpcCE",
+      "https://www.youtube.com/watch?v=SG0C9dj53UQ",
+      "https://www.youtube.com/watch?v=ewfe15fr8_I",
+    ],
   },
   {
     date: [2022, 9, 13],
     title: "💖 SNEAKY INTERVIEW 💖",
-    vod: "https://www.twitch.tv/videos/1590198958",
+    vod: "https://www.youtube.com/watch?v=egEqRgsTlBQ",
   },
   {
     date: [2022, 9, 24],
@@ -1259,5 +1260,20 @@ const streams = [
     date: [2022, 10, 29],
     title: "YOUR NEW HOUSEWIFE (male)",
     vod: "https://www.twitch.tv/videos/1637992087",
+  },
+  {
+    date: [2022, 11, 5],
+    title: "U Laff, U Woman Episode #72",
+    vod: "https://www.twitch.tv/videos/1644489040",
+  },
+  {
+    date: [2022, 11, 11],
+    title: "CATBOY HOURS!💄$1000 BATTLESHIPS!💥P.O. BOXES!📦",
+    vod: "https://www.twitch.tv/videos/1649979577",
+  },
+  {
+    date: [2022, 11, 15],
+    title: "I GOT LASERED ⚡ + Lil Fellas (under 5'10) Cozy Stream",
+    vod: "https://www.twitch.tv/videos/1653691718",
   },
 ]
