@@ -1226,18 +1226,18 @@ const streams = [
   {
     date: [2022, 9, 24],
     title: "funny story.. organ stopped working",
-    vod: "https://www.twitch.tv/videos/1600282674",
+    vod: "https://www.youtube.com/watch?v=ABkTGAU-AiI",
   },
   {
     date: [2022, 9, 30],
     title: "🚨IT'S VR DAY MY DUDES🚨",
-    vod: "https://www.twitch.tv/videos/1604759324",
+    vod: "https://www.youtube.com/watch?v=ZE5JJqrCZ5c",
   },
   {
     date: [2022, 10, 2],
     title:
       "💄BECOMING HOTTER THAN I EVER HAVE BEFORE! 💅(world record attempt)",
-    vod: "https://www.twitch.tv/videos/1607628899",
+    vod: "https://www.youtube.com/watch?v=NNkiib_ZsSg",
   },
   {
     date: [2022, 10, 11],
@@ -1275,5 +1275,30 @@ const streams = [
     date: [2022, 11, 15],
     title: "I GOT LASERED ⚡ + Lil Fellas (under 5'10) Cozy Stream",
     vod: "https://www.twitch.tv/videos/1653691718",
+  },
+  {
+    date: [2022, 11, 18],
+    title: "I RATE YOUR OUTFITS 💄w/ Meowriza 🐒",
+    vod: "https://www.twitch.tv/videos/1656467373",
+  },
+  {
+    date: [2022, 11, 22],
+    title: "GIRL DRIVERS LICENSE 🚗 MAKEUP TIME 💄",
+    vod: "https://www.twitch.tv/videos/1660071738",
+  },
+  {
+    date: [2022, 11, 26],
+    title: "TRUTH OR DRINK 🥃 NEW OUTFITS!! 👗",
+    vod: "https://www.twitch.tv/videos/1663497137",
+  },
+  {
+    date: [2022, 11, 30],
+    title: "💄 Doing Very MANLY Makeup (male) 💅🏻",
+    vod: "https://www.twitch.tv/videos/1666851550",
+  },
+  {
+    date: [2022, 12, 2],
+    title: "🖥️ RATING YOUR SETUPS 👗 New Dress Who dis 💸 How i stole $1000",
+    vod: "https://www.twitch.tv/videos/1668514279",
   },
 ]
