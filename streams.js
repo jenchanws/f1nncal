@@ -1301,4 +1301,14 @@ const streams = [
     title: "🖥️ RATING YOUR SETUPS 👗 New Dress Who dis 💸 How i stole $1000",
     vod: "https://www.twitch.tv/videos/1668514279",
   },
+  {
+    date: [2022, 12, 6],
+    title: "GIRL LICENCE UPDATE 👗 RATING YOUR SETUPS 🖥️",
+    vod: "https://www.twitch.tv/videos/1672103468",
+  },
+  {
+    date: [2022, 12, 9],
+    title: "RED BUNNY GIRL (male) 🐰",
+    vod: "https://www.twitch.tv/videos/1674760963",
+  },
 ]
