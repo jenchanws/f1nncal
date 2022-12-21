@@ -1316,4 +1316,14 @@ const streams = [
     title: "NEW DRESSES 🎀I SHOT A FLAMING ARROW 🏹🔥",
     vod: "https://www.twitch.tv/videos/1679163153",
   },
+  {
+    date: [2022, 12, 17],
+    title: "LASER APPOINTMENT 2.0 ⚡NEW DRESSES 🎀",
+    vod: "https://www.twitch.tv/videos/1681800243",
+  },
+  {
+    date: [2022, 12, 21],
+    title: "👀 I GOT AN EYE TRACKER 🍑 Perhaps a new outfit?? 🎀",
+    vod: "https://www.twitch.tv/videos/1685284695",
+  },
 ]

@@ -231,4 +231,10 @@ const goals = [
     type: "girlMonth",
     number: "3-7",
   },
+  {
+    from: [2023, 3, 4],
+    days: 28,
+    type: "girlMonth",
+    number: "3-8",
+  },
 ]
