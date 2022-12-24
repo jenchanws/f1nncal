@@ -1326,4 +1326,9 @@ const streams = [
     title: "👀 I GOT AN EYE TRACKER 🍑 Perhaps a new outfit?? 🎀",
     vod: "https://www.twitch.tv/videos/1685284695",
   },
+  {
+    date: [2022, 12, 24],
+    title: "🎅Mrs Claus🎄CHRISTMAS PRESENTS P.O.🎁",
+    vod: "https://www.twitch.tv/videos/1687910055",
+  },
 ]
