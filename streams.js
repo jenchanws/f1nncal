@@ -1240,26 +1240,26 @@ const streams = [
     vod: "https://www.youtube.com/watch?v=NNkiib_ZsSg",
   },
   {
-    date: [2022, 10, 11],
+    date: [2022, 10, 12],
     title: "💄 PINK BUNNY OUTFIT ERA!! 🐰",
-    vod: "https://www.twitch.tv/videos/1621560367",
+    vod: "https://www.youtube.com/watch?v=wz_1HtzXd_g",
   },
   {
     date: [2022, 10, 15],
     title: "👗 DEMOCRATICALLY ELECTED GENDER 💄",
-    vod: "https://www.twitch.tv/videos/1625172824",
+    vod: "https://www.youtube.com/watch?v=0RGat-kAuz0",
   },
   {
     date: [2022, 10, 22],
     title:
       "🚨 100% MCC WINRATE ✨ CAPTAINESS SPARKLEZ ✨<br>" +
       "+ I AM THE HIGHEST TESTOSTERONE MALE",
-    vod: "https://www.twitch.tv/videos/1631523149",
+    vod: "https://www.youtube.com/watch?v=p2RRCdwgPgE",
   },
   {
     date: [2022, 10, 29],
     title: "YOUR NEW HOUSEWIFE (male)",
-    vod: "https://www.twitch.tv/videos/1637992087",
+    vod: "https://www.youtube.com/watch?v=218XtyROlJ0&t=6040s",
   },
   {
     date: [2022, 11, 5],
