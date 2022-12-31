@@ -1336,4 +1336,9 @@ const streams = [
     title: "😎VERY CHILL STREAM✨GOOD MORNING✨",
     vod: "https://www.twitch.tv/videos/1691320885",
   },
+  {
+    date: [2022, 12, 30],
+    title: "❤️ Mission To Become ✨Peak E-Girl ✨- Finale 2022❤️",
+    vod: "https://www.twitch.tv/videos/1693165534",
+  },
 ]
