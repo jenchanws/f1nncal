@@ -1342,7 +1342,7 @@ const streams = [
     vod: "https://www.twitch.tv/videos/1693165534",
   },
   {
-    date: [2022, 12, 30],
+    date: [2022, 12, 31],
     title: "💝MERRY NEW YEAR!!🥂 DRINKING TIME!!!🥃",
     vod: "https://www.twitch.tv/videos/1694355379",
   },
