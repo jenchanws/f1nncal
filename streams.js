@@ -1341,4 +1341,9 @@ const streams = [
     title: "❤️ Mission To Become ✨Peak E-Girl ✨- Finale 2022❤️",
     vod: "https://www.twitch.tv/videos/1693165534",
   },
+  {
+    date: [2022, 12, 30],
+    title: "💝MERRY NEW YEAR!!🥂 DRINKING TIME!!!🥃",
+    vod: "https://www.twitch.tv/videos/1694355379",
+  },
 ]
