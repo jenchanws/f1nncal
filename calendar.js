@@ -65,6 +65,10 @@ const generateDays = (year, month, monthDiv) => {
     dayCell.className += ` day-${day} row-${row} col-${column}`
     dayCell.textContent = day
 
+    if (month == 4 && day == 21) {
+      dayCell.className += ` birthday`
+    }
+
     if (day == numberOfDays) dayCell.className += ` day-last`
     if (day + 7 > numberOfDays)
       // last 7 days of the month

@@ -389,6 +389,28 @@ header {
   background-color: var(--green-light);
 }
 
+.birthday {
+  background: var(--yellow);
+}
+.girl-month-complete.birthday {
+  background: repeating-linear-gradient(
+    var(--stripe-angle),
+    var(--blue),
+    var(--blue) 10px,
+    var(--yellow) 10px,
+    var(--yellow) 20px
+  );
+}
+.girl-month-planned.birthday {
+  background: repeating-linear-gradient(
+    var(--stripe-angle),
+    var(--blue-light),
+    var(--blue-light) 10px,
+    var(--yellow) 10px,
+    var(--yellow) 20px
+  );
+}
+
 .legend-girl-month {
   background: linear-gradient(
     to right bottom,
