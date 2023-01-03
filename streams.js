@@ -1346,4 +1346,9 @@ const streams = [
     title: "💝MERRY NEW YEAR!!🥂 DRINKING TIME!!!🥃",
     vod: "https://www.twitch.tv/videos/1694355379",
   },
+  {
+    date: [2023, 1, 2],
+    title: "❤️WHAT HAPPENED YESTERDAY???💄also makeup time",
+    vod: "https://www.twitch.tv/videos/1695769461",
+  },
 ]
