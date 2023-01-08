@@ -392,7 +392,9 @@ header {
 .birthday {
   background: var(--yellow);
 }
-.girl-month-complete.birthday {
+
+.girl-month-complete.birthday,
+.girly-girl-month-complete.birthday {
   background: repeating-linear-gradient(
     var(--stripe-angle),
     var(--blue),
@@ -401,7 +403,8 @@ header {
     var(--yellow) 20px
   );
 }
-.girl-month-planned.birthday {
+.girl-month-planned.birthday,
+.girly-girl-month-planned.birthday {
   background: repeating-linear-gradient(
     var(--stripe-angle),
     var(--blue-light),
