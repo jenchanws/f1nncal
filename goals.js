@@ -240,7 +240,7 @@ const goals = [
   {
     from: [2023, 4, 1],
     days: 28,
-    type: "girlMonth",
+    type: "girlyGirlMonth",
     number: "3-9",
   },
 ]

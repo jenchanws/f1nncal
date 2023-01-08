@@ -1356,4 +1356,10 @@ const streams = [
     title: "🥰NEW DRESS👗 but also... NEW KNIFE!!!🗡️",
     vod: "https://www.twitch.tv/videos/1699656667",
   },
+  {
+    date: [2023, 1, 8],
+    title:
+      "DRAMA💅GOBLIN GOT NEW NAILS👺CHARITY UPDATE❄️Chill stream (it is very cold)",
+    vod: "https://www.twitch.tv/videos/1701667690",
+  },
 ]
