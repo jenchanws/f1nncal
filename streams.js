@@ -1259,12 +1259,12 @@ const streams = [
   {
     date: [2022, 10, 29],
     title: "YOUR NEW HOUSEWIFE (male)",
-    vod: "https://www.youtube.com/watch?v=218XtyROlJ0&t=6040s",
+    vod: "https://www.youtube.com/watch?v=218XtyROlJ0",
   },
   {
     date: [2022, 11, 5],
     title: "U Laff, U Woman Episode #72",
-    vod: "https://www.twitch.tv/videos/1644489040",
+    vod: "https://www.youtube.com/watch?v=oUiaEYRU050",
   },
   {
     date: [2022, 11, 11],
@@ -1350,5 +1350,10 @@ const streams = [
     date: [2023, 1, 2],
     title: "❤️WHAT HAPPENED YESTERDAY???💄also makeup time",
     vod: "https://www.twitch.tv/videos/1695769461",
+  },
+  {
+    date: [2023, 1, 6],
+    title: "🥰NEW DRESS👗 but also... NEW KNIFE!!!🗡️",
+    vod: "https://www.twitch.tv/videos/1699656667",
   },
 ]
