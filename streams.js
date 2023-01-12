@@ -1269,7 +1269,7 @@ const streams = [
   {
     date: [2022, 11, 11],
     title: "CATBOY HOURS!💄$1000 BATTLESHIPS!💥P.O. BOXES!📦",
-    vod: "https://www.twitch.tv/videos/1649979577",
+    vod: "https://www.youtube.com/watch?v=MyawzF77PVQ",
   },
   {
     date: [2022, 11, 15],
@@ -1361,5 +1361,10 @@ const streams = [
     title:
       "DRAMA💅GOBLIN GOT NEW NAILS👺CHARITY UPDATE❄️Chill stream (it is very cold)",
     vod: "https://www.twitch.tv/videos/1701667690",
+  },
+  {
+    date: [2023, 1, 12],
+    title: "TRUTH OR ⚡ ZAP⚡ NEW DRESS (very manly) 🎀",
+    vod: "https://www.twitch.tv/videos/1705384410",
   },
 ]
