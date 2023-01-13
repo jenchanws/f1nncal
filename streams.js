@@ -1367,4 +1367,9 @@ const streams = [
     title: "TRUTH OR ⚡ ZAP⚡ NEW DRESS (very manly) 🎀",
     vod: "https://www.twitch.tv/videos/1705384410",
   },
+  {
+    date: [2023, 1, 13],
+    title: "CHAD BEHAVIOUR ONLY 💪 NEW DRESSES 🎀",
+    vod: "https://www.twitch.tv/videos/1706404035",
+  },
 ]
