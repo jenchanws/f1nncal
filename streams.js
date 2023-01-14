@@ -1274,7 +1274,7 @@ const streams = [
   {
     date: [2022, 11, 15],
     title: "I GOT LASERED ⚡ + Lil Fellas (under 5'10) Cozy Stream",
-    vod: "https://www.twitch.tv/videos/1653691718",
+    vod: "https://www.youtube.com/watch?v=ruPm47w_Pb8",
   },
   {
     date: [2022, 11, 18],
