@@ -1372,4 +1372,9 @@ const streams = [
     title: "CHAD BEHAVIOUR ONLY 💪 NEW DRESSES 🎀",
     vod: "https://www.twitch.tv/videos/1706404035",
   },
+  {
+    date: [2023, 1, 19],
+    title: "IF I LAUGH I GET ⚡ZAPPED⚡",
+    vod: "https://www.twitch.tv/videos/1712327710",
+  },
 ]
