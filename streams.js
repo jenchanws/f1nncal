@@ -1279,12 +1279,12 @@ const streams = [
   {
     date: [2022, 11, 18],
     title: "I RATE YOUR OUTFITS 💄w/ Meowriza 🐒",
-    vod: "https://www.twitch.tv/videos/1656467373",
+    vod: "https://www.youtube.com/watch?v=X3-zVFvZ468",
   },
   {
     date: [2022, 11, 22],
     title: "GIRL DRIVERS LICENSE 🚗 MAKEUP TIME 💄",
-    vod: "https://www.twitch.tv/videos/1660071738",
+    vod: "https://www.youtube.com/watch?v=xa5iXLpXpaA",
   },
   {
     date: [2022, 11, 26],
@@ -1376,5 +1376,10 @@ const streams = [
     date: [2023, 1, 19],
     title: "IF I LAUGH I GET ⚡ZAPPED⚡",
     vod: "https://www.twitch.tv/videos/1712327710",
+  },
+  {
+    date: [2023, 1, 21],
+    title: "ITS CHILL GIRL✨(male)✨ HOURS!!",
+    vod: "https://www.twitch.tv/videos/1714479130",
   },
 ]
