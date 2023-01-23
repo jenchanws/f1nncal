@@ -1382,4 +1382,9 @@ const streams = [
     title: "ITS CHILL GIRL✨(male)✨ HOURS!!",
     vod: "https://www.twitch.tv/videos/1714479130",
   },
+  {
+    date: [2023, 1, 22],
+    title: "👗 WEAR THE FRENCH MAID DRESS!! 👉👈 (masculine people only)💪",
+    vod: "https://www.twitch.tv/videos/1715481432",
+  },
 ]
