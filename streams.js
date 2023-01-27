@@ -1387,4 +1387,9 @@ const streams = [
     title: "👗 WEAR THE FRENCH MAID DRESS!! 👉👈 (masculine people only)💪",
     vod: "https://www.twitch.tv/videos/1715481432",
   },
+  {
+    date: [2023, 1, 27],
+    title: "💄DRESS UP F1NN💅 (got new dresses)👗💪",
+    vod: "https://www.twitch.tv/videos/1720157312",
+  },
 ]
