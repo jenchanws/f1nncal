@@ -1392,4 +1392,9 @@ const streams = [
     title: "💄DRESS UP F1NN💅 (got new dresses)👗💪",
     vod: "https://www.twitch.tv/videos/1720157312",
   },
+  {
+    date: [2023, 1, 29],
+    title: "🌸PINK IS A REAL MANS FAVOURITE COLOR🎀",
+    vod: "https://www.twitch.tv/videos/1722478001",
+  },
 ]
