@@ -1397,4 +1397,9 @@ const streams = [
     title: "🌸PINK IS A REAL MANS FAVOURITE COLOR🎀",
     vod: "https://www.twitch.tv/videos/1722478001",
   },
+  {
+    date: [2023, 1, 31],
+    title: "🚨DRAMA🚨 NEW DRESS👗 + WENT OUTSIDE TO THE GYM!🍑",
+    vod: "https://www.twitch.tv/videos/1724357393",
+  },
 ]
