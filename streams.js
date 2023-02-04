@@ -1402,4 +1402,9 @@ const streams = [
     title: "🚨DRAMA🚨 NEW DRESS👗 + WENT OUTSIDE TO THE GYM!🍑",
     vod: "https://www.twitch.tv/videos/1724357393",
   },
+  {
+    date: [2023, 2, 3],
+    title: "BIG STRONG MAN💪NEW OUTFIT👗THIGH GYM DAY🍑",
+    vod: "https://www.twitch.tv/videos/1727265568",
+  },
 ]
