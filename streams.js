@@ -1289,27 +1289,27 @@ const streams = [
   {
     date: [2022, 11, 26],
     title: "TRUTH OR DRINK 🥃 NEW OUTFITS!! 👗",
-    vod: "https://www.twitch.tv/videos/1663497137",
+    vod: "https://www.youtube.com/watch?v=FeTKNYJmGVM",
   },
   {
     date: [2022, 11, 30],
     title: "💄 Doing Very MANLY Makeup (male) 💅🏻",
-    vod: "https://www.twitch.tv/videos/1666851550",
+    vod: "https://www.youtube.com/watch?v=U2bHJ5IUEZc",
   },
   {
     date: [2022, 12, 2],
     title: "🖥️ RATING YOUR SETUPS 👗 New Dress Who dis 💸 How i stole $1000",
-    vod: "https://www.twitch.tv/videos/1668514279",
+    vod: "https://www.youtube.com/watch?v=6JssIJto7tg",
   },
   {
     date: [2022, 12, 6],
     title: "GIRL LICENCE UPDATE 👗 RATING YOUR SETUPS 🖥️",
-    vod: "https://www.twitch.tv/videos/1672103468",
+    vod: "https://www.youtube.com/watch?v=Kg90v1thlpc",
   },
   {
     date: [2022, 12, 9],
     title: "RED BUNNY GIRL (male) 🐰",
-    vod: "https://www.twitch.tv/videos/1674760963",
+    vod: "https://www.youtube.com/watch?v=7g3XuGqyz-k",
   },
   {
     date: [2022, 12, 14],
