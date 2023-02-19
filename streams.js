@@ -1314,12 +1314,12 @@ const streams = [
   {
     date: [2022, 12, 14],
     title: "NEW DRESSES 🎀I SHOT A FLAMING ARROW 🏹🔥",
-    vod: "https://www.twitch.tv/videos/1679163153",
+    vod: "https://www.youtube.com/watch?v=Z0mlg6vg1M4",
   },
   {
     date: [2022, 12, 17],
     title: "LASER APPOINTMENT 2.0 ⚡NEW DRESSES 🎀",
-    vod: "https://www.twitch.tv/videos/1681800243",
+    vod: "https://www.youtube.com/watch?v=5ZZ6TZmkNZQ",
   },
   {
     date: [2022, 12, 21],
@@ -1406,5 +1406,20 @@ const streams = [
     date: [2023, 2, 3],
     title: "BIG STRONG MAN💪NEW OUTFIT👗THIGH GYM DAY🍑",
     vod: "https://www.twitch.tv/videos/1727265568",
+  },
+  {
+    date: [2023, 2, 12],
+    title: "🚨UNBANNED?!🚨P.O BOXES📦BIG SECRETS🕵🏼 W/ SODACATTV",
+    vod: "https://www.twitch.tv/videos/1736491890",
+  },
+  {
+    date: [2023, 2, 15],
+    title: "⚠️BIG NEWS💪CHAD HOURS💄DRESS UP TIME👗",
+    vod: "https://www.twitch.tv/videos/1739188496",
+  },
+  {
+    date: [2023, 2, 18],
+    title: "🚨A REAL MANS MAN💪NEW OUTFIT👗NEW NAILS💅",
+    vod: "https://www.twitch.tv/videos/1742189509",
   },
 ]
