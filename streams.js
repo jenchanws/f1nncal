@@ -1324,12 +1324,12 @@ const streams = [
   {
     date: [2022, 12, 21],
     title: "👀 I GOT AN EYE TRACKER 🍑 Perhaps a new outfit?? 🎀",
-    vod: "https://www.twitch.tv/videos/1685284695",
+    vod: "https://www.youtube.com/watch?v=3QjkH3xgHF4",
   },
   {
     date: [2022, 12, 24],
     title: "🎅Mrs Claus🎄CHRISTMAS PRESENTS P.O.🎁",
-    vod: "https://www.twitch.tv/videos/1687910055",
+    vod: "https://www.youtube.com/watch?v=cujFvKmSIxs",
   },
   {
     date: [2022, 12, 28],
@@ -1421,5 +1421,25 @@ const streams = [
     date: [2023, 2, 18],
     title: "🚨A REAL MANS MAN💪NEW OUTFIT👗NEW NAILS💅",
     vod: "https://www.twitch.tv/videos/1742189509",
+  },
+  {
+    date: [2023, 2, 21],
+    title: "🚨NEW CAMERA📸CHAD HOURS💪DRESS UP FINN👗",
+    vod: "https://www.twitch.tv/videos/1745103210",
+  },
+  {
+    date: [2023, 2, 24],
+    title:
+      "ICE-CREAM AND CHILL💪NEW EYELASHES🌸PHILOSOPHYTUBE COLLAB🚨BATTLEPASS UPDATES🚨<br>+ house tour ig",
+    vod: [
+      "https://www.twitch.tv/videos/1748010438",
+      "https://www.twitch.tv/videos/1748263688",
+      "https://www.twitch.tv/videos/1748265332",
+      "https://www.twitch.tv/videos/1748268648",
+      "https://www.twitch.tv/videos/1748311017",
+      "https://www.twitch.tv/videos/1748311620",
+      "https://www.twitch.tv/videos/1748333995",
+      "https://www.twitch.tv/videos/1748339955",
+    ],
   },
 ]
