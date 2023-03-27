@@ -1484,6 +1484,9 @@ const streams = [
     date: [2023, 3, 26],
     title:
       "❤️Just Wanna Give Someone lil Head Scratches 👉🏻👈🏻 NEWS 🚨 NEW OUTFIT 💄",
-    vod: [null, "https://www.twitch.tv/videos/1776695264"],
+    vod: [
+      "https://www.youtube.com/watch?v=tlDLjdd26-c",
+      "https://www.twitch.tv/videos/1776695264",
+    ],
   },
 ]
