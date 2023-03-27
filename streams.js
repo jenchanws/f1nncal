@@ -1442,4 +1442,48 @@ const streams = [
       "https://www.twitch.tv/videos/1748339955",
     ],
   },
+  {
+    date: [2023, 2, 28],
+    title: "😇WORLDS MOST WHOLESOME STREAMER😇mwuah😘",
+    vod: "https://www.twitch.tv/videos/1751814907",
+  },
+  {
+    date: [2023, 3, 3],
+    title: "😈WORLDS LEAST WHOLESOME STREAMER😈mwuah😘",
+    vod: "https://www.twitch.tv/videos/1754549984",
+  },
+  {
+    date: [2023, 3, 7],
+    title: "⚡I GOT LASER'D 🍑 NEW OUTFITS (look dope) 👗 DRESS UP FINN 💄",
+    vod: [
+      "https://www.twitch.tv/videos/1758473600",
+      "https://www.twitch.tv/videos/1758584564",
+      "https://www.twitch.tv/videos/1758659455",
+      "https://www.twitch.tv/videos/1758662406",
+    ],
+  },
+  {
+    date: [2023, 3, 11],
+    title: "❄️ITS TOO DARN COLD🚨NEWS🚨NEW OUTFIT👗(VERY MASCULINE OUTFIT)💪",
+    vod: "https://www.twitch.tv/videos/1762291860",
+  },
+  {
+    date: [2023, 3, 18],
+    title: "🌊BACK FROM BRIGHTON🎀MEETING BELLE DELPHINE🛁 MAKEUP TIME💄",
+    vod: "https://www.twitch.tv/videos/1768878081",
+  },
+  {
+    date: [2023, 3, 23],
+    title: "❤️REVIEWING YOUR DATING PROFILES❤️ 🚨NEWS🚨 NEW OUTFIT👗",
+    vod: [
+      "https://www.twitch.tv/videos/1773537593",
+      "https://www.twitch.tv/videos/1773749573",
+    ],
+  },
+  {
+    date: [2023, 3, 26],
+    title:
+      "❤️Just Wanna Give Someone lil Head Scratches 👉🏻👈🏻 NEWS 🚨 NEW OUTFIT 💄",
+    vod: [null, "https://www.twitch.tv/videos/1776695264"],
+  },
 ]

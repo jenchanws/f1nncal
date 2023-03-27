@@ -163,9 +163,13 @@ const populateCalendar = () => {
       } else {
         const numVods = stream.vod.length
         stream.vod.forEach((link, i) => {
-          content += `<br><a href="${link}">${
-            !!link.match(/twitch/) ? "Twitch" : "YouTube"
-          } VOD (${i + 1}/${numVods})</a>`
+          if (link !== null) {
+            content += `<br><a href="${link}">${
+              !!link.match(/twitch/) ? "Twitch" : "YouTube"
+            } VOD (${i + 1}/${numVods})</a>`
+          } else {
+            content += `<br>Unavailable VOD (${i + 1}/${numVods})`
+          }
         })
       }
     } else {
