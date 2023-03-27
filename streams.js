@@ -1334,58 +1334,58 @@ const streams = [
   {
     date: [2022, 12, 28],
     title: "😎VERY CHILL STREAM✨GOOD MORNING✨",
-    vod: "https://www.twitch.tv/videos/1691320885",
+    vod: "https://www.youtube.com/watch?v=bWJCkyJgT3k",
   },
   {
     date: [2022, 12, 30],
     title: "❤️ Mission To Become ✨Peak E-Girl ✨- Finale 2022❤️",
-    vod: "https://www.twitch.tv/videos/1693165534",
+    vod: "https://www.youtube.com/watch?v=496tvQnwZzY",
   },
   {
     date: [2023, 1, 1],
     title: "💝MERRY NEW YEAR!!🥂 DRINKING TIME!!!🥃",
-    vod: "https://www.twitch.tv/videos/1694355379",
+    vod: "https://www.youtube.com/watch?v=u7z63UW744I",
   },
   {
     date: [2023, 1, 2],
     title: "❤️WHAT HAPPENED YESTERDAY???💄also makeup time",
-    vod: "https://www.twitch.tv/videos/1695769461",
+    vod: "https://www.youtube.com/watch?v=4qDPJh618Go",
   },
   {
     date: [2023, 1, 6],
     title: "🥰NEW DRESS👗 but also... NEW KNIFE!!!🗡️",
-    vod: "https://www.twitch.tv/videos/1699656667",
+    vod: "https://www.youtube.com/watch?v=p0RcQ6h4akI",
   },
   {
     date: [2023, 1, 8],
     title:
       "DRAMA💅GOBLIN GOT NEW NAILS👺CHARITY UPDATE❄️Chill stream (it is very cold)",
-    vod: "https://www.twitch.tv/videos/1701667690",
+    vod: "https://www.youtube.com/watch?v=bsCOOBs83NI",
   },
   {
     date: [2023, 1, 12],
     title: "TRUTH OR ⚡ ZAP⚡ NEW DRESS (very manly) 🎀",
-    vod: "https://www.twitch.tv/videos/1705384410",
+    vod: "https://www.youtube.com/watch?v=TKocB6oqRJs",
   },
   {
     date: [2023, 1, 13],
     title: "CHAD BEHAVIOUR ONLY 💪 NEW DRESSES 🎀",
-    vod: "https://www.twitch.tv/videos/1706404035",
+    vod: "https://www.youtube.com/watch?v=wJS2AAueRIA",
   },
   {
     date: [2023, 1, 19],
     title: "IF I LAUGH I GET ⚡ZAPPED⚡",
-    vod: "https://www.twitch.tv/videos/1712327710",
+    vod: "https://www.youtube.com/watch?v=y3Imepy0Q3U",
   },
   {
     date: [2023, 1, 21],
     title: "ITS CHILL GIRL✨(male)✨ HOURS!!",
-    vod: "https://www.twitch.tv/videos/1714479130",
+    vod: "https://www.youtube.com/watch?v=6BsWOWKavI4",
   },
   {
     date: [2023, 1, 22],
     title: "👗 WEAR THE FRENCH MAID DRESS!! 👉👈 (masculine people only)💪",
-    vod: "https://www.twitch.tv/videos/1715481432",
+    vod: "https://www.youtube.com/watch?v=usAqJ8UEwXk",
   },
   {
     date: [2023, 1, 27],
