@@ -1489,4 +1489,37 @@ const streams = [
       "https://www.twitch.tv/videos/1776695264",
     ],
   },
+  {
+    date: [2023, 4, 1],
+    title:
+      "Good Evening Gentlemen 🥃 HAPPY APRIL FOOLS! 😊",
+    vod: "https://www.twitch.tv/videos/1782126230",
+  },
+  {
+    date: [2023, 4, 5],
+    title:
+      "PINK DRESS 👗 PINK NAILS 💅 PINK CAR 🚗",
+    vod: [
+        "https://www.twitch.tv/videos/1785614606",
+        "https://www.twitch.tv/videos/1785880818",
+      ],
+  },
+  {
+    date: [2023, 4, 10],
+    title:
+      "🐰BUNNY GIRL HOURS🎀 NEWS 🚨 CHAD DRESS UP TIME💄",
+    vod: "https://www.twitch.tv/videos/1790131836",
+  },
+  {
+    date: [2023, 4, 17],
+    title:
+      "🥳CELEBRATING MY BIRTHDAY!🎉OPENING PRESENTS!🎁EPIC CAKE🎂🍰",
+    vod: "https://www.twitch.tv/videos/1796406701",
+  },
+  {
+    date: [2023, 4, 18],
+    title:
+      "🥳BIRTHDAY PT 2!🎉OPENING PRESENTS!🎁NEW NAILS💅",
+    vod: "https://www.twitch.tv/videos/1797262116",
+  },
 ]
