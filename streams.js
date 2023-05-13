@@ -1522,4 +1522,16 @@ const streams = [
       "🥳BIRTHDAY PT 2!🎉OPENING PRESENTS!🎁NEW NAILS💅",
     vod: "https://www.twitch.tv/videos/1797262116",
   },
+  {
+    date: [2023, 5, 7],
+    title:
+      "🌸Becoming The Most Feminine Man on Earth🌸",
+    vod: "https://www.twitch.tv/videos/1818181487",
+  },
+  {
+    date: [2023, 5, 12],
+    title:
+      "🚨There Is Noone More Masculine Than Me👗DRESS UP💅NEWS🌸DATE PLANNING🌸",
+    vod: "https://www.twitch.tv/videos/1814095698",
+  }
 ]
