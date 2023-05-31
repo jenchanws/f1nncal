@@ -1542,5 +1542,21 @@ const streams = [
         "https://www.twitch.tv/videos/1821622986",
         "https://www.twitch.tv/videos/1821796507"
       ],
-  }
+  },
+  {
+    date: [2023, 5, 25],
+    title:
+      "🥃 TRUTH OR DRINK ROUND 2! 💂🏻‍♂️ DATE IN LONDON w/ NATT!! 👑",
+      vod: [
+        "https://www.twitch.tv/videos/1829191312",
+        "https://www.twitch.tv/videos/1829298468",
+        "https://www.twitch.tv/videos/1829303172"
+      ],
+  },
+  {
+    date: [2023, 5, 31],
+    title:
+      "💄MAKEUP TIME🎉P.O BOX OPENING📦",
+      vod: "https://www.twitch.tv/videos/1834325314",
+  },
 ]
