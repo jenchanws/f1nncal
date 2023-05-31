@@ -298,6 +298,16 @@ header {
   border-radius: 8px;
 }
 
+.rules {
+  background-color: var(--green);
+  color: white;
+  margin-top: 20px;
+  font-weight: 300;
+  font-size: 20px;
+  padding: 10px 14px;
+  border-radius: 8px;
+}
+
 .note,
 .stream {
   position: relative;
