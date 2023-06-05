@@ -302,10 +302,39 @@ header {
   background-color: var(--green);
   color: white;
   margin-top: 20px;
-  font-weight: 300;
+  font-weight: 500;
   font-size: 20px;
   padding: 10px 14px;
   border-radius: 8px;
+}
+
+#rules.open {
+  min-width: 25%;
+}
+
+.rules > p > small {
+  font-weight: 300;
+}
+
+#rules-full {
+  font-size: 18px;
+  font-weight: 300;
+}
+.rules-header {
+  margin-bottom: 10px;
+}
+.rules-hidden {
+  display: none;
+}
+#rules-list {
+  text-align: left;
+  margin-left: 30px;
+  margin-right: 30px;
+  font-size: 16px;
+}
+
+.open {
+  display: block !important;
 }
 
 .note,
