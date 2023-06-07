@@ -1559,4 +1559,10 @@ const streams = [
       "💄MAKEUP TIME🎉P.O BOX OPENING📦",
       vod: "https://www.twitch.tv/videos/1834325314",
   },
+  {
+    date: [2023, 6, 7],
+    title:
+      "⚠️NEWS👗NEW OUTFIT💄MAKEUP TIME🎉P.O BOXES📦",
+      vod: "https://www.twitch.tv/videos/1840345244",
+  },
 ]
