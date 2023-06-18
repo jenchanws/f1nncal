@@ -1570,5 +1570,11 @@ const streams = [
     title:
       "HAVING A SILLY LITTLE EVENING⚠️NEWS💄MAKEUP TIME👗NEW OUTFITS",
       vod: "https://www.twitch.tv/videos/1844640011",
+  },
+  {
+    date: [2023, 6, 18],
+    title:
+      "💄NEW OUTFIT 📦P.O BOX OPENING⚠️I PRACTICED THE GIRL VOICE⚠️",
+      vod: "https://www.twitch.tv/videos/1849721898",
   }
 ]
