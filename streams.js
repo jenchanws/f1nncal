@@ -1576,5 +1576,11 @@ const streams = [
     title:
       "💄NEW OUTFIT 📦P.O BOX OPENING⚠️I PRACTICED THE GIRL VOICE⚠️",
       vod: "https://www.twitch.tv/videos/1849721898",
+  },
+  {
+    date: [2023, 6, 21],
+    title:
+      "👗I Ordered $4000 of Dresses...⚠️YOU DECIDE WHICH TO WEAR⚠️+NEWS",
+      vod: "https://www.twitch.tv/videos/1852219113",
   }
 ]
