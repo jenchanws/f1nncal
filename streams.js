@@ -1582,5 +1582,11 @@ const streams = [
     title:
       "👗I Ordered $4000 of Dresses...⚠️YOU DECIDE WHICH TO WEAR⚠️+NEWS",
       vod: "https://www.twitch.tv/videos/1852219113",
+  },
+  {
+    date: [2023, 6, 26],
+    title:
+      "✨MAN MODE HOURS🎮+MINECRAFT w/CottonTailVA👿",
+    vod: "https://www.twitch.tv/videos/1856481744"
   }
 ]
