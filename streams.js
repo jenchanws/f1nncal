@@ -1593,6 +1593,7 @@ const streams = [
     date: [2023, 6, 30],
     title:
       "🌸END OF GIRL MONTH!!🥳 CottonTailVA's Threat...⚠️PICK THE OUTFIT👗",
-    vod: "https://www.twitch.tv/videos/1859898084"
+    vod: "https://www.twitch.tv/videos/1859898084",
+    note: "Watch <a href='https://www.youtube.com/watch?v=yU4nAI_Vsfw'>Cotton's F1NN5TER disstrack</a>"
   },
 ]
