@@ -1588,5 +1588,11 @@ const streams = [
     title:
       "✨MAN MODE HOURS🎮+MINECRAFT w/CottonTailVA👿",
     vod: "https://www.twitch.tv/videos/1856481744"
-  }
+  },
+  {
+    date: [2023, 6, 30],
+    title:
+      "🌸END OF GIRL MONTH!!🥳 CottonTailVA's Threat...⚠️PICK THE OUTFIT👗",
+    vod: "https://www.twitch.tv/videos/1859898084"
+  },
 ]
