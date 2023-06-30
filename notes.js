@@ -12,4 +12,14 @@ const notes = [
       "This break is extended to <b>September 29</b> due to " +
       "F1NN's eyelash person being unavailable.",
   },
+  {
+    date: [2023, 7, 8],
+    text:
+      "Girl Mode at TwitchCon Paris"
+  },
+  {
+    date: [2023, 7, 9],
+    text:
+      "Girl Mode at TwitchCon Paris"
+  },
 ]

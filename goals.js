@@ -255,4 +255,10 @@ const goals = [
     type: "girlMonth",
     number: "3-11",
   },
+  {
+    from: [2023, 7, 8],
+    days: 2,
+    type: "girlMonth",
+    number: "",
+  },
 ]
