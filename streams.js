@@ -1390,210 +1390,202 @@ const streams = [
   {
     date: [2023, 1, 27],
     title: "💄DRESS UP F1NN💅 (got new dresses)👗💪",
-    vod: "https://www.twitch.tv/videos/1720157312",
+    vod: "https://www.youtube.com/watch?v=vCWTTYHN59o",
   },
   {
     date: [2023, 1, 29],
     title: "🌸PINK IS A REAL MANS FAVOURITE COLOR🎀",
-    vod: "https://www.twitch.tv/videos/1722478001",
+    vod: "https://www.youtube.com/watch?v=zkDeVpj-k8Y",
   },
   {
     date: [2023, 1, 31],
     title: "🚨DRAMA🚨 NEW DRESS👗 + WENT OUTSIDE TO THE GYM!🍑",
-    vod: "https://www.twitch.tv/videos/1724357393",
+    vod: "https://www.youtube.com/watch?v=kbVpte8j0DM",
   },
   {
     date: [2023, 2, 3],
     title: "BIG STRONG MAN💪NEW OUTFIT👗THIGH GYM DAY🍑",
-    vod: "https://www.twitch.tv/videos/1727265568",
+    vod: [
+      "https://www.youtube.com/watch?v=SEcY_ldO79w",
+      "https://www.youtube.com/watch?v=y9E4Fdj1pyQ",
+    ],
   },
   {
     date: [2023, 2, 12],
     title: "🚨UNBANNED?!🚨P.O BOXES📦BIG SECRETS🕵🏼 W/ SODACATTV",
-    vod: "https://www.twitch.tv/videos/1736491890",
+    vod: "https://www.youtube.com/watch?v=Jq41JQygz00",
   },
   {
     date: [2023, 2, 15],
     title: "⚠️BIG NEWS💪CHAD HOURS💄DRESS UP TIME👗",
-    vod: "https://www.twitch.tv/videos/1739188496",
+    vod: "https://www.youtube.com/watch?v=WOG0ymmZXLY",
   },
   {
     date: [2023, 2, 18],
     title: "🚨A REAL MANS MAN💪NEW OUTFIT👗NEW NAILS💅",
-    vod: "https://www.twitch.tv/videos/1742189509",
+    vod: "https://www.youtube.com/watch?v=tQ_M8Z8T8Ec",
   },
   {
     date: [2023, 2, 21],
     title: "🚨NEW CAMERA📸CHAD HOURS💪DRESS UP FINN👗",
-    vod: "https://www.twitch.tv/videos/1745103210",
+    vod: "https://www.youtube.com/watch?v=v9Umwa4nPWA",
   },
   {
     date: [2023, 2, 24],
     title:
       "ICE-CREAM AND CHILL💪NEW EYELASHES🌸PHILOSOPHYTUBE COLLAB🚨BATTLEPASS UPDATES🚨<br>+ house tour ig",
     vod: [
-      "https://www.twitch.tv/videos/1748010438",
-      "https://www.twitch.tv/videos/1748263688",
-      "https://www.twitch.tv/videos/1748265332",
-      "https://www.twitch.tv/videos/1748268648",
-      "https://www.twitch.tv/videos/1748311017",
-      "https://www.twitch.tv/videos/1748311620",
-      "https://www.twitch.tv/videos/1748333995",
-      "https://www.twitch.tv/videos/1748339955",
+      "https://www.youtube.com/watch?v=CBYDvSGl2Hs",
+      "https://www.youtube.com/watch?v=a5WJ-77zZKU",
     ],
   },
   {
     date: [2023, 2, 28],
     title: "😇WORLDS MOST WHOLESOME STREAMER😇mwuah😘",
-    vod: "https://www.twitch.tv/videos/1751814907",
+    vod: "https://www.youtube.com/watch?v=3OavfMc5sxY",
   },
   {
     date: [2023, 3, 3],
     title: "😈WORLDS LEAST WHOLESOME STREAMER😈mwuah😘",
-    vod: "https://www.twitch.tv/videos/1754549984",
+    vod: "https://www.youtube.com/watch?v=7lgSpo2XRjs",
   },
   {
     date: [2023, 3, 7],
     title: "⚡I GOT LASER'D 🍑 NEW OUTFITS (look dope) 👗 DRESS UP FINN 💄",
-    vod: [
-      "https://www.twitch.tv/videos/1758473600",
-      "https://www.twitch.tv/videos/1758584564",
-      "https://www.twitch.tv/videos/1758659455",
-      "https://www.twitch.tv/videos/1758662406",
-    ],
+    vod: "https://www.youtube.com/watch?v=Inux9hDm-6o",
   },
   {
     date: [2023, 3, 11],
     title: "❄️ITS TOO DARN COLD🚨NEWS🚨NEW OUTFIT👗(VERY MASCULINE OUTFIT)💪",
-    vod: "https://www.twitch.tv/videos/1762291860",
+    vod: "https://www.youtube.com/watch?v=vqIA9SLfSIs",
   },
   {
     date: [2023, 3, 18],
     title: "🌊BACK FROM BRIGHTON🎀MEETING BELLE DELPHINE🛁 MAKEUP TIME💄",
-    vod: "https://www.twitch.tv/videos/1768878081",
+    vod: "https://www.youtube.com/watch?v=x9JijRkgR2U",
   },
   {
     date: [2023, 3, 23],
     title: "❤️REVIEWING YOUR DATING PROFILES❤️ 🚨NEWS🚨 NEW OUTFIT👗",
-    vod: [
-      "https://www.twitch.tv/videos/1773537593",
-      "https://www.twitch.tv/videos/1773749573",
-    ],
+    vod: "https://www.youtube.com/watch?v=l1Lj9dRORr8",
   },
   {
     date: [2023, 3, 26],
     title:
       "❤️Just Wanna Give Someone lil Head Scratches 👉🏻👈🏻 NEWS 🚨 NEW OUTFIT 💄",
-    vod: [
-      "https://www.youtube.com/watch?v=tlDLjdd26-c",
-      "https://www.twitch.tv/videos/1776695264",
-    ],
+    vod: "https://www.youtube.com/watch?v=6LpAFoREF-c",
   },
   {
     date: [2023, 4, 1],
-    title:
-      "Good Evening Gentlemen 🥃 HAPPY APRIL FOOLS! 😊",
-    vod: "https://www.twitch.tv/videos/1782126230",
+    title: "Good Evening Gentlemen 🥃 HAPPY APRIL FOOLS! 😊",
+    vod: "https://www.youtube.com/watch?v=RYR4oWmMPFE",
   },
   {
     date: [2023, 4, 5],
-    title:
-      "PINK DRESS 👗 PINK NAILS 💅 PINK CAR 🚗",
-    vod: [
-        "https://www.twitch.tv/videos/1785614606",
-        "https://www.twitch.tv/videos/1785880818",
-      ],
+    title: "PINK DRESS 👗 PINK NAILS 💅 PINK CAR 🚗",
+    vod: "https://www.youtube.com/watch?v=EQWLphTpg8k",
   },
   {
     date: [2023, 4, 10],
-    title:
-      "🐰BUNNY GIRL HOURS🎀 NEWS 🚨 CHAD DRESS UP TIME💄",
-    vod: "https://www.twitch.tv/videos/1790131836",
+    title: "🐰BUNNY GIRL HOURS🎀 NEWS 🚨 CHAD DRESS UP TIME💄",
+    vod: "https://www.youtube.com/watch?v=jWZMT4xiY38",
   },
   {
     date: [2023, 4, 17],
-    title:
-      "🥳CELEBRATING MY BIRTHDAY!🎉OPENING PRESENTS!🎁EPIC CAKE🎂🍰",
-    vod: "https://www.twitch.tv/videos/1796406701",
+    title: "🥳CELEBRATING MY BIRTHDAY!🎉OPENING PRESENTS!🎁EPIC CAKE🎂🍰",
+    vod: "https://www.youtube.com/watch?v=bTPe3NDl1gI",
   },
   {
     date: [2023, 4, 18],
-    title:
-      "🥳BIRTHDAY PT 2!🎉OPENING PRESENTS!🎁NEW NAILS💅",
-    vod: "https://www.twitch.tv/videos/1797262116",
+    title: "🥳BIRTHDAY PT 2!🎉OPENING PRESENTS!🎁NEW NAILS💅",
+    vod: "https://www.youtube.com/watch?v=4fVr8F69tpc",
+  },
+  {
+    date: [2023, 5, 1],
+    title: "BACK FROM JAPAN🔴MET MRBEAST (very cool i am now very rich)💰",
+    vod: "https://www.youtube.com/watch?v=oagCuHl-BsA",
   },
   {
     date: [2023, 5, 7],
-    title:
-      "🌸Becoming The Most Feminine Man on Earth🌸",
-    vod: "https://www.twitch.tv/videos/1818181487",
+    title: "🌸Becoming The Most Feminine Man on Earth🌸",
+    vod: "https://www.youtube.com/watch?v=wLiqbb0-HMI",
   },
   {
     date: [2023, 5, 12],
     title:
       "🚨There Is Noone More Masculine Than Me👗DRESS UP💅NEWS🌸DATE PLANNING🌸",
-    vod: "https://www.twitch.tv/videos/1814095698",
+    vod: "https://www.youtube.com/watch?v=2FAfgcwVd2U",
   },
   {
     date: [2023, 5, 16],
-    title:
-      "🚨SURPRISE CHILL STREAM😊",
-      vod: [
-        "https://www.twitch.tv/videos/1821622986",
-        "https://www.twitch.tv/videos/1821796507"
-      ],
+    title: "🚨SURPRISE CHILL STREAM😊",
+    vod: "https://www.youtube.com/watch?v=ZVUpc21cSzo",
   },
   {
     date: [2023, 5, 25],
-    title:
-      "🥃 TRUTH OR DRINK ROUND 2! 💂🏻‍♂️ DATE IN LONDON w/ NATT!! 👑",
-      vod: [
-        "https://www.twitch.tv/videos/1829191312",
-        "https://www.twitch.tv/videos/1829298468",
-        "https://www.twitch.tv/videos/1829303172"
-      ],
+    title: "🥃 TRUTH OR DRINK ROUND 2! 💂🏻‍♂️ DATE IN LONDON w/ NATT!! 👑",
+    vod: [
+      "https://www.twitch.tv/videos/1829191312",
+      "https://www.twitch.tv/videos/1829298468",
+      "https://www.twitch.tv/videos/1829303172",
+    ],
   },
   {
     date: [2023, 5, 31],
-    title:
-      "💄MAKEUP TIME🎉P.O BOX OPENING📦",
-      vod: "https://www.twitch.tv/videos/1834325314",
+    title: "💄MAKEUP TIME🎉P.O BOX OPENING📦",
+    vod: "https://www.twitch.tv/videos/1834325314",
   },
   {
     date: [2023, 6, 7],
-    title:
-      "⚠️NEWS👗NEW OUTFIT💄MAKEUP TIME🎉P.O BOXES📦",
-      vod: "https://www.twitch.tv/videos/1840345244",
+    title: "⚠️NEWS👗NEW OUTFIT💄MAKEUP TIME🎉P.O BOXES📦",
+    vod: "https://www.twitch.tv/videos/1840345244",
   },
   {
     date: [2023, 6, 12],
-    title:
-      "HAVING A SILLY LITTLE EVENING⚠️NEWS💄MAKEUP TIME👗NEW OUTFITS",
-      vod: "https://www.twitch.tv/videos/1844640011",
+    title: "HAVING A SILLY LITTLE EVENING⚠️NEWS💄MAKEUP TIME👗NEW OUTFITS",
+    vod: "https://www.twitch.tv/videos/1844640011",
   },
   {
     date: [2023, 6, 18],
-    title:
-      "💄NEW OUTFIT 📦P.O BOX OPENING⚠️I PRACTICED THE GIRL VOICE⚠️",
-      vod: "https://www.twitch.tv/videos/1849721898",
+    title: "💄NEW OUTFIT 📦P.O BOX OPENING⚠️I PRACTICED THE GIRL VOICE⚠️",
+    vod: "https://www.twitch.tv/videos/1849721898",
   },
   {
     date: [2023, 6, 21],
-    title:
-      "👗I Ordered $4000 of Dresses...⚠️YOU DECIDE WHICH TO WEAR⚠️+NEWS",
-      vod: "https://www.twitch.tv/videos/1852219113",
+    title: "👗I Ordered $4000 of Dresses...⚠️YOU DECIDE WHICH TO WEAR⚠️+NEWS",
+    vod: "https://www.twitch.tv/videos/1852219113",
   },
   {
     date: [2023, 6, 26],
-    title:
-      "✨MAN MODE HOURS🎮+MINECRAFT w/CottonTailVA👿",
-    vod: "https://www.twitch.tv/videos/1856481744"
+    title: "✨MAN MODE HOURS🎮+MINECRAFT w/CottonTailVA👿",
+    vod: "https://www.twitch.tv/videos/1856481744",
   },
   {
     date: [2023, 6, 30],
     title:
       "🌸END OF GIRL MONTH!!🥳 CottonTailVA's Threat...⚠️PICK THE OUTFIT👗",
     vod: "https://www.twitch.tv/videos/1859898084",
-    note: "Watch <a href='https://www.youtube.com/watch?v=yU4nAI_Vsfw'>Cotton's F1NN5TER disstrack</a>"
+    note: "Watch <a href='https://www.youtube.com/watch?v=yU4nAI_Vsfw'>Cotton's F1NN5TER disstrack</a>",
+  },
+  {
+    date: [2023, 7, 6],
+    title: "💄TWITCHCON PREPERATIONS!!⚠️BIG NEWS🚨With a Guest?? hmmm",
+    vod: "https://www.twitch.tv/videos/1865068445",
+  },
+  {
+    date: [2023, 7, 12],
+    title:
+      "⚠️BACK FROM TWITCHCON PARIS🥐MAN MODE DAY💄Dressing Up w/Big_Icky 🚨",
+    vod: "https://www.twitch.tv/videos/1870033041",
+  },
+  {
+    date: [2023, 7, 14],
+    title: "👗CHAT PICKS DATE NIGHT OUTFIT🥂",
+    vod: "https://www.twitch.tv/videos/1871827195",
+  },
+  {
+    date: [2023, 7, 18],
+    title: "👗She Picks What I Wear...☹️",
+    vod: "https://www.twitch.tv/videos/1875358431",
   },
 ]
