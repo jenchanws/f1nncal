@@ -1602,6 +1602,9 @@ const streams = [
   {
     date: [2023, 8, 9],
     title: "💅GIRLS NIGHT IN w/Ashley, Pierbi, Lich_qween",
-    vod: "https://www.twitch.tv/videos/1894460469",
+    vod: [
+      "https://www.twitch.tv/videos/1894460469",
+      "https://www.twitch.tv/videos/1894464472",
+    ],
   },
 ]
