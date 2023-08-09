@@ -1524,21 +1524,17 @@ const streams = [
   {
     date: [2023, 5, 25],
     title: "🥃 TRUTH OR DRINK ROUND 2! 💂🏻‍♂️ DATE IN LONDON w/ NATT!! 👑",
-    vod: [
-      "https://www.twitch.tv/videos/1829191312",
-      "https://www.twitch.tv/videos/1829298468",
-      "https://www.twitch.tv/videos/1829303172",
-    ],
+    vod: "https://www.youtube.com/watch?v=DG2_JVECvjs",
   },
   {
     date: [2023, 5, 31],
     title: "💄MAKEUP TIME🎉P.O BOX OPENING📦",
-    vod: "https://www.twitch.tv/videos/1834325314",
+    vod: "https://www.youtube.com/watch?v=rXtZ1G_Oa2A",
   },
   {
     date: [2023, 6, 7],
     title: "⚠️NEWS👗NEW OUTFIT💄MAKEUP TIME🎉P.O BOXES📦",
-    vod: "https://www.twitch.tv/videos/1840345244",
+    vod: "https://www.youtube.com/watch?v=12vR4qKE_uM",
   },
   {
     date: [2023, 6, 12],
@@ -1565,7 +1561,7 @@ const streams = [
     title:
       "🌸END OF GIRL MONTH!!🥳 CottonTailVA's Threat...⚠️PICK THE OUTFIT👗",
     vod: "https://www.twitch.tv/videos/1859898084",
-    note: "Watch <a href='https://www.youtube.com/watch?v=yU4nAI_Vsfw'>Cotton's F1NN5TER disstrack</a>",
+    note: "<a href='https://www.youtube.com/watch?v=yU4nAI_Vsfw'>Cotton's F1NN5TER disstrack</a>",
   },
   {
     date: [2023, 7, 6],
@@ -1587,5 +1583,24 @@ const streams = [
     date: [2023, 7, 18],
     title: "👗She Picks What I Wear...☹️",
     vod: "https://www.twitch.tv/videos/1875358431",
+  },
+  {
+    date: [2023, 7, 23],
+    title: "👗F1NN Goes On A Date w/Ashley🥂",
+    vod: "https://www.twitch.tv/videos/1879814649",
+  },
+  {
+    date: [2023, 7, 31],
+    title: "",
+    vod: "https://www.twitch.tv/videos/1886581054",
+  },
+  {
+    date: [2023, 8, 5],
+    title: "💄I Dressed As Barbie For The Movie!📦 P.O. Boxes w/Ashley",
+    vod: "https://www.twitch.tv/videos/1891015721",
+  },
+  {
+    date: [2023, 8, 9],
+    title: "Live from London",
   },
 ]
