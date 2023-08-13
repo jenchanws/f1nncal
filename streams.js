@@ -162,7 +162,7 @@ const streams = [
   },
   {
     date: [2020, 6, 6],
-    title: "part 1): Chat picks my Makeup/outfit (a great plan)",
+    title: "Chat picks my Makeup/outfit (a great plan)",
     vod: [
       "https://www.youtube.com/watch?v=aaPLpO1cPQg",
       "https://www.youtube.com/watch?v=ZTQ_fgdAH8I",
