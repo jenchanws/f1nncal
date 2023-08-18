@@ -1549,7 +1549,7 @@ const streams = [
   {
     date: [2023, 6, 18],
     title: "💄NEW OUTFIT 📦P.O BOX OPENING⚠️I PRACTICED THE GIRL VOICE⚠️",
-    vod: "https://www.twitch.tv/videos/1849721898",
+    vod: "https://www.youtube.com/watch?v=vHBDQTNmUSU",
   },
   {
     date: [2023, 6, 21],
@@ -1616,5 +1616,10 @@ const streams = [
     date: [2023, 8, 13],
     title: "📦 She's Moving in...⚠️+NEWS🚨",
     vod: "https://www.twitch.tv/videos/1897929278",
+  },
+  {
+    date: [2023, 8, 17],
+    title: "🚨 Fem-MEN w/VladNcl💅",
+    vod: "https://www.twitch.tv/videos/1901271106",
   },
 ]
