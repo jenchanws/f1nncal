@@ -1622,4 +1622,9 @@ const streams = [
     title: "🚨 Fem-MEN w/VladNcl💅",
     vod: "https://www.twitch.tv/videos/1901271106",
   },
+  {
+    date: [2023, 8, 20],
+    title: "🎀NOW LEGALLY A ✨WOMAN✨ w/Ashley :)",
+    vod: "https://www.twitch.tv/videos/1904068560",
+  },
 ]
