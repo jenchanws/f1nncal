@@ -1554,18 +1554,18 @@ const streams = [
   {
     date: [2023, 6, 21],
     title: "👗I Ordered $4000 of Dresses...⚠️YOU DECIDE WHICH TO WEAR⚠️+NEWS",
-    vod: "https://www.twitch.tv/videos/1852219113",
+    vod: "https://www.youtube.com/watch?v=Dogwldl9Ie8",
   },
   {
     date: [2023, 6, 26],
     title: "✨MAN MODE HOURS🎮+MINECRAFT w/CottonTailVA👿",
-    vod: "https://www.twitch.tv/videos/1856481744",
+    vod: "https://www.youtube.com/watch?v=IQCus2e1YGM",
   },
   {
     date: [2023, 6, 30],
     title:
       "🌸END OF GIRL MONTH!!🥳 CottonTailVA's Threat...⚠️PICK THE OUTFIT👗",
-    vod: "https://www.twitch.tv/videos/1859898084",
+    vod: "https://www.youtube.com/watch?v=MzV4gxa57os",
     note: "<a href='https://www.youtube.com/watch?v=yU4nAI_Vsfw'>Cotton's F1NN5TER disstrack</a>",
   },
   {
@@ -1626,5 +1626,16 @@ const streams = [
     date: [2023, 8, 20],
     title: "🎀NOW LEGALLY A ✨WOMAN✨ w/Ashley :)",
     vod: "https://www.twitch.tv/videos/1904068560",
+  },
+  {
+    date: [2023, 8, 25],
+    title: "👗Chat Picks Outfits For Trip!✈️ w/Big_Icky/Ashley/Gf😘",
+    vod: "https://www.twitch.tv/videos/1908406324",
+  },
+  {
+    date: [2023, 9, 1],
+    title: "midnight chill stream w/Ashley",
+    vod: "https://www.twitch.tv/videos/1914610804",
+    note: "Streamed from mobile, so the actual title is unknown.",
   },
 ]
