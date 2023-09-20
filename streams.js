@@ -1571,23 +1571,23 @@ const streams = [
   {
     date: [2023, 7, 6],
     title: "💄TWITCHCON PREPERATIONS!!⚠️BIG NEWS🚨With a Guest?? hmmm",
-    vod: "https://www.twitch.tv/videos/1865068445",
+    vod: "https://www.youtube.com/watch?v=vuXcE2rZ06E",
   },
   {
     date: [2023, 7, 12],
     title:
       "⚠️BACK FROM TWITCHCON PARIS🥐MAN MODE DAY💄Dressing Up w/Big_Icky 🚨",
-    vod: "https://www.twitch.tv/videos/1870033041",
+    vod: "https://www.youtube.com/watch?v=u3mTvzKExnU",
   },
   {
     date: [2023, 7, 14],
     title: "👗CHAT PICKS DATE NIGHT OUTFIT🥂",
-    vod: "https://www.twitch.tv/videos/1871827195",
+    vod: "https://www.youtube.com/watch?v=KbVOu6LJsW4",
   },
   {
     date: [2023, 7, 18],
     title: "👗She Picks What I Wear...☹️",
-    vod: "https://www.twitch.tv/videos/1875358431",
+    vod: "https://www.youtube.com/watch?v=Jf_T_gQdayg",
   },
   {
     date: [2023, 7, 23],
@@ -1635,7 +1635,23 @@ const streams = [
   {
     date: [2023, 9, 1],
     title: "midnight chill stream w/Ashley",
-    vod: "https://www.twitch.tv/videos/1914610804",
+    vod: [
+      "https://www.twitch.tv/videos/1914610804",
+      "https://www.twitch.tv/videos/1914714793",
+    ],
     note: "Streamed from mobile, so the actual title is unknown.",
+  },
+  {
+    date: [2023, 9, 10],
+    title: "We should talk :)",
+    vod: [
+      "https://www.twitch.tv/videos/1922244166",
+      "https://www.twitch.tv/videos/1922330326",
+    ],
+  },
+  {
+    date: [2023, 9, 20],
+    title: "Lets have a lil sleepover hehe",
+    vod: "https://www.twitch.tv/videos/1930790624",
   },
 ]

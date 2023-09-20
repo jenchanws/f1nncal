@@ -1,5 +1,5 @@
 const startYear = 2021
-const monthRange = [-14, 35]
+const monthRange = [-14, 36]
 const firstMonth = 29
 
 const classNameForGoal = (goal) =>
