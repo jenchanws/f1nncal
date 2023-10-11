@@ -1592,25 +1592,22 @@ const streams = [
   {
     date: [2023, 7, 23],
     title: "👗F1NN Goes On A Date w/Ashley🥂",
-    vod: "https://www.twitch.tv/videos/1879814649",
+    vod: "https://www.youtube.com/watch?v=r5m88YYu-KI",
   },
   {
     date: [2023, 7, 31],
     title: "👗MAID COOKING With Ashley!🌯",
-    vod: "https://www.twitch.tv/videos/1886581054",
+    vod: "https://www.youtube.com/watch?v=M1SktlthJ6g",
   },
   {
     date: [2023, 8, 5],
     title: "💄I Dressed As Barbie For The Movie!📦 P.O. Boxes w/Ashley",
-    vod: "https://www.twitch.tv/videos/1891015721",
+    vod: "https://www.youtube.com/watch?v=9s1InWMa-20",
   },
   {
     date: [2023, 8, 9],
     title: "💅GIRLS NIGHT IN w/Ashley, Pierbi, Lich_qween",
-    vod: [
-      "https://www.twitch.tv/videos/1894460469",
-      "https://www.twitch.tv/videos/1894464472",
-    ],
+    vod: "https://www.youtube.com/watch?v=i7s14SJ3LPo",
   },
   {
     date: [2023, 8, 13],
@@ -1654,4 +1651,9 @@ const streams = [
     title: "Lets have a lil sleepover hehe",
     vod: "https://www.twitch.tv/videos/1930790624",
   },
+  {
+    date: [2023, 10, 11],
+    title: "Tricking Chat Into Thinking I'm Good Looking",
+    vod: "https://www.twitch.tv/videos/1948457375",
+  }
 ]
