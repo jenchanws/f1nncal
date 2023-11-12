@@ -1655,5 +1655,30 @@ const streams = [
     date: [2023, 10, 11],
     title: "Tricking Chat Into Thinking I'm Good Looking",
     vod: "https://www.twitch.tv/videos/1948457375",
-  }
+  },
+  {
+    date: [2023, 10, 14],
+    title: "Strangers Guess Who's a Real WOMAN 🛑REACTS🛑 Vlad Vid",
+    vod: "https://www.twitch.tv/videos/1951036634",
+  },
+  {
+    date: [2023, 10, 24],
+    title: "I Have No Clean Clothes... so i bought new ones😊",
+    vod: "https://www.twitch.tv/videos/1959395314",
+  },
+  {
+    date: [2023, 11, 2],
+    title: "Your Assumptions About Me! 🔴 w/Ashley😊",
+    vod: "https://www.twitch.tv/videos/1966873069",
+  },
+  {
+    date: [2023, 11, 8],
+    title: "Woops, i almost died",
+    vod: "https://www.twitch.tv/videos/1972139000",
+  },
+  {
+    date: [2023, 11, 12],
+    title: "💅GETTING MY NAILS DONE! 💅 Chat Picks Colors :) 🔴,
+    vod: "https://www.twitch.tv/videos/1975671365",
+  },
 ]
