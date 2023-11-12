@@ -1678,7 +1678,7 @@ const streams = [
   },
   {
     date: [2023, 11, 12],
-    title: "💅GETTING MY NAILS DONE! 💅 Chat Picks Colors :) 🔴,
+    title: "💅GETTING MY NAILS DONE! 💅 Chat Picks Colors :) 🔴",
     vod: "https://www.twitch.tv/videos/1975671365",
   },
 ]
