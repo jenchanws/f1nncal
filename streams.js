@@ -1675,5 +1675,74 @@ const streams = [
     title: "💅GETTING MY NAILS DONE! 💅 Chat Picks Colors :) 🔴",
     vod: "https://www.youtube.com/watch?v=-VmBhf2R3CE",
   },
+  {
+    date: [2023, 11, 19],
+    title: "🔴donations to egirls (male) are tax deductible🔴 New therapy weird man…",
+    vod: "https://www.youtube.com/watch?v=gllX-GnUfRE"
+  },
+  {
+    date: [2023, 12, 6],
+    title: "🔴 I'M AN ANIMNE GIRL CHAT 🌸 BIG NEWS! !gamersupps",
+    vod: "https://www.youtube.com/watch?v=LTFMe2rlDH0"
+  },
+  {
+    date: [2023, 12, 11],
+    title: "💪Chad vs Stacy time💄consume the femboy juice !gg🔴Ashley BDAY tomorrow!!",
+    vod: "https://www.youtube.com/watch?v=3n6MRXaa9BU"
+  },
+  {
+    date: [2023, 12, 20],
+    title: "👁️Me vs Girlfriend Eye Tracker!!👁️ +damn i passed as a girl today...",
+    vod: "https://www.youtube.com/watch?v=xbycvxPjvoo"
+  },
+  {
+    date: [2023, 12, 24],
+    title: "OPENING CHRISTMAS PRESENTS!!!",
+    vod: "https://www.youtube.com/watch?v=LEzIuVXG4gQ"
+  },
+  {
+    date: [2024, 1, 1],
+    title: "✨NEW YEAR NEW ME✨ (not really im still dressing like a girl)",
+    vod: "https://www.youtube.com/watch?v=Ze4LBXuAzuw"
+  },
+  {
+    date: [2024, 1, 5],
+    title: "WE FOUND A CAT!! ✨NEWS✨ASHLEY HERE",
+    vod: "https://www.twitch.tv/videos/2023777737"
+  },
+  {
+    date: [2024, 1, 20],
+    title: "✨WE GOT A PUPPY!!✨This is the best day🐶",
+    vod: "https://www.twitch.tv/videos/2038636195"
+  },
+  {
+    date: [2024, 1, 28],
+    title: "💸Giving my mod my credit card for 1 hour💸 NEWS 🚨 !socials",
+    vod: "https://www.twitch.tv/videos/2046511905"
+  },
+  {
+    date: [2024, 1, 31],
+    title: "Reviewing your Setups w/ Ashley!!🚨BIG NEWS🚨 !socials",
+    vod: "https://www.twitch.tv/videos/2049346307"
+  },
+  {
+    date: [2024, 2, 11],
+    title: "😎Superbowl? More like super chill stream with a femboy👌 !socials",
+    vod: "https://www.twitch.tv/videos/2060156618"
+  },
+  {
+    date: [2024, 2, 19],
+    title: "🚨Local Man Turns Himself Into Woman \"for a meme\"🚨 !socials",
+    vod: "https://www.twitch.tv/videos/2067798933"
+  },
+  {
+    date: [2024, 2, 27],
+    title: "🔴Pretty Guy? Goblin Woman? only one way to find out ✨ !socials 🔴",
+    vod: "https://www.twitch.tv/videos/2075517022"
+  },
+  {
+    date: [2024, 3, 1],
+    title: "I Can Finally Talk About It! ✨",
+    vod: "https://www.twitch.tv/videos/2078329720"
   },
 ]
