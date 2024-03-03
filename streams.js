@@ -1612,73 +1612,68 @@ const streams = [
   {
     date: [2023, 8, 13],
     title: "📦 She's Moving in...⚠️+NEWS🚨",
-    vod: "https://www.twitch.tv/videos/1897929278",
+    vod: "https://www.youtube.com/watch?v=WbOrw_dnY5A",
   },
   {
     date: [2023, 8, 17],
     title: "🚨 Fem-MEN w/VladNcl💅",
-    vod: "https://www.twitch.tv/videos/1901271106",
+    vod: "https://www.youtube.com/watch?v=eFVsYuwKn0M",
   },
   {
     date: [2023, 8, 20],
     title: "🎀NOW LEGALLY A ✨WOMAN✨ w/Ashley :)",
-    vod: "https://www.twitch.tv/videos/1904068560",
+    vod: "https://www.youtube.com/watch?v=1FhxcE7DrNs",
   },
   {
     date: [2023, 8, 25],
     title: "👗Chat Picks Outfits For Trip!✈️ w/Big_Icky/Ashley/Gf😘",
-    vod: "https://www.twitch.tv/videos/1908406324",
+    vod: "https://www.youtube.com/watch?v=Z2kN7XUE-n0",
   },
   {
     date: [2023, 9, 1],
     title: "midnight chill stream w/Ashley",
-    vod: [
-      "https://www.twitch.tv/videos/1914610804",
-      "https://www.twitch.tv/videos/1914714793",
-    ],
+    vod: "https://www.youtube.com/watch?v=-c3_E3rplBA",
     note: "Streamed from mobile, so the actual title is unknown.",
   },
   {
     date: [2023, 9, 10],
     title: "We should talk :)",
-    vod: [
-      "https://www.twitch.tv/videos/1922244166",
-      "https://www.twitch.tv/videos/1922330326",
-    ],
+    vod: "https://www.youtube.com/watch?v=dTCkgmq_6-4"
   },
   {
     date: [2023, 9, 20],
     title: "Lets have a lil sleepover hehe",
-    vod: "https://www.twitch.tv/videos/1930790624",
+    vod: "https://www.youtube.com/watch?v=LiT9Y8arlpo",
   },
   {
     date: [2023, 10, 11],
     title: "Tricking Chat Into Thinking I'm Good Looking",
-    vod: "https://www.twitch.tv/videos/1948457375",
+    vod: "https://www.youtube.com/watch?v=gfUB7Umr5xo",
   },
   {
     date: [2023, 10, 14],
     title: "Strangers Guess Who's a Real WOMAN 🛑REACTS🛑 Vlad Vid",
-    vod: "https://www.twitch.tv/videos/1951036634",
+    vod: "https://www.youtube.com/watch?v=tvbNktrgiYE",
   },
   {
     date: [2023, 10, 24],
     title: "I Have No Clean Clothes... so i bought new ones😊",
-    vod: "https://www.twitch.tv/videos/1959395314",
+    vod: "https://www.youtube.com/watch?v=tvbNktrgiYE",
   },
   {
     date: [2023, 11, 2],
     title: "Your Assumptions About Me! 🔴 w/Ashley😊",
-    vod: "https://www.twitch.tv/videos/1966873069",
+    vod: "https://www.youtube.com/watch?v=lCNyczKVfzI",
   },
   {
     date: [2023, 11, 8],
     title: "Woops, i almost died",
-    vod: "https://www.twitch.tv/videos/1972139000",
+    vod: "https://www.youtube.com/watch?v=8EOzu_ZjLsc",
   },
   {
     date: [2023, 11, 12],
     title: "💅GETTING MY NAILS DONE! 💅 Chat Picks Colors :) 🔴",
-    vod: "https://www.twitch.tv/videos/1975671365",
+    vod: "https://www.youtube.com/watch?v=-VmBhf2R3CE",
+  },
   },
 ]
