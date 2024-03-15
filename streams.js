@@ -1708,7 +1708,7 @@ const streams = [
   {
     date: [2024, 1, 5],
     title: "WE FOUND A CAT!! ✨NEWS✨ASHLEY HERE",
-    vod: "https://www.twitch.tv/videos/2023777737"
+    vod: "https://www.youtube.com/watch?v=iti_tzirXD8"
   },
   {
     date: [2024, 1, 20],
@@ -1744,5 +1744,10 @@ const streams = [
     date: [2024, 3, 1],
     title: "I Can Finally Talk About It! ✨",
     vod: "https://www.twitch.tv/videos/2078329720"
+  },
+  {
+    date: [2024, 3, 12],
+    title: "🚨GREMLINS ASSEMBLE ITS TIME TO LOOKSMAX🚨!socials",
+    vod: "https://www.twitch.tv/videos/2088973017"
   },
 ]
