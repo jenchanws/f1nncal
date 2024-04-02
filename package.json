@@ -1,0 +1,27 @@
+{
+    "name": "isitgirlmonth",
+    "version": "2.0.0",
+    "description": "",
+    "author": "",
+    "license": "",
+    "devDependencies": {
+        "@tailwindcss/aspect-ratio": "^0.4.2",
+        "@tailwindcss/container-queries": "^0.1.1",
+        "@tailwindcss/forms": "^0.5.4",
+        "@tailwindcss/typography": "^0.5.9",
+        "http-server": "^14.1.1",
+        "prettier": "^3.0.0",
+        "tailwindcss": "^3.3.3"
+    },
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build",
+        "preview": "vite preview"
+      },
+    "dependencies": {
+        "@popperjs/core": "^2.11.8",
+        "tippy.js": "^6.3.7",
+        "twemoji": "^14.0.2",
+        "vite": "^5.2.7"
+    }
+}

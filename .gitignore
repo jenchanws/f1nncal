@@ -1,2 +1,3 @@
 *.sublime-*
 .vscode/
+node_modules/
